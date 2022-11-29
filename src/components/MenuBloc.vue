@@ -4,7 +4,7 @@
       <div class="menu__container__left">
         <div v-for="(group, index) in sortedPortions" :key="index">
           <h3>{{ index }}:</h3>
-          <div class="menu__item" v-for="(item, index) in group" :key="index" :class="group[0].choice ? 'menu__item__choise':'menu__item'">
+          <div class="menu__item" v-for="(item, index) in group" :key="index" :class="group[0].choice ? 'menu__item__choise':'menu__item'" data-content="Tai">
             <div class="menu__item__container">
               <p class="menu__item__name">{{ item.title }}</p>
               <div
@@ -117,7 +117,7 @@ export default {
     }
   }
   &__item {
-    @apply mb-5 sm:pr-3 pb-3 border-b z-10 relative;
+    @apply mb-5 sm:pr-3 pb-6 border-b z-10 relative;
     border-color: var(--color12);
     &__container {
       @apply flex flex-1 justify-between;
@@ -149,7 +149,7 @@ export default {
   &__item__choise{
      &:not(:last-child):before {
       position: absolute;
-      content: 'Tai';
+      content: attr(data-content);
       width: 32px;
       height: 23px;
       background: #ffffff;
