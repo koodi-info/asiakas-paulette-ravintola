@@ -1,0 +1,75 @@
+/* src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color01: #fffefd;
+  --color02: #A97148;
+  --color03: #333333;
+  --color04: #ee9922;
+  --color05: #F0E4CA;
+  --color06: #E6D9CF;
+  --color07: rgb(247, 242, 238);
+  --color08: #ceebe8;
+  --color09: #154648;
+  --color10: #021a1b;
+  --color11: #D3B59E;
+  --color12: #e4cebd;
+  --font01: "Open Sans", sans-serif;
+  --font02: "Playfair Display", serif;
+  --font03: "Abril Fatface", cursive;
+  --font04: "Gentium Book Basic", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 78px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.button {
+  @apply py-2 px-4 rounded;
+  background-color: var(--color05);
+  color: var(--color03);
+}
+
+.button:hover {
+  @apply text-white;
+  background-color: var(--color02);
+}
+
+main {
+  background-color: #F5F0E3;
+}
+
+.frame::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+  margin: 12px;
+  border: 2px solid var(--color12);
+  pointer-events: none;
+}
+
+@media (max-width: theme("screens.sm")) {
+  .frame::after {
+    margin: 4px;
+  }
+}
+
+.divider {
+  width: 50%;
+  height: 4px;
+  margin: 8px auto;
+  border-top: 1px solid var(--color12);
+  border-bottom: 1px solid var(--color12);
+
+  @media (max-width: theme("screens.sm")) {}
+}

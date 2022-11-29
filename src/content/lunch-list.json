@@ -1,0 +1,100 @@
+{
+  "foods": [
+    {
+      "title": "PAULETTE BOUILLABAISSE ",
+      "content": "Hummeriliemeen keitettyä siikaa, kampasimpukkaa, sinisimpukkaa, jumborapua, rouille kastiketta ja itsetehtyä valkosipulileipää\n \nWhite fish, scallop, blue mussle and scampi cooked in lobster broth, rouille sauce and house made garlic bread\n",
+      "price": "28",
+      "type": "Lounasannokset"
+    },
+    {
+      "title": "FROMAGE DE CHÈVRE AU GRATIN DE  COURGETTES",
+      "content": "\r\nVuohenjuusto gratinoitua kesäkurpitsaa, kasvis couscous ja paahdettuja siemeniä\n\n\r\nGoat cheese gratinated zucchini, veggie couscous and roasted seeds\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "price": "18",
+      "type": "Lounas"
+    },
+    {
+      "title": "CROQUE MONSIEUR",
+      "content": "\r\nRanskalainen klassinen lämmin leipä; Luomu kinkkua, grûyer juustoa, Dijòn sinappia, cornichons kurkku ja luomu salaattia\n\nFrench classic toast; Organic ham, Grûyer cheese, Dijòn mustard, cornichons and organic salads \n\n\n\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "price": "16",
+      "type": "Lounas"
+    },
+    {
+      "title": "PLAT DU JOUR",
+      "content": "Päivän pasta, sesongin tuoreista raaka-aineista,  kysythän henkilökunnalta!\n\n\r\nPasta of the day, of fresh seasonal ingredients,  ask for more information from our staff!\r\n",
+      "price": "15",
+      "type": "Lounas"
+    },
+    {
+      "title": "Päivän jälkiruoka",
+      "content": "Dessert of the day",
+      "price": "7",
+      "type": "Lounas"
+    }
+  ],
+  "drinks": [
+    {
+      "title": "Espresso ",
+      "price": "4,5",
+      "type": "Kahvi"
+    },
+    {
+      "title": "Tuplaespresso",
+      "price": "5",
+      "type": "Kahvi"
+    },
+    {
+      "title": "Americano",
+      "price": "5",
+      "type": "Kahvi"
+    },
+    {
+      "title": "Cappuccino",
+      "price": "5",
+      "type": "Kahvi"
+    },
+    {
+      "title": "Latte / White Flatte",
+      "price": "5,5",
+      "type": "Kahvi"
+    },
+    {
+      "title": "Filter coffee",
+      "price": "3,5",
+      "type": "Kahvi"
+    },
+    {
+      "title": "Tea (green, black, rooibos)",
+      "price": "3,5",
+      "type": "Kahvi"
+    },
+    {
+      "title": "Virvokkeet",
+      "price": "3,5",
+      "type": "Kahvi"
+    },
+    {
+      "title": "Birra Moretti zero 0.0%",
+      "price": "6",
+      "type": "Alkoholittomat"
+    },
+    {
+      "title": "Birra Moretti",
+      "price": "8",
+      "type": "Olut / Siideri"
+    },
+    {
+      "title": "Leffe Blonde",
+      "price": "10",
+      "type": "Olut / Siideri"
+    },
+    {
+      "title": "Mattsson Enigma IPA",
+      "price": "10",
+      "type": "Olut / Siideri"
+    }
+  ],
+  "imageone": "/images/uploads/lounassalaatti.jpg",
+  "imagetwo": "/images/uploads/bouillabaisse.jpg",
+  "imagethree": "/images/uploads/petitpois.jpg",
+  "week": "48"
+}
