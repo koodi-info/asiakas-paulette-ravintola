@@ -1,0 +1,116 @@
+---
+import '../styles/main.css';
+
+import Layout from '../layouts/Layout.astro';
+
+// Component Imports
+import NavBar from '../components/NavBar.vue'
+import Covid from '../components/CovidInfo.vue'
+import Welcome from '../components/WelcomeBloc.vue'
+import InfoArea from '../components/InfoArea.vue'
+import Show from '../components/Show.astro'
+import TextArea from '../components/TextArea.vue'
+import PhotoGrid from '../components/PhotoGrid.vue'
+import Menu from '../components/MenuBloc.vue'
+import ImageGridBg from '../components/ImageGridBg.vue'
+import AboutUs from '../components/AboutUs.vue'
+import Footer from '../components/Footer.vue'
+
+// Data Imports
+import covid19Data from '../content/covid.json'
+import welcomeData from '../content/welcome.json'
+import infoAreaData from '../content/contact.json'
+import textAreaData from '../content/extra-info.json'
+import menuLunchData from '../content/lunch-list.json'
+import menuExtraData from '../content/extra-list.json'
+import menuAlacarteData from '../content/ala-carte-list.json'
+import menuAboutUsData from '../content/about-us.json'
+
+---
+
+<Layout title="">
+	<NavBar client:visible />
+	<main>
+		<Covid 
+		title={covid19Data.title} 
+		body={covid19Data.body}
+		public_info={covid19Data.public}/> 
+
+		<Welcome 
+		title={welcomeData.title} 
+		body={welcomeData.intro} 
+		image={welcomeData.image}/>
+
+		<h3>Ravintola Paulette</h3>
+
+		<InfoArea 
+		address={infoAreaData.address} 
+		email={infoAreaData.email} phone={infoAreaData.phone} 
+		opening={infoAreaData.opening_hours} 
+		exception={infoAreaData.exception_opening_hours}
+		news={infoAreaData.news}/>
+
+		<Show 
+		when={textAreaData.public}>
+		<TextArea
+		heading={textAreaData.heading}
+		content={textAreaData.content}/>
+		</Show>
+
+		<PhotoGrid 
+		imageOne={menuLunchData.imageone} 
+		imageTwo={menuLunchData.imagetwo} 
+		imageThree={menuLunchData.imagethree}/>
+
+		<div class="relative">
+			<h3 id="lounaslista">Lounaslista viikolle {menuLunchData.week}</h3>
+			<Menu 
+			food={menuLunchData.foods} 
+			drink={menuLunchData.drinks}/>
+			<ImageGridBg />
+		</div>
+
+		<Show when={menuExtraData.public}>
+		<div class="relative">
+			<h3 id="extralista">{menuExtraData.title} - {menuExtraData.price}€</h3>
+			<h4>{menuExtraData.info} </h4>
+			<Menu food={menuExtraData.foods} drink={menuExtraData.drinks}/>
+			<ImageGridBg/>
+		</div>
+		</Show>
+
+		<PhotoGrid 
+		imageOne={menuAlacarteData.imageone}
+		imageTwo={menuAlacarteData.imagetwo}
+		imageThree={menuAlacarteData.imagethree}/>
+
+		<div class="relative">
+			<h3 id="alacartelista">À la carte</h3>
+			<Menu 
+			food={menuAlacarteData.foods} 
+			drink={menuAlacarteData.drinks}/>
+			<ImageGridBg />
+		</div>
+
+		<h3 id="ravintolasta">Paulette</h3>
+		<AboutUs data={menuAboutUsData}/>
+		<Footer address={infoAreaData.address} 
+		email={infoAreaData.email} phone={infoAreaData.phone} 
+		opening={infoAreaData.opening_hours}/>
+
+	</main>
+</Layout>
+
+<style>
+	main{
+		@apply pt-14;
+	}
+	h3{
+		@apply text-center xl:text-left  container mx-auto max-w-6xl font-serif text-5xl font-bold text-brand-dark mb-4;
+		font-size: clamp(0.9rem, 1vw + 1.5rem, 3rem);
+	}
+	h4{
+		@apply text-center xl:text-left  container mx-auto max-w-6xl font-serif text-2xl font-normal  text-brand-dark;
+		font-size: clamp(0.4rem, 0.7vw + 1.2rem, 1.5rem);
+	}
+</style>
