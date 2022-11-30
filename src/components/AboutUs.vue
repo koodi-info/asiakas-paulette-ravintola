@@ -36,6 +36,15 @@
         :imageRight="data.about_content[3].rightImage"
       />
     </div>
+     <div class="relative">
+      <PhotoTextItem
+        alignment="right"
+        :headingText="data.about_content[4].title"
+        :bodyText="data.about_content[4].body"
+        :imageLeft="data.about_content[4].leftImage"
+        :imageRight="data.about_content[4].rightImage"
+      />
+    </div>
   </div>
 </template>
 
