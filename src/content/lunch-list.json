@@ -7,21 +7,9 @@
       "type": "Lounasannokset"
     },
     {
-      "title": "FROMAGE DE CHÈVRE AU GRATIN DE  COURGETTES",
-      "content": "\r\nVuohenjuusto gratinoitua kesäkurpitsaa, kasvis couscous ja paahdettuja siemeniä\n\n\r\nGoat cheese gratinated zucchini, veggie couscous and roasted seeds\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-      "price": "18",
-      "type": "Lounas"
-    },
-    {
       "title": "CROQUE MONSIEUR",
       "content": "\r\nRanskalainen klassinen lämmin leipä; Luomu kinkkua, grûyer juustoa, Dijòn sinappia, cornichons kurkku ja luomu salaattia\n\nFrench classic toast; Organic ham, Grûyer cheese, Dijòn mustard, cornichons and organic salads \n\n\n\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
       "price": "16",
-      "type": "Lounas"
-    },
-    {
-      "title": "PLAT DU JOUR",
-      "content": "Päivän pasta, sesongin tuoreista raaka-aineista,  kysythän henkilökunnalta!\n\n\r\nPasta of the day, of fresh seasonal ingredients,  ask for more information from our staff!\r\n",
-      "price": "15",
       "type": "Lounas"
     },
     {
@@ -96,5 +84,5 @@
   "imageone": "/images/uploads/lounassalaatti.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
   "imagethree": "/images/uploads/petitpois.jpg",
-  "week": "48"
+  "week": "50"
 }
