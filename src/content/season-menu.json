@@ -1,0 +1,61 @@
+{
+  "seasonmenus": [
+    {
+      "public": true,
+      "title": "JOULULOUNAS",
+      "price": "46",
+      "info": "Valitse joululounaslistan vaihtoehdoista yksi alkuruoka ja yksi pääruoka.",
+      "foods": [
+        {
+          "price_public": false,
+          "title": "BETTERAVES et MORILLES ",
+          "content": "Luomu Punajuurta, vuohenjuustolla täytettyä huhtasientä\r\nja punajuurivaahtoa\n\n\r\nOrganic beetroot, goat cheese filled Morel mushrooms\r\nand beetroot foam\r\n",
+          "price": "19",
+          "type": "Alkuruoka",
+          "choice": true
+        },
+        {
+          "price_public": false,
+          "title": "CERF TARTARE",
+          "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\npikkelöityä punasipulia, kaprista ja rapeaa perunaa\n\n\r\nTartar from Finnish organic deer rump, organic egg, \r\npickled red onion, capers and crispy potato\r\n",
+          "price": "20",
+          "type": "Alkuruoka",
+          "choice": true
+        },
+        {
+          "price_public": false,
+          "title": "CABILLAUD et CHOU FLEUR",
+          "content": "Pähkinävoissa haudutettua turskan seläkettä, kukkakaalia\r\nja wasabilla maustettua kastiketta                                  \r\nIn roasted butter cooked cod pension, cauliflower and with wasabi flavored sauce\r\n",
+          "price": "29",
+          "type": "Pääruoka",
+          "choice": true
+        },
+        {
+          "price_public": false,
+          "title": "MARGET de CANARD",
+          "content": "P﻿aahdettua ranskalaista ankanrintaa, beluga linssi ragu, \nm﻿ustaherukkaa ja tumma ankan liemi kastiketta.\n\nR﻿oasted French duck breast, belugalentrils ragu,\nb﻿lackcurrant and dark duck stock sauce.",
+          "price": "31",
+          "type": "Pääruoka",
+          "choice": true
+        },
+        {
+          "price_public": false,
+          "title": "CITRON et RÉGLISSE ",
+          "content": "Sitruuna Savariini ja lakritsilla maustettua jäätelöä\n\n\r\nLemon Savarin and licorice ice cream\r\n",
+          "price": "12",
+          "type": "Jälkiruoka",
+          "choice": false
+        }
+      ],
+      "drinks": []
+    },
+    {
+      "public": true,
+      "title": "UUSIVUOSI",
+      "price": "nan",
+      "info": "Tulossa",
+      "foods": [],
+      "drinks": []
+    }
+  ]
+}

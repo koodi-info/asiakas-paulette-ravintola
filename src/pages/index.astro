@@ -25,6 +25,7 @@ import menuLunchData from '../content/lunch-list.json'
 import menuExtraData from '../content/extra-list.json'
 import menuAlacarteData from '../content/ala-carte-list.json'
 import menuAboutUsData from '../content/about-us.json'
+import menuSeasonData from '../content/season-menu.json'
 
 ---
 
@@ -70,14 +71,17 @@ import menuAboutUsData from '../content/about-us.json'
 			<ImageGridBg />
 		</div>
 
-		<Show when={menuExtraData.public}>
+	
+		{menuSeasonData.seasonmenus.map((menu) => (
+		<Show when={menu.public}>
 		<div class="relative">
-			<h3 id="extralista">{menuExtraData.title} - {menuExtraData.price}€</h3>
-			<h4>{menuExtraData.info} </h4>
-			<Menu food={menuExtraData.foods} drink={menuExtraData.drinks}/>
-			<ImageGridBg/>
+			<h3 id="extralista">{menu.title} - {menu.price}€</h3>
+			<h4>{menu.info} </h4>
+			<Menu food={menu.foods} drink={menu.drinks}/>
 		</div>
 		</Show>
+		))}
+	
 
 		<PhotoGrid 
 		imageOne={menuAlacarteData.imageone}

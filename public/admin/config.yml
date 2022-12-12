@@ -166,7 +166,6 @@ collections:
                     { label: "Olut / Siideri", value: "Olut / Siideri" },
                     { label: "Viini", value: "Viini" },
                   ]
-
       - label: "Extra ruokalista"
         widget: "list"
         name: "extralist"
@@ -227,7 +226,6 @@ collections:
                     { label: "Kuohuviini", value: "Sparkling Wine" },
                     { label: "Rose", value: "Rose" },
                   ]
-
       - label: "A la carte ruokalista"
         name: "alacarte"
         file: "src/content/ala-carte-list.json"
@@ -274,7 +272,6 @@ collections:
                     { label: "Kuohuviini", value: "Sparkling Wine" },
                     { label: "Rose", value: "Rose" },
                   ]
-
       - label: "Esittely osiot"
         name: "about"
         file: "src/content/about-us.json"
@@ -293,3 +290,67 @@ collections:
                 }
               - { label: "Vasen valokuva", name: "leftImage", widget: "image" }
               - { label: "Oikea valokuva", name: "rightImage", widget: "image" }
+      - label: "Sesonki ruokalista"
+        name: "seasonmenu"
+        file: "src/content/season-menu.json"
+        fields:
+          - label: Menu
+            name: seasonmenus
+            widget: list
+            fields:
+              - { label: Menun nimi, name: title, widget: string }
+              - { label: Menun hinta, name: price, widget: string }
+              - { label: Aputeksti, name: info, widget: markdown, modes: [raw]}
+              - { label: Julkinen, name: public, widget: boolean, default: true }
+              - label: Menun annokset
+                widget: list
+                name: foods
+                fields: 
+                - { label: Annoksen nimi, name: title, widget: string }
+                - {
+                    label: Annoksen sisältö,
+                    name: content,
+                    widget: markdown,
+                    modes: [raw],
+                    buttons: [bold],
+                  }
+                - { label: "Annoksen hinta", name: "price", widget: "string" }
+                - {
+                  label: "Hinta julkinen",
+                  name: price_public,
+                  widget: boolean,
+                  default: true,
+                }
+                - label: "Annoksen tyyppi"
+                  name: "type"
+                  widget: "select"
+                  options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka"]
+                - {
+                  label: "Valinta vaihtoehto",
+                  name: choice,
+                  widget: boolean,
+                  default: false,
+                }
+              - label: Menun juomat
+                name: drinks
+                widget: list
+                fields:
+                  - { label: Juoman nimi, name: title, widget: string }
+                  - {
+                      label: "Juoman kuvaus",
+                      name: "description",
+                      widget: "string",
+                    }
+                  - { label: "Juoman hinta", name: "price", widget: "string" }
+                  - label: "Juoman tyyppi"
+                    name: "type"
+                    widget: "select"
+                    options:
+                      [
+                        { label: "Muut juomat", value: "Other drinks" },
+                        { label: "Valkoviini", value: "White Wine" },
+                        { label: "Punaviini", value: "Red Wine" },
+                        { label: "Kuohuviini", value: "Sparkling Wine" },
+                        { label: "Rose", value: "Rose" },
+                      ]
+                
