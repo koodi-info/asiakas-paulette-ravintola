@@ -9,7 +9,7 @@
         {
           "price_public": false,
           "title": "BETTERAVES et MORILLES ",
-          "content": "Luomu Punajuurta, vuohenjuustolla täytettyä huhtasientä\r\nja punajuurivaahtoa\n\n\r\nOrganic beetroot, goat cheese filled Morel mushrooms\r\nand beetroot foam\r\n",
+          "content": "Luomu punajuurta, vuohenjuustolla täytettyä huhtasientä\r\nja punajuurivaahtoa\n\n\r\nOrganic beetroot, goat cheese filled morel mushrooms\r\nand beetroot foam\r\n",
           "price": "19",
           "type": "Alkuruoka",
           "choice": true
@@ -17,7 +17,7 @@
         {
           "price_public": false,
           "title": "CERF TARTARE",
-          "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\npikkelöityä punasipulia, kaprista ja rapeaa perunaa\n\n\r\nTartar from Finnish organic deer rump, organic egg, \r\npickled red onion, capers and crispy potato\r\n",
+          "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\npikkelöityä punasipulia, kaprista ja rapeaa perunaa\n\n\r\nTartar of Finnish organic deer, organic egg, \r\npickled red onion, capers and crispy potato\r\n",
           "price": "20",
           "type": "Alkuruoka",
           "choice": true
@@ -25,7 +25,7 @@
         {
           "price_public": false,
           "title": "CABILLAUD et CHOU FLEUR",
-          "content": "Pähkinävoissa haudutettua turskan seläkettä, kukkakaalia\r\nja wasabilla maustettua kastiketta                                  \r\nIn roasted butter cooked cod pension, cauliflower and with wasabi flavored sauce\r\n",
+          "content": "Pähkinävoissa haudutettua turskan seläkettä, kukkakaalia\r\nja wasabikastiketta.                                  \r\nF﻿illet of cod poached with beaurre noisette, cauliflower and wasabi sauce",
           "price": "29",
           "type": "Pääruoka",
           "choice": true
