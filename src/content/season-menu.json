@@ -51,10 +51,67 @@
     },
     {
       "public": true,
-      "title": "UUSIVUOSI",
-      "price": "nan",
-      "info": "Tulossa",
-      "foods": [],
+      "title": "UUDENVUODEN MENU",
+      "price": "79",
+      "info": "L﻿AUANTAINA UUDENVUODEN AATTONA TARJOAMME 7 RUOKALAJIN MENUN ALKAEN KLO:16:00",
+      "foods": [
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Coquille Saint-Jacques  et Oeufs de Truite",
+          "content": "Kampasimpukkaa ja taimenen mätiä \r\nScallop with Trout roe\r\n",
+          "price": "0",
+          "type": "Alkuruoka"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Artichaut et Truffe",
+          "content": "Maa-artisokkaa ja tryffeliä\n\n\r\nJerusalem artichoke and truffle\r\n",
+          "price": "0",
+          "type": "Alkuruoka"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Cerf Tartare",
+          "content": "Peuratartar\n\n\r\nDeer tartar\r\n",
+          "price": "0",
+          "type": "Alkuruoka"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Cabillaud et Wasabi",
+          "content": "Turskaa ja wasabia\n\n\r\nCodfish and wasabi\r\n",
+          "price": "0",
+          "type": "Alkuruoka"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Canard et Figue",
+          "content": "Ankanrintaa ja viikunaa\n\n\r\nDuck breast and fig\r\n",
+          "price": "0",
+          "type": "Pääruoka"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Orange sanguine et Campari",
+          "content": "Veriappelsiinia ja Camparia\n\n\r\nBlood orange and Campari\r\n",
+          "price": "0",
+          "type": "Pääruoka"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Chocolat et framboise",
+          "content": "Suklaata ja vadelmaa\n\n\r\nChocolate and raspberry\r\n",
+          "price": "0",
+          "type": "Jälkiruoka"
+        }
+      ],
       "drinks": []
     }
   ]
