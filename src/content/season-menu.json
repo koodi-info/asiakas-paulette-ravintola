@@ -9,7 +9,7 @@
         {
           "price_public": false,
           "title": "BETTERAVES et MORILLES ",
-          "content": "Luomu Punajuurta, vuohenjuustolla täytettyä huhtasientä\r\nja punajuurivaahtoa\n\n\r\nOrganic beetroot, goat cheese filled Morel mushrooms\r\nand beetroot foam\r\n",
+          "content": "Luomu punajuurta, vuohenjuustolla täytettyä huhtasientä\r\nja punajuurivaahtoa\n\n\r\nOrganic beetroot, goat cheese filled morel mushrooms\r\nand beetroot foam\r\n",
           "price": "19",
           "type": "Alkuruoka",
           "choice": true
@@ -17,7 +17,7 @@
         {
           "price_public": false,
           "title": "CERF TARTARE",
-          "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\npikkelöityä punasipulia, kaprista ja rapeaa perunaa\n\n\r\nTartar from Finnish organic deer rump, organic egg, \r\npickled red onion, capers and crispy potato\r\n",
+          "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\npikkelöityä punasipulia, kaprista ja rapeaa perunaa\n\n\r\nTartar of Finnish organic deer, organic egg, \r\npickled red onion, capers and crispy potato\r\n",
           "price": "20",
           "type": "Alkuruoka",
           "choice": true
@@ -25,15 +25,15 @@
         {
           "price_public": false,
           "title": "CABILLAUD et CHOU FLEUR",
-          "content": "Pähkinävoissa haudutettua turskan seläkettä, kukkakaalia\r\nja wasabilla maustettua kastiketta                                  \r\nIn roasted butter cooked cod pension, cauliflower and with wasabi flavored sauce\r\n",
+          "content": "Pähkinävoissa haudutettua turskan seläkettä, kukkakaalia\r\nja wasabikastiketta.                                  \r\nF﻿illet of cod poached with beaurre noisette, cauliflower and wasabi sauce",
           "price": "29",
           "type": "Pääruoka",
           "choice": true
         },
         {
           "price_public": false,
-          "title": "MARGET de CANARD",
-          "content": "P﻿aahdettua ranskalaista ankanrintaa, beluga linssi ragu, \nm﻿ustaherukkaa ja tumma ankan liemi kastiketta.\n\nR﻿oasted French duck breast, belugalentrils ragu,\nb﻿lackcurrant and dark duck stock sauce.",
+          "title": "MAGRET de CANARD",
+          "content": "P﻿aahdettua ranskalaista ankanrintaa, beluga-linssiragu, \nm﻿ustaherukkaa ja tummaa ankanliemi-kastikettaa.\n\nR﻿oasted French duck breast, beluga lentil ragu\nb﻿lack currant and dark duck jus sauce",
           "price": "31",
           "type": "Pääruoka",
           "choice": true
@@ -41,7 +41,7 @@
         {
           "price_public": false,
           "title": "CITRON et RÉGLISSE ",
-          "content": "Sitruuna Savariini ja lakritsilla maustettua jäätelöä\n\n\r\nLemon Savarin and licorice ice cream\r\n",
+          "content": "Sitruunasavariini ja lakritsijäätelöä\n\n\r\nLemon savarin and licorice ice cream\r\n",
           "price": "12",
           "type": "Jälkiruoka",
           "choice": false
@@ -53,7 +53,7 @@
       "public": true,
       "title": "UUDENVUODEN MENU",
       "price": "79",
-      "info": "L﻿AUANTAINA UUDENVUODEN AATTONA TARJOAMME 7 RUOKALAJIN MENUN ALKAEN KLO:16:00",
+      "info": "7 RUOKALAJIN MENU ALKAEN KLO:16:00 7 COURSE MENU STARTING AT 16:00 O`CLOCK",
       "foods": [
         {
           "price_public": false,
