@@ -1,7 +1,7 @@
 {
   "seasonmenus": [
     {
-      "public": true,
+      "public": false,
       "title": "JOULULOUNAS",
       "price": "46",
       "info": "Valitse joululounaslistan vaihtoehdoista yksi alkuruoka ja yksi pääruoka.",
