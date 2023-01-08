@@ -1,9 +1,5 @@
 {
-  "exception_opening_hours": [
-    {
-      "item": "Vietämme joululomaa 23.–26.12. Avaamme välipäivinä 27.–30.12. lounaille. 31.12. pääsee nauttimaan 7-ruokalajin menun, sekä menulle suunnitellun viinipaketin."
-    }
-  ],
+  "exception_opening_hours": [],
   "opening_hours": [
     {
       "item": "Lounas: ma-pe klo 11-15"
@@ -18,5 +14,5 @@
   "address": "Kapteeninkatu 24 Helsinki 00140",
   "email": "hello@paulettehelsinki.com",
   "phone": "+358407671037",
-  "news": "7.12. alkaen tarjoilemme lounailla kolmen ruokalajin joululounasta. Pöydän voi varata lounaalle varausjärjestelmämmme kautta.\n\nU﻿udenvuoden aatoksi loihdimme maukkaan seitsemän ruokalajin menuun, joka täydentyy tarkoin harkitun viinipaketin kera. Otamme jo varauksia vastaan uudenvuoden illalliselle. Lämpimästi tervetuloa herkuttelemaan!"
+  "news": "Hyvää Uutta Vuotta! Joululoma on vietetty ja Pauleten väki palaa patojen ääreen.  Avaamme jälleen maanantaina 9.1. lounaan merkeissä ja illat torstaista 12.1. alkaen. Lämpimästi tervetuloa herkuttelemaan!"
 }
