@@ -13,8 +13,8 @@
       "type": "Lounas"
     },
     {
-      "title": "Risotto aux champignons, parmesan et chou-fleur rôti",
-      "content": "Sienirisotto, parmesan juustoa ja paahdettua kukkakaalia\n\n\r\nMushroom risotto, parmesan cheese and roasted cauliflower\r\n",
+      "title": "AUBERGINE RÔTIE, HOUMMOUS ET AVOCATE",
+      "content": "Paahdettua munakoisoa, hummus, avocado ja vegaaninen Tzatziki\n\nRoasted eggplant, hummus, avocado and vegan Tzatziki\n\n",
       "price": "18",
       "type": "Pääruoka"
     },
@@ -96,5 +96,5 @@
   "imageone": "/images/uploads/lounassalaatti.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
   "imagethree": "/images/uploads/petitpois.jpg",
-  "week": "52"
+  "week": "2"
 }
