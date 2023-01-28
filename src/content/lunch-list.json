@@ -13,8 +13,8 @@
       "type": "Lounas"
     },
     {
-      "title": "SALADE DE NICOISE",
-      "content": "Nizzan salaatti, tuoreesta tonnikalasta, vihreitä papuja, kalamata oliivi, siikli perunaa, luomu kananmunaa ja rapeaa salaattia\n\nNizza salad, from fresh tuna, green beans, kalamata olives, potatoes, organic eggs and crispy salad\n\n\n",
+      "title": "SALADE DE FETA & PASTÈQUE",
+      "content": "Fetajuusto, vesimeloni, minttu, rapeaa luomu salaattia ja vadelma vinegrette\n\n\r\nFeta cheese, watermelon, mint, organic salads and raspberry vinaigrette\r\n\n",
       "price": "18",
       "type": "Pääruoka"
     },
@@ -96,5 +96,5 @@
   "imageone": "/images/uploads/lounassalaatti.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
   "imagethree": "/images/uploads/petitpois.jpg",
-  "week": "4"
+  "week": "5"
 }
