@@ -13,8 +13,8 @@
       "type": "Lounas"
     },
     {
-      "title": "SALADE DE FETA & PASTÈQUE",
-      "content": "Fetajuusto, vesimeloni, minttu, rapeaa luomu salaattia ja vadelma vinegrette\n\n\r\nFeta cheese, watermelon, mint, organic salads and raspberry vinaigrette\r\n\n",
+      "title": "TARTE AU CHÈVRE AU LÉGUMES & SALADE",
+      "content": "Vuohenjuusto-kasvis piiras, luomu salaatteja ja vadelmavinaigrette\n\nGoat cheese & veggie pie , organic salads and raspberry vinaigrette\n\n\n",
       "price": "16",
       "type": "Pääruoka"
     },
@@ -96,5 +96,5 @@
   "imageone": "/images/uploads/lounassalaatti.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
   "imagethree": "/images/uploads/petitpois.jpg",
-  "week": "5"
+  "week": "6"
 }
