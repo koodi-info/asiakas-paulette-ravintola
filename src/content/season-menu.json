@@ -50,7 +50,7 @@
       "drinks": []
     },
     {
-      "public": true,
+      "public": false,
       "title": "UUDENVUODEN MENU",
       "price": "79",
       "info": "7 RUOKALAJIN MENU ALKAEN KLO:16:00 7 COURSE MENU STARTING AT 16:00 O`CLOCK",
