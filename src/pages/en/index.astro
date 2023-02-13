@@ -1,26 +1,26 @@
 ---
-import "../styles/main.css";
-import Layout from "../layouts/Layout.astro";
+import "../../styles/main.css";
+import Layout from "../../layouts/Layout.astro";
 // Component Imports
-import NavBar from "../components/NavBar.vue";
-import Covid from "../components/CovidInfo.vue";
-import Welcome from "../components/WelcomeBloc.vue";
-import InfoArea from "../components/InfoArea.vue";
-import Show from "../components/Show.astro";
-import TextArea from "../components/TextArea.vue";
-import PhotoGrid from "../components/PhotoGrid.vue";
-import Menu from "../components/MenuBloc.vue";
-import ImageGridBg from "../components/ImageGridBg.vue";
-import AboutUs from "../components/AboutUs.vue";
-import Footer from "../components/Footer.vue";
+import NavBar from "../../components/NavBar.vue";
+import Covid from "../../components/CovidInfo.vue";
+import Welcome from "../../components/WelcomeBloc.vue";
+import InfoArea from "../../components/InfoArea.vue";
+import Show from "../../components/Show.astro";
+import TextArea from "../../components/TextArea.vue";
+import PhotoGrid from "../../components/PhotoGrid.vue";
+import Menu from "../../components/MenuBloc.vue";
+import ImageGridBg from "../../components/ImageGridBg.vue";
+import AboutUs from "../../components/AboutUs.vue";
+import Footer from "../../components/Footer.vue";
 // Data Imports
-import infoAreaData from "../content/contact.json";
-import menuLunchData from "../content/lunch-list.json";
-import menuAlacarteData from "../content/ala-carte-list.json";
-import menuSeasonData from "../content/season-menu.json";
+import infoAreaData from "../../content/contact.json";
+import menuLunchData from "../../content/lunch-list.json";
+import menuAlacarteData from "../../content/ala-carte-list.json";
+import menuSeasonData from "../../content/season-menu.json";
 import { t, changeLanguage } from "i18next";
 
-changeLanguage("fi");
+changeLanguage("en");
 
 const seasonmenusApi = t("seasonmenu:seasonmenus", { returnObjects: true });
 const seasonmenu = Object.create(seasonmenusApi);

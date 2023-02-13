@@ -1,0 +1,44 @@
+{
+  "context": {
+    "giftcard": "Gift cards",
+    "newstitle": "News",
+    "contactlable": "Contact",
+    "menuopen": "Show",
+    "lunch": "Lunch list",
+    "tablereservationtext": "Make table reservation",
+    "name": "Paulette",
+    "extraopentimes": "Exception opening hours",
+    "phone": "+358407671037",
+    "we": "We",
+    "alacarte": "A la carte",
+    "formlabel10": [
+      {
+        "name": "Table reservation"
+      },
+      {
+        "name": "Gift card"
+      },
+      {
+        "name": "Other"
+      }
+    ],
+    "formlabel01": "Contact us by email",
+    "formlabel02": "Call us",
+    "formlabel03": "Find us",
+    "formlabel04": "Follow us",
+    "address": "Kapteeninkatu 24 Helsinki 00140",
+    "formlabel05": "First name Last name",
+    "formlabel06": "Email",
+    "formlabel07": " Free text field",
+    "formlabel08": "Concerns",
+    "formlabel09": "Send",
+    "menuclose": "Close",
+    "opentimes": "Opening hours",
+    "email": "hello@paulettehelsinki.com",
+    "description": "...",
+    "restaurant": "Restaurant",
+    "tablereservation": "Table reservation",
+    "menu": "Navigation",
+    "catering": "Catering"
+  }
+}

@@ -3,46 +3,46 @@
     <div class="relative">
       <PhotoTextItem
         alignment="right"
-        :headingText="data.about_content[0].title"
-        :bodyText="data.about_content[0].body"
-        :imageLeft="data.about_content[0].leftImage"
-        :imageRight="data.about_content[0].rightImage"
+        :headingText="data[0].title"
+        :bodyText="data[0].body"
+        :imageLeft="data[0].leftImage"
+        :imageRight="data[0].rightImage"
       />
     </div>
     <div class="relative">
       <PhotoTextItem
         alignment="left"
-        :headingText="data.about_content[1].title"
-        :bodyText="data.about_content[1].body"
-        :imageLeft="data.about_content[1].leftImage"
-        :imageRight="data.about_content[1].rightImage"
+        :headingText="data[1].title"
+        :bodyText="data[1].body"
+        :imageLeft="data[1].leftImage"
+        :imageRight="data[1].rightImage"
       />
     </div>
     <div class="relative">
       <PhotoTextItem
         alignment="right"
-        :headingText="data.about_content[2].title"
-        :bodyText="data.about_content[2].body"
-        :imageLeft="data.about_content[2].leftImage"
-        :imageRight="data.about_content[2].rightImage"
+        :headingText="data[2].title"
+        :bodyText="data[2].body"
+        :imageLeft="data[2].leftImage"
+        :imageRight="data[2].rightImage"
       />
     </div>
     <div class="relative">
       <PhotoTextItem
         alignment="left"
-        :headingText="data.about_content[3].title"
-        :bodyText="data.about_content[3].body"
-        :imageLeft="data.about_content[3].leftImage"
-        :imageRight="data.about_content[3].rightImage"
+        :headingText="data[3].title"
+        :bodyText="data[3].body"
+        :imageLeft="data[3].leftImage"
+        :imageRight="data[3].rightImage"
       />
     </div>
      <div class="relative">
       <PhotoTextItem
         alignment="right"
-        :headingText="data.about_content[4].title"
-        :bodyText="data.about_content[4].body"
-        :imageLeft="data.about_content[4].leftImage"
-        :imageRight="data.about_content[4].rightImage"
+        :headingText="data[4].title"
+        :bodyText="data[4].body"
+        :imageLeft="data[4].leftImage"
+        :imageRight="data[4].rightImage"
       />
     </div>
   </div>

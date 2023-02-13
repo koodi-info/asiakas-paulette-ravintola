@@ -1,0 +1,44 @@
+{
+  "context": {
+    "giftcard": "Lahjakortti",
+    "newstitle": "Ajankohtaista",
+    "contactlable": "Yhteydenotto",
+    "menuopen": "Näytä",
+    "lunch": "Lounaslista",
+    "tablereservationtext": "Tee pöytävaraus",
+    "name": "Paulette",
+    "extraopentimes": "Poikkeusaukioloajat",
+    "phone": "+358407671037",
+    "we": "Me",
+    "alacarte": "A la carte",
+    "formlabel10": [
+      {
+        "name": "Pöytävarausta"
+      },
+      {
+        "name": "Lahjakorttia"
+      },
+      {
+        "name": "Muuta asiaa"
+      }
+    ],
+    "formlabel01": "Ota yhteyttä sähköpostilla",
+    "formlabel02": "Soita meille",
+    "formlabel03": "Löydä meille",
+    "formlabel04": "Seuraa meitä",
+    "address": "Kapteeninkatu 24 Helsinki 00140",
+    "formlabel05": "Etunimi Sukunimi",
+    "formlabel06": "Sähköpostiosoite",
+    "formlabel07": "Asiani koskee",
+    "formlabel08": "Vapaa tekstikenttä",
+    "formlabel09": "Lähetä",
+    "menuclose": "Sulje",
+    "opentimes": "Aukioloajat",
+    "email": "hello@paulettehelsinki.com",
+    "description": "Paulette on kotoisa ja lämminhenkinen ravintola. Ruokamme perustuu pitkälti ranskalaiseen keittiöön, mutta myös nykypäivään ja Pohjolan makuihin nojautuvia raaka-aineita voi löytää lautaselta.",
+    "restaurant": "Ravintola",
+    "tablereservation": "Pöytävaruas",
+    "menu": "Valikko",
+    "catering": "Catering"
+  }
+}

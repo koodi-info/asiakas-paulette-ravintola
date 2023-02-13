@@ -3,32 +3,32 @@
     <div class="footer__container">
       <div class="restaurant">
         <div class="restaurant__container">
-          <h3>Ravintola Paulette</h3>
+          <h3>{{data.restaurant}} {{data.name}}</h3>
           <ul>
             <li>
-              <h5>Ota yhteyttä sähköpostilla</h5>
+              <h5>{{data.formlabel01}}</h5>
               <a
                 href="mailto:hello@paulettehelsinki.com?subject=Yhteydenotto ravintola Paulette"
-                >{{ email }}</a
+                >{{ data.email }}</a
               >
             </li>
             <li>
-              <h5>Soita meille</h5>
-              <a :href="`tel:${phone}`"
-                ><span itemprop="telephone">{{ phone }}</span></a
+              <h5>{{data.formlabel02}}</h5>
+              <a :href="`tel:${data.phone}`"
+                ><span itemprop="telephone">{{ data.phone }}</span></a
               >
             </li>
             <li>
-              <h5>Löydä meille</h5>
+              <h5>{{data.formlabel03}}</h5>
               <a
                 href="https://goo.gl/maps/XsaFYWghQsTogcVV9"
                 target="_blank"
                 rel="noopener noreferrer"
-                >{{ address }}</a
+                >{{ data.address }}</a
               >
             </li>
             <li>
-              <h5>Seuraa meitä</h5>
+              <h5>{{data.formlabel04}}</h5>
               <ul>
                 <li>
                   <a
@@ -50,7 +50,7 @@
         </div>
         <div class="contact">
           <div class="contact__container">
-            <h3>Yhteydenotto</h3>
+            <h3>{{data.contactlable}}</h3>
             <form
               class="contact__container__form"
               name="contact"
@@ -63,7 +63,7 @@
                 class="hidden"
               />
               <div class="contact__container__form__item">
-                <label for="name"> Etunimi Sukunimi </label>
+                <label for="name"> {{data.formlabel05}} </label>
                 <input
                   id="name"
                   name="name"
@@ -73,7 +73,7 @@
               </div>
 
               <div class="contact__container__form__item">
-                <label for="email"> Sähköpostiosoite </label>
+                <label for="email"> {{data.formlabel06}} </label>
                 <input
                   id="email"
                   name="email"
@@ -83,13 +83,10 @@
               </div>
 
               <div class="contact__container__form__item">
-                <label for="type"> Asiani koskee </label>
+                <label for="type"> {{data.formlabel07}}</label>
                 <div class="relative">
                   <select id="grid-state" name="type[]">
-                    <option style="display: none" selected>Valitse</option>
-                    <option>Pöytävarausta</option>
-                    <option>Lahjakorttia</option>
-                    <option>Muuta asiaa</option>
+                    <option v-for="(item, index) in data.formlabel10" :key="index">{{item.name}}</option>
                   </select>
                   <div
                     class="
@@ -117,7 +114,7 @@
               </div>
 
               <div class="contact__container__form__item">
-                <label for="message"> Vapaa tekstikenttä </label>
+                <label for="message"> {{data.formlabel08}} </label>
                 <textarea
                   id="message"
                   name="message"
@@ -126,7 +123,7 @@
                 ></textarea>
               </div>
               <div class="contact__container__form__item">
-                <button class="button" type="submit">Lähetä</button>
+                <button class="button" type="submit">{{data.formlabel09}}</button>
               </div>
             </form>
           </div>
@@ -143,14 +140,12 @@
 
 <script>
 export default {
-  props: ["address", "email", "phone"],
+  props: {
+    data: Object,
+  },
   setup() {
     return {};
-  },
-  data() {
-    return {};
-  },
-  components: {},
+  }
 };
 </script>
 

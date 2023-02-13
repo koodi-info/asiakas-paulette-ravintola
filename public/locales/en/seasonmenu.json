@@ -1,0 +1,118 @@
+{
+  "seasonmenus": [
+    {
+      "public": false,
+      "title": "CHRISTMAS LUNCH",
+      "price": "46",
+      "info": "Valitse joululounaslistan vaihtoehdoista yksi alkuruoka ja yksi pääruoka.",
+      "foods": [
+        {
+          "price_public": false,
+          "title": "BETTERAVES et MORILLES ",
+          "content": "Luomu punajuurta, vuohenjuustolla täytettyä huhtasientä\r\nja punajuurivaahtoa\n\n\r\nOrganic beetroot, goat cheese filled morel mushrooms\r\nand beetroot foam\r\n",
+          "price": "19",
+          "type": "Appetizer",
+          "choice": true
+        },
+        {
+          "price_public": false,
+          "title": "CERF TARTARE",
+          "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\npikkelöityä punasipulia, kaprista ja rapeaa perunaa\n\n\r\nTartar of Finnish organic deer, organic egg, \r\npickled red onion, capers and crispy potato\r\n",
+          "price": "20",
+          "type": "Appetizer",
+          "choice": true
+        },
+        {
+          "price_public": false,
+          "title": "CABILLAUD et CHOU FLEUR",
+          "content": "Pähkinävoissa haudutettua turskan seläkettä, kukkakaalia\r\nja wasabikastiketta.                                  \r\nF﻿illet of cod poached with beaurre noisette, cauliflower and wasabi sauce",
+          "price": "29",
+          "type": "Main course",
+          "choice": true
+        },
+        {
+          "price_public": false,
+          "title": "MAGRET de CANARD",
+          "content": "Paahdettua ranskalaista ankanrintaa, beluga-linssiragu, \nm﻿ustaherukkaa ja tummaa ankanliemi-kastikettaa.\n\nR﻿oasted French duck breast, beluga lentil ragu\nb﻿lack currant and dark duck jus sauce",
+          "price": "31",
+          "type": "Main course",
+          "choice": true
+        },
+        {
+          "price_public": false,
+          "title": "CITRON et RÉGLISSE ",
+          "content": "Sitruunasavariini ja lakritsijäätelöä\n\n\r\nLemon savarin and licorice ice cream\r\n",
+          "price": "12",
+          "type": "Dessert",
+          "choice": false
+        }
+      ],
+      "drinks": []
+    },
+    {
+      "public": false,
+      "title": "NEW YEAR'S MENU",
+      "price": "79",
+      "info": "7 COURSE MENU STARTING AT 16:00 O`CLOCK",
+      "foods": [
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Coquille Saint-Jacques  et Oeufs de Truite",
+          "content": "Kampasimpukkaa ja taimenen mätiä \r\nScallop with Trout roe\r\n",
+          "price": "0",
+          "type": "Appetizer"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Artichaut et Truffe",
+          "content": "Maa-artisokkaa ja tryffeliä\n\n\r\nJerusalem artichoke and truffle\r\n",
+          "price": "0",
+          "type": "Appetizer"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Cerf Tartare",
+          "content": "Peuratartar\n\n\r\nDeer tartar\r\n",
+          "price": "0",
+          "type": "Appetizer"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Cabillaud et Wasabi",
+          "content": "Turskaa ja wasabia\n\n\r\nCodfish and wasabi\r\n",
+          "price": "0",
+          "type": "Appetizer"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Canard et Figue",
+          "content": "Ankanrintaa ja viikunaa\n\n\r\nDuck breast and fig\r\n",
+          "price": "0",
+          "type": "Main course"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Orange sanguine et Campari",
+          "content": "Veriappelsiinia ja Camparia\n\n\r\nBlood orange and Campari\r\n",
+          "price": "0",
+          "type": "Main course"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Chocolat et framboise",
+          "content": "Suklaata ja vadelmaa\n\n\r\nChocolate and raspberry\r\n",
+          "price": "0",
+          "type": "Dessert"
+        }
+      ],
+      "drinks": []
+    }
+  ]
+}

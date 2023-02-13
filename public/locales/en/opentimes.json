@@ -1,0 +1,18 @@
+{
+  "opening_hours": [
+    {
+      "item": "Lunch: mon-fri at 11-15"
+    },
+    {
+      "item": "Night: thu-fri at 17-22 sat at 16-22"
+    },
+    {
+      "item": "Sunday close"
+    }
+  ],
+  "exception_opening_hours": [
+    {
+      "item": "demo"
+    }
+  ]
+}

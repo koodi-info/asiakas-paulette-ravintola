@@ -4,30 +4,22 @@
       <div class="navbar__actions">
         <div class="navbar__brand">
           <a href="#paulette">
-            <img src="/assets/logo-color.svg" alt="Ravintola Paulette Logo" />
+            <img src="/assets/logo-color.svg" alt="" />
           </a>
         </div>
         <div class="navbar__togglebutton" @click="navigationToggle()">
-          <span v-if="navigation">Sulje valikko</span>
-          <span v-else>Näytä valikko</span>
+          <span v-if="navigation">{{`${data.menuclose} ` + `${data.menu}`}}</span>
+          <span v-else>{{`${data.menuopen} ` + `${data.menu}`}}</span>
         </div>
       </div>
 
       <div class="navbar__items" :class="{ navbar__mobile: navigation }">
-        <a href="#ravintolasta" @click="navigationToggle()" rel="">Me</a>
-        <a href="#lounaslista" @click="navigationToggle()" rel=""
-          >Lounaslista</a
-        >
-        <a href="#alacartelista" @click="navigationToggle()" rel=""
-          >A la carte</a
-        >
-        <a
-          href="https://v2.tableonline.fi/instabook/bookings/yUijLmr"
-          target="_blank"
-          rel=""
-          >Pöytävaraus</a
-        >
-        <a href="#yhteydenotto" rel="">Lahjakortit</a>
+        <a href="#ravintolasta" @click="navigationToggle()">{{data.we}}</a>
+        <a href="#lounaslista" @click="navigationToggle()">{{data.lunch}}</a>
+        <a href="#alacartelista" @click="navigationToggle()">{{data.alacarte}}</a>
+        <a href="#catering" @click="navigationToggle()">{{data.catering}}</a>
+        <a href="https://v2.tableonline.fi/instabook/bookings/yUijLmr" target="_blank">{{data.tablereservation}}</a>
+        <a href="#yhteydenotto">{{data.giftcard}}</a>
       </div>
     </div>
   </nav>
@@ -39,6 +31,9 @@ export default {
     return {
       navigation: false,
     };
+  },
+  props: {
+    data: Object,
   },
   setup() {
     return {};

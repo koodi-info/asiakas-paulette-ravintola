@@ -20,17 +20,17 @@ export default {
 
 <style lang="postcss" scoped>
 .textarea {
-  @apply relative w-full mx-auto flex flex-col justify-center py-8 px-4 sm:py-16 sm:px-10;
+  @apply relative w-full mx-auto flex flex-col justify-center py-8 px-4 sm:py-8 sm:px-10;
   &__container {
     @apply container mx-auto max-w-6xl relative;
     h4 {
-      @apply mt-4 mb-2 font-fatface text-center lg:text-left;
+      @apply mt-4 mb-2 font-fatface text-center;
       font-size: clamp(1.8rem, 2vw + 1rem, 1.25rem);
     }
 
     &__content {
       @apply relative bg-white block px-8 sm:px-16 py-8 sm:my-0;
-      @apply flex flex-col my-4 gap-4 font-serif-secondary items-center text-center sm:text-left;
+      @apply flex flex-col my-4 gap-4 font-serif-secondary items-center text-center;
       font-size: clamp(0.5rem, 1.5vw + 1rem, 1.25rem);
       &:before {
         position: absolute;
@@ -49,6 +49,9 @@ export default {
           width: 50%;
           background-size: 50%;
         }
+      }
+      p{
+          @apply max-w-xl;
       }
       button {
         @apply mx-auto mt-4 sm:block md:mt-4 md:mx-0;
