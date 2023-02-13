@@ -20,6 +20,7 @@
         <a href="#catering" @click="navigationToggle()">{{data.catering}}</a>
         <a href="https://v2.tableonline.fi/instabook/bookings/yUijLmr" target="_blank">{{data.tablereservation}}</a>
         <a href="#yhteydenotto">{{data.giftcard}}</a>
+          <slot></slot> 
       </div>
     </div>
   </nav>

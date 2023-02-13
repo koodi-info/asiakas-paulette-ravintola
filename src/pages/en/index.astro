@@ -13,11 +13,8 @@ import Menu from "../../components/MenuBloc.vue";
 import ImageGridBg from "../../components/ImageGridBg.vue";
 import AboutUs from "../../components/AboutUs.vue";
 import Footer from "../../components/Footer.vue";
+import { LanguageSelector } from "astro-i18next/components";
 // Data Imports
-import infoAreaData from "../../content/contact.json";
-import menuLunchData from "../../content/lunch-list.json";
-import menuAlacarteData from "../../content/ala-carte-list.json";
-import menuSeasonData from "../../content/season-menu.json";
 import { t, changeLanguage } from "i18next";
 
 changeLanguage("en");
@@ -28,7 +25,10 @@ const seasonmenus = seasonmenu.map((menu) => menu);
 ---
 
 <Layout title={t("title")}>
-	<NavBar client:visible  data={t("common:context", {returnObjects: true})}/>
+	
+	<NavBar client:visible data={t("common:context", {returnObjects: true})}>
+		<LanguageSelector showFlag={true} class="language-selector" />
+	</NavBar>
 	<main>
 		<Covid 
 			title={t("covid:title")} 
@@ -65,12 +65,12 @@ const seasonmenus = seasonmenu.map((menu) => menu);
 		</Show>
 
 		<PhotoGrid 
-		imageOne={menuLunchData.imageone} 
-		imageTwo={menuLunchData.imagetwo} 
-		imageThree={menuLunchData.imagethree}/>
+		imageOne={t("lunchlist:imageone")} 
+		imageTwo={t("lunchlist:imagetwo")} 
+		imageThree={t("lunchlist:imagethree")}/>
 
 		<div class="relative">
-			<h3 id="lounaslista">{t("lunchlist:heading")} {menuLunchData.week}</h3>
+			<h3 id="lounaslista">{t("lunchlist:heading")} {t("lunchlist:week")}</h3>
 			<Menu 
 			food={t("lunchlist:foods", { returnObjects: true })} 
 			drink={t("lunchlist:drinks", { returnObjects: true })}/>
@@ -88,9 +88,9 @@ const seasonmenus = seasonmenu.map((menu) => menu);
 		))}
 
 		<PhotoGrid 
-		imageOne={menuAlacarteData.imageone}
-		imageTwo={menuAlacarteData.imagetwo}
-		imageThree={menuAlacarteData.imagethree}/>
+		imageOne={t("alacartelist:imageone")}
+		imageTwo={t("alacartelist:imagetwo")}
+		imageThree={t("alacartelist:imagethree")}/>
 
 		<div class="relative">
 			<h3 id="alacartelista">{t("common:context:alacarte")}</h3>
@@ -118,5 +118,10 @@ const seasonmenus = seasonmenu.map((menu) => menu);
 	h4{
 		@apply text-center xl:text-left  container mx-auto max-w-6xl font-serif text-2xl font-normal  text-brand-dark;
 		font-size: clamp(0.4rem, 0.7vw + 1.2rem, 1.5rem);
+	}
+	.language-selector {
+		background: none;
+		margin-left: 8px;
+		@apply hidden sm:flex sm:space-x-4  font-serif font-extrabold sm:text-xs md:text-base uppercase;
 	}
 </style>

@@ -4,7 +4,7 @@
       "title": "PAULETTE BOUILLABAISSE ",
       "content": "Hummeriliemeen keitettyä siikaa, kampasimpukkaa, sinisimpukkaa, jumborapua, rouille kastiketta ja itsetehtyä valkosipulileipää\n \nWhite fish, scallop, blue mussle and scampi cooked in lobster broth, rouille sauce and house made garlic bread\n",
       "price": "28",
-      "type": "Lounas"
+      "type": "Lounasannokset"
     },
     {
       "title": "CROQUE MONSIEUR",
@@ -13,8 +13,8 @@
       "type": "Lounas"
     },
     {
-      "title": "SALADE DE FETA & PASTÈQUE",
-      "content": "Fetajuusto, vesimeloni, minttu, rapeaa luomu salaattia ja vadelma vinegrette\n\n\r\nFeta cheese, watermelon, mint, organic salads and raspberry vinaigrette\r\n\n",
+      "title": "TARTE AUX ARTICHAUTS ET SALADE",
+      "content": "Luomu maa-artisokka tartaletti, kotimaista omenaa, luomu salaatteja ja vadelma vinaigrette\n\nOrganic jerusalem artichoke tartlet, finnish apple , organic salads and raspberry vinaigrette\n\n\n\n",
       "price": "16",
       "type": "Pääruoka"
     },
@@ -26,7 +26,7 @@
     },
     {
       "title": "Päivän jälkiruoka",
-      "content": "Dessert of the day",
+      "content": "Päivän jälkiruoka",
       "price": "7",
       "type": "Jälkiruoka"
     }
@@ -96,6 +96,5 @@
   "imageone": "/images/uploads/lounassalaatti.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
   "imagethree": "/images/uploads/petitpois.jpg",
-  "week": "5",
-  "heading": "Lounaslista viikolle"
+  "week": "7"
 }
