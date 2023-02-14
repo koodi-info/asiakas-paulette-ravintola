@@ -8,7 +8,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "i18n:generate": "astro-i18next generate"
   },
   "dependencies": {
     "@astrojs/tailwind": "^2.0.2",
@@ -18,5 +19,6 @@
     "i18next": "^22.4.9",
     "tailwindcss": "^3.1.8",
     "vue": "^3.2.40"
-  }
+  },
+  "exports": {}
 }
