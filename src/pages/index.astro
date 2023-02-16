@@ -13,11 +13,9 @@ import Menu from "../components/MenuBloc.vue";
 import ImageGridBg from "../components/ImageGridBg.vue";
 import AboutUs from "../components/AboutUs.vue";
 import Footer from "../components/Footer.vue";
+import { t } from "i18next";
 import { LanguageSelector } from "astro-i18next/components";
 // Data Imports
-import { t, changeLanguage } from "i18next";
-
-changeLanguage("fi");
 
 const seasonmenusApi = t("seasonmenu:seasonmenus", { returnObjects: true });
 const seasonmenu = Object.create(seasonmenusApi);
@@ -27,7 +25,7 @@ const seasonmenus = seasonmenu.map((menu) => menu);
 <Layout title={t("title")}>
 	
 	<NavBar client:visible data={t("common:context", {returnObjects: true})}>
-		<LanguageSelector showFlag={true} class="language-selector" />
+		<LanguageSelector showFlag={true} class="language-selector"/>
 	</NavBar>
 	<main>
 		<Covid 
