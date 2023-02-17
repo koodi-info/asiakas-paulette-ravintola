@@ -142,7 +142,7 @@ collections:
               - { label: "Vasen valokuva", name: "leftImage", widget: "image" }
               - { label: "Oikea valokuva", name: "rightImage", widget: "image" } 
       - label: Lounas ruokalista
-        name: "lunch-fi"
+        name: "lunchfi"
         file: "/public/locales/fi/lunchlist.json"
         fields:
           - { label: Lounaslista otsikko, name: heading, widget: string }
@@ -470,7 +470,7 @@ collections:
               - { label: "Vasen valokuva", name: "leftImage", widget: "image" }
               - { label: "Oikea valokuva", name: "rightImage", widget: "image" } 
       - label: "Lounas ruokalista"
-        name: "lunch-en"
+        name: "lunchen"
         file: "/public/locales/en/lunchlist.json"
         fields:
           - { label: Lounaslista otsikko, name: heading, widget: string }
