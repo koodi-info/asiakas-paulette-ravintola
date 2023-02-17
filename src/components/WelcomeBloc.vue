@@ -8,7 +8,7 @@
             alt="Ravintola Paulette Logo"
             class="drop-shadow-xl"
           />
-          <p>Ravintola</p>
+          <p>{{ restaurant }}</p>
         </span>
         <div class="welcome__container__image__background frame">
           <img :src="image" alt="Ravintolakuva" />
@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  props: ["title", "body", "image"],
+  props: ["title", "body", "image", "restaurant"],
   setup() {
     return {};
   },

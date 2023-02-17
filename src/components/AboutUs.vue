@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <div class="relative">
+    <div class="relative" :id="data[0].navlink">
       <PhotoTextItem
         alignment="right"
         :headingText="data[0].title"
@@ -9,7 +9,7 @@
         :imageRight="data[0].rightImage"
       />
     </div>
-    <div class="relative">
+    <div class="relative" :id="data[1].navlink">
       <PhotoTextItem
         alignment="left"
         :headingText="data[1].title"
@@ -18,7 +18,7 @@
         :imageRight="data[1].rightImage"
       />
     </div>
-    <div class="relative">
+    <div class="relative" :id="data[2].navlink">
       <PhotoTextItem
         alignment="right"
         :headingText="data[2].title"
@@ -27,7 +27,7 @@
         :imageRight="data[2].rightImage"
       />
     </div>
-    <div class="relative">
+    <div class="relative" :id="data[3].navlink">
       <PhotoTextItem
         alignment="left"
         :headingText="data[3].title"
@@ -36,7 +36,7 @@
         :imageRight="data[3].rightImage"
       />
     </div>
-     <div class="relative">
+     <div class="relative" :id="data[4].navlink">
       <PhotoTextItem
         alignment="right"
         :headingText="data[4].title"

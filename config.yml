@@ -131,6 +131,7 @@ collections:
             name: about_content
             fields:
               - { label: Otsikko, name: title, widget: string }
+              - { label: Ankkuri linkki teksti, name: navlink, widget: string }
               - {
                   label: Sisätö,
                   name: body,
@@ -458,6 +459,7 @@ collections:
             name: about_content
             fields:
               - { label: Otsikko, name: title, widget: string }
+              - { label: Ankkuri linkki teksti, name: navlink, widget: string }
               - {
                   label: "Sisätö",
                   name: "body",

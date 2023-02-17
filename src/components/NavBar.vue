@@ -14,13 +14,13 @@
       </div>
 
       <div class="navbar__items" :class="{ navbar__mobile: navigation }">
-        <a href="#ravintolasta" @click="navigationToggle()">{{data.we}}</a>
+        <a href="#about-us" @click="navigationToggle()">{{data.we}}</a>
         <a href="#lounaslista" @click="navigationToggle()">{{data.lunch}}</a>
         <a href="#alacartelista" @click="navigationToggle()">{{data.alacarte}}</a>
         <a href="#catering" @click="navigationToggle()">{{data.catering}}</a>
         <a href="https://v2.tableonline.fi/instabook/bookings/yUijLmr" target="_blank">{{data.tablereservation}}</a>
         <a href="#yhteydenotto">{{data.giftcard}}</a>
-          <slot></slot> 
+        <slot></slot> 
       </div>
     </div>
   </nav>
@@ -58,13 +58,16 @@ export default {
   transform-style: preserve-3d;
   background-color: var(--color05);
   &__container {
-    @apply container sm:mx-auto flex flex-col sm:flex-row justify-center sm:justify-between sm:items-center px-4 py-2;
+    @apply md:container md:mx-auto flex flex-col md:flex-row justify-center md:justify-between md:items-center px-4 py-2;
   }
   &__actions {
-    @apply flex flex-row items-center w-full justify-between sm:w-0;
+    @apply flex flex-row items-center w-full justify-between md:w-0;
   }
   &__items {
-    @apply hidden sm:flex sm:space-x-4  font-serif font-extrabold sm:text-xs md:text-base uppercase;
+    @apply md:flex md:space-x-4  font-serif font-extrabold md:text-xs uppercase;
+    @media (max-width: theme("screens.md")) {
+      @apply opacity-0 hidden; 
+    }
     color: var(--color03);
     a {
       @apply my-4;
@@ -74,18 +77,18 @@ export default {
     }
   }
   &__brand {
-    @apply flex flex-col flex-shrink-0 order-first text-center sm:text-left;
+    @apply flex flex-col flex-shrink-0 order-first text-center md:text-left;
     img {
       @apply w-28 my-2;
     }
   }
   &__togglebutton {
-    @apply sm:hidden font-serif font-extrabold sm:text-xs md:text-base uppercase;
+    @apply md:hidden font-serif font-extrabold md:text-xs md:text-base uppercase;
     color: var(--color03);
   }
   &__mobile {
-    @apply block;
-    @media (max-width: theme("screens.sm")) {
+    @media (max-width: theme("screens.md")) {
+      @apply opacity-100 block;
       margin-top: 16px;
       border-top-width: 1px;
       border-color: var(--color04);
