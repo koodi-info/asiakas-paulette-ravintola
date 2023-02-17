@@ -10,6 +10,8 @@
 | `npm run astro ...`            | Run CLI commands like `astro add`, `astro preview`                 |
 | `npm run astro --help`         | Get help using the Astro CLI                                       |
 | `npx netlify-cms-proxy-server` | Move admin folder from public to /src/pages and config.yml to root |
+| `npx astro-i18next generate`   | Makes the i18next build                                            |
+
 
  astro i18next
 

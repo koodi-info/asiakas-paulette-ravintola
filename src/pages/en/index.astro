@@ -40,6 +40,7 @@ const seasonmenus = seasonmenu.map((menu) => menu);
 			title={t("welcome:title")} 
 			body={t("welcome:intro")} 
 			image={t("welcome:image")}
+			restaurant={t("common:context:restaurant")}
 		/>
 
 		<InfoArea 
@@ -100,7 +101,7 @@ const seasonmenus = seasonmenu.map((menu) => menu);
 			<ImageGridBg />
 		</div>
 
-		<h3 id="ravintolasta">{t("common:context:name")}</h3>
+		<h3>{t("common:context:name")}</h3>
 		<AboutUs data={t("aboutus:about_content", { returnObjects: true })}/>
 		<Footer data={t("common:context", { returnObjects: true })} />
 
@@ -122,6 +123,6 @@ const seasonmenus = seasonmenu.map((menu) => menu);
 	.language-selector {
 		background: none;
 		margin-left: 8px;
-		@apply hidden sm:flex sm:space-x-4  font-serif font-extrabold sm:text-xs md:text-base uppercase;
+		@apply md:flex md:space-x-4  font-serif font-extrabold md:text-xs uppercase;
 	}
 </style>
