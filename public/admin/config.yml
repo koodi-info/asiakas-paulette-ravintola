@@ -24,7 +24,7 @@ i18n:
   default_locale: fi
 
 collections:   
-  - name: Sivuston elementit suomi
+  - name: finnish_version
     label: Suomi
     create: false
     files:
@@ -352,7 +352,7 @@ collections:
                         { label: "Kuohuviini", value: "Sparkling Wine" },
                         { label: "Rose", value: "Rose" },
                       ]           
-  - name: Sivuston elementit englanti
+  - name: english_version
     label: Englanti
     create: false
     files:
