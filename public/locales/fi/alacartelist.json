@@ -1,27 +1,27 @@
 {
   "foods": [
     {
-      "title": "BETTERAVES et MORILLES",
-      "content": "Luomu Punajuurta, vuohenjuustolla täytettyä huhtasientä\r\nja punajuurivaahtoa\n\n\r\nOrganic beetroot, goat cheese filled Morel mushrooms\r\nand beetroot foam\r\n\n\n",
+      "title": "CONSOMMÉ de CHAMPIGNONS et  CROQUETTE de POMME de TERRE ",
+      "content": "Marinoituja Siitake- & Enoki-sieniä, rapea perunakroketti, \nfermentoitua valkosipuli kreemiä ja  sienilientä\n   \nMarinated Shiitake and Enoki mushrooms, \ncrispy potato croquette, fermented garlic cream \nand mushroom broth\n\n\n\n",
+      "price": "18",
+      "type": "Alkuruoka"
+    },
+    {
+      "title": "LANGOUSTINE et PAIN PERDU ",
+      "content": "Rapeaksi paistettu “Pain Perdu”, Merirapua, rakuunaa\nja tillillä maustettua Beurre Blanc -kastiketta\n\nPain perdu fried to crisp, Langoustine, tarragon \nand Beurre Blanc seasoned with dill\n\n\n",
+      "price": "21",
+      "type": "Alkuruoka"
+    },
+    {
+      "title": "MOUSSE de FOIE de CANARD et POMME CARAMÉLISÉE ",
+      "price": "23",
+      "content": "Ranskalaista ankanmaksamoussea, karamellisoitua omenaa\nja Sauternes-viinissä haudutettua fenkolia\n\nFrench duck liver mousse, caramelized apple \nand fennel braised in Sauternes wine\n\n\n",
+      "type": "Alkuruoka"
+    },
+    {
+      "title": "BOEUF TARTARE",
+      "content": "Tartar kotimaisesta härän luomu paistista, \nluomu kananmunaa, pikkelöityä punasipulia \nja siianmätiä\n   \nBeef tartare from Finnish organic beef rump, \norganic egg, pickled red onion, capers and crispy potatoes \n",
       "price": "19",
-      "type": "Alkuruoka"
-    },
-    {
-      "title": "COQUILLE SAINT-JACQUES et YUZU ",
-      "content": "Raakakypsytettyä kampasimpukkaa, yuzu dressing, \ntaimenen mätiä ja finger limeä\n  \nRaw ripened scallop, yuzu dressing, Trout roe and Finger lime\n\n",
-      "price": "23",
-      "type": "Alkuruoka"
-    },
-    {
-      "title": "FOIE de CANARD et CUISSES de CAILLE",
-      "price": "23",
-      "content": "Ankanmaksaa, viiriäisen koipia, rapeeta viljaa ja olutvaahtoa\n\n\r\nDuck liver, quail legs, crispy grain and beer foam \r\n\n\n",
-      "type": "Alkuruoka"
-    },
-    {
-      "title": "CERF TARTARE",
-      "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\npikkelöityä punasipulia, kaprista ja rapeaa perunaa\n\n\r\nTartar from Finnish organic deer rump, organic egg, \r\npickled red onion, capers and crispy potato\r\n",
-      "price": "20",
       "type": "Alkuruoka"
     },
     {
@@ -31,32 +31,32 @@
       "type": "Pääruoka"
     },
     {
-      "title": "ARTICHAUT et TRUFFE",
-      "content": "\r\nLuomu maa-artisokka tartaletti, kotimaista omenaa \r\nja mustaa tryffeliä\n\n\r\nOrganic jerusalem artichoke tartlet, finnish apple \r\nand black truffle\r\n\n\n",
+      "title": "TARTELETTE de CÉLERI-RAVE et TRUFFE",
+      "content": "\r\nLuomu mukulaselleri tartaletti, savustettua \nmukulaselleri vaahtoa ja mustaa tryffeliä\n                                  \nCeleriac tartlet, smoked celeriac foam and black truffle \n\n\n\n",
       "price": "26",
       "type": "Pääruoka"
     },
     {
-      "title": "CABILLAUD et RACINE NOIRE",
-      "content": "Pähkinävoissa haudutettua turskan seläkettä, paahdettua mustajuurta, kukkakaalia\r\nja wasabilla maustettua kastiketta\n                                  \r\nIn roasted butter cooked cod pension, black root, cauliflower and with wasabi flavored sauce\r\n\n \r\n\n",
+      "title": "FLÉTAN et CAVIAR",
+      "content": "Pähkinävoissa kypsennettyä Ruijanpallasta, puikulaperunaa,\nhopeasipulia, pinaattia, Beurre Blanc -kastiketta ja \nranskalaista kaviaaria\n\nHalibut cooked in nut butter, baby potato, silver onion, \nspinach, Beurre Blanc and French caviar\n\n\n \r\n\n",
       "price": "29",
       "type": "Pääruoka"
     },
     {
-      "title": "BOEUF WELLINGTON",
-      "content": "Taikinoitu kotimainen naudan sisäfilettä, tryffelillä maustettu sieni dûxelles,\r\npaistettuja haricot vert papuja ja punaviinikastiketta\n\n\r\nBattered finnish beef filet, with truffle flavored mushroom duxelles, haricot vert beans\r\nand Punaviini sauce\r\n\n",
+      "title": "AGNEAU des PYRÉNÉES et CHOU de PRINTEMPS",
+      "content": "Pyreneiden karitsan seläkettä, rapeaa\npistaasi crumblea, ylikypsää karitsan lapaa, kevätkaalia \nja Madeirakastiketta\n\nOverripe lamb from Pyrenees, Pistachio crumble, \nspring cabbage and Madeira sauce     \n\n\n",
       "price": "38",
       "type": "Pääruoka"
     },
     {
-      "title": "CITRON et RÉGLISSE",
-      "content": "Sitruuna Savariini ja lakritsilla maustettua jäätelöä\n\n\r\nLemon Savarin and licorice ice cream\r\n\n\n\r\n\n",
+      "title": "PISTACHE CRÈME BRÛLÉE et  SORBET au CITRONELLE",
+      "content": "Pistaasilla maustettu creme brulee ja sitruunaruoho sorbet\n\nPistachio flavored creme brulée and lemon grass sorbet\n\n\n\n\r\n\n",
       "price": "12",
       "type": "Jälkiruoka"
     },
     {
-      "title": "CHOCOLAT et FRAMBOISE",
-      "content": "Tumma suklaa Namelakaa, maitosuklaamousse \t\t          ja vadelmasorbettia\n                                                                                                    Dark chocolate Namelaka, milk chocolate mousse                                   and rasberry sorbet",
+      "title": "FONDANT au CHOCOLAT et  GLACE au LAIT",
+      "content": "Uunissa paistettu suklaafondant ja maitojäätelöä\n\nOven cooked chocolat fondant and milk ice cream\n",
       "price": "12",
       "type": "Jälkiruoka"
     },
