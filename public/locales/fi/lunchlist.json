@@ -13,8 +13,8 @@
       "type": "Lounas"
     },
     {
-      "title": "TARTE AUX CÉLERI FUMÉ ET SALADE",
-      "content": "Luomu selleri tartaletti, savustettua selleri vaahtoa, luomu salaatteja ja fermentoitu valkosipuli kreemiä\n\nOrganic celery tartlet, smoked celery foam, organic salads and fermented garlic cream\n\n\n\n\n",
+      "title": "QUICHE LORRAINE FETA",
+      "content": "Feta quiche lorraine, Savoijinkaalia ja luomu salaattia sekä dijon dressing\n\nFeta quiche lorraine, Savoy cabbage and organic salad and Dijon dressing\n\n\n\n\n\n",
       "price": "16",
       "type": "Pääruoka"
     },
@@ -96,6 +96,6 @@
   "imageone": "/images/uploads/lounassalaatti.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
   "imagethree": "/images/uploads/petitpois.jpg",
-  "week": "9",
+  "week": "10",
   "heading": "Lounaslista viikolle"
 }
