@@ -13,8 +13,8 @@
       "type": "Lounas"
     },
     {
-      "title": "QUICHE LORRAINE FETA",
-      "content": "Feta quiche lorraine, Savoijinkaalia ja luomu salaattia sekä dijon dressing\n\nFeta quiche lorraine, Savoy cabbage and organic salad and Dijon dressing\n\n\n\n\n\n",
+      "title": "RISOTTO AUX CHAMPIGNONS",
+      "content": "Sienirisottoa siitakkeista ja tateista sekä raastettua parmesania\n \nMushroom risotto from shiitakes and ceps s and parmesan\n\n\n\n\n\n\n",
       "price": "16",
       "type": "Pääruoka"
     },
@@ -96,6 +96,6 @@
   "imageone": "/images/uploads/lounassalaatti.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
   "imagethree": "/images/uploads/petitpois.jpg",
-  "week": "10",
+  "week": "11",
   "heading": "Lounaslista viikolle"
 }
