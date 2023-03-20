@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: koodi-info/_asiakas_paulette-ravintola
+  repo: koodi-info/asiakas_paulette-ravintola
   branch: main # NOTE this relates to your GitHub branch
   local_backend: true
 publish_mode: editorial_workflow
