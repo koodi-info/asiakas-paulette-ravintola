@@ -13,8 +13,8 @@
       "type": "Lounas"
     },
     {
-      "title": "CÈSAR DE POULET ",
-      "content": "Luomu romaine salaattia, caesar kastiketta,\nRapeaa kananpoikaa sekä parmesania\n\nOrganic romaine salads, caesar dressing,\nCrisp chicken and  parmesan cheese\n\n\n\n\n\n\n\n\n",
+      "title": "Salade Cèsar aux Scampis",
+      "content": "Luomu romaine salaattia, caesar kastiketta,\nPaistettuja Scampeja sekä parmesania\n\nOrganic romaine salads, caesar dressing,\nFried Scampi and  parmesan cheese\n\n\n\n\n\n\n\n\n\n",
       "price": "16",
       "type": "Pääruoka"
     },
@@ -96,6 +96,6 @@
   "imageone": "/images/uploads/lounassalaatti.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
   "imagethree": "/images/uploads/petitpois.jpg",
-  "week": "13",
+  "week": "14",
   "heading": "Lounaslista viikolle"
 }
