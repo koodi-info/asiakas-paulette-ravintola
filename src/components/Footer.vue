@@ -131,7 +131,7 @@
       </div>
       <div class="siteinfo">
         <div class="text-white">
-          © 2021 Paulette - Sivun toteutus Koodi.info
+          © 2021 Paulette - Sivun toteutus <a href="https://www.andreaskoutsoukos.dev/" target="_blank">Andreas Koutsoukos (Koodi.info)</a>
         </div>
       </div>
     </div>
@@ -249,5 +249,8 @@ ul {
 
 .siteinfo {
   grid-area: siteinfo;
+  a{
+    @apply underline;
+  }
 }
 </style>
