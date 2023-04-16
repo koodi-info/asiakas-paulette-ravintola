@@ -13,8 +13,8 @@
       "type": "Lounas"
     },
     {
-      "title": "SALADE DE FROMAGE DE CHÈVRE ",
-      "content": "Luomu salaatteja, granaattiomenaa,\nvuohenjuustoa  sekä vadelmavinaigrettea\n\nOrganic salads, pomegranate, goat cheese\nAnd  raspberry vinegar\n\n\n\n\n\n\n\n\n\n\n",
+      "title": "SALADE DE SAUMON FUMÈ",
+      "content": "Savustettua lohta, Dijòn perunaa, avocado, luomu salaatteja, pikkelöityä punasipulia ja kurkkua\n\nSmoked salmon, dijòn potatoes, avocado, Organic salads, pickled red onion & cucumber\n\n\n\n\n\n\n\n\n\n\n\n",
       "price": "16",
       "type": "Pääruoka"
     },
@@ -96,6 +96,6 @@
   "imageone": "/images/uploads/lounassalaatti.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
   "imagethree": "/images/uploads/petitpois.jpg",
-  "week": "15",
+  "week": "16",
   "heading": "Lounaslista viikolle"
 }
