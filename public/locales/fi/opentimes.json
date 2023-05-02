@@ -1,13 +1,13 @@
 {
   "opening_hours": [
     {
-      "item": "Lounas: ma-pe klo 11-15"
+      "item": "Lounas: Suljettu"
     },
     {
-      "item": "Ilta: to-pe klo 17-22 la klo 16-22"
+      "item": "Ilta: Ke-La 16:00-22:00"
     },
     {
-      "item": "Su suljettu"
+      "item": "Su-Ti Suljettu"
     }
   ],
   "exception_opening_hours": []
