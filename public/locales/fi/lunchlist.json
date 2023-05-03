@@ -1,36 +1,5 @@
 {
-  "foods": [
-    {
-      "title": "PAULETTE BOUILLABAISSE ",
-      "content": "Hummeriliemeen keitettyä siikaa, kampasimpukkaa, sinisimpukkaa, jumborapua, rouille kastiketta ja itsetehtyä valkosipulileipää\n \nWhite fish, scallop, blue mussle and scampi cooked in lobster broth, rouille sauce and house made garlic bread\n",
-      "price": "28",
-      "type": "Lounasannokset"
-    },
-    {
-      "title": "CROQUE MONSIEUR",
-      "content": "\r\nRanskalainen klassinen lämmin leipä; Luomu kinkkua, grûyer juustoa, Dijòn sinappia, cornichons kurkku ja luomu salaattia\n\nFrench classic toast; Organic ham, Grûyer cheese, Dijòn mustard, cornichons and organic salads \n\n\n\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-      "price": "16",
-      "type": "Lounas"
-    },
-    {
-      "title": "SALADE DE SAUMON FUMÈ",
-      "content": "Savustettua lohta, Dijòn perunaa, avocado, luomu salaatteja, pikkelöityä punasipulia ja kurkkua\n\nSmoked salmon, dijòn potatoes, avocado, Organic salads, pickled red onion & cucumber\n\n\n\n\n\n\n\n\n\n\n\n",
-      "price": "16",
-      "type": "Pääruoka"
-    },
-    {
-      "title": "PLAT DU JOUR ",
-      "content": "Päivän pasta, sesongin tuoreista raaka-aineista,  kysythän henkilökunnalta!\n\n\r\nPasta of the day, of fresh seasonal ingredients,  ask for more information from our staff!\r\n",
-      "price": "18",
-      "type": "Pääruoka"
-    },
-    {
-      "title": "Päivän jälkiruoka",
-      "content": "Päivän jälkiruoka",
-      "price": "7",
-      "type": "Jälkiruoka"
-    }
-  ],
+  "foods": [],
   "drinks": [
     {
       "title": "Espresso ",
