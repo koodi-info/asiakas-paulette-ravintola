@@ -1,9 +1,9 @@
 <template>
   <div class="menu">
     <div class="menu__container frame">
-      <div class="menu__container__left">
+      <div class="menu__container__left" :style="{width: Object.keys(sortedDrinks).length === 0 ? '100%': '50%', borderRightWidth: Object.keys(sortedDrinks).length === 0 ? '0': ''}">
         <div v-for="(group, index) in sortedPortions" :key="index">
-          <h3>{{ index }}:</h3>
+          <h3 v-if="group[0].type">{{ index }}:</h3>
           <div class="menu__item" v-for="(item, index) in group" :key="index" :class="group[0].choice ? 'menu__item__choise':'menu__item'" data-content="Tai">
             <div class="menu__item__container">
               <p class="menu__item__name">{{ item.title }}</p>
@@ -22,7 +22,7 @@
           </div>
         </div>
       </div>
-      <div class="menu__container__right">
+      <div class="menu__container__right" v-if="sortedDrinks">
         <div v-for="(group, index) in sortedDrinks" :key="index">
           <h3>{{ index }}:</h3>
           <div class="menu__item" v-for="(item, index) in group" :key="index">
@@ -46,6 +46,7 @@
 </template>
 
 <script>
+
 export default {
   props: ["food", "drink"],
   setup(props) {
@@ -72,13 +73,13 @@ export default {
 
     const choicePortion = props.food.map((f) => [f]);
 
-    const sortedDrinks = props.drink.reduce((newGroup, obj) => {
-      if (!newGroup[obj.type]) {
-        newGroup[obj.type] = [];
+    const sortedDrinks = props.drink.reduce((drinks, items) => {
+      if (!drinks[items.type]) {
+        drinks[items.type] = [];
       }
-      newGroup[obj.type].push(obj);
-      return newGroup;
-    }, {});
+      drinks[items.type].push(items);
+      return drinks;
+    },{});
 
     return {
       chunk,

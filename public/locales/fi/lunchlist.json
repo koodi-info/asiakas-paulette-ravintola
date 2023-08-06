@@ -1,4 +1,10 @@
 {
+  "heading": "Lounas suljettu toistaiseksi alkaen 2.5.2023.",
+  "imagethree": "/images/uploads/petitpois.jpg",
+  "lunchlists": "hello",
+  "imageone": "/images/uploads/lounassalaatti.jpg",
+  "imagetwo": "/images/uploads/bouillabaisse.jpg",
+  "week": "1",
   "foods": [],
   "drinks": [
     {
@@ -62,9 +68,5 @@
       "type": "Olut / Siideri"
     }
   ],
-  "imageone": "/images/uploads/lounassalaatti.jpg",
-  "imagetwo": "/images/uploads/bouillabaisse.jpg",
-  "imagethree": "/images/uploads/petitpois.jpg",
-  "week": "1",
-  "heading": "Lounas suljettu toistaiseksi alkaen 2.5.2023."
+  "lunch_public": false
 }

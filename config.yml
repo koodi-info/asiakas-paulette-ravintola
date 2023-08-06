@@ -142,9 +142,14 @@ collections:
               - { label: "Vasen valokuva", name: "leftImage", widget: "image" }
               - { label: "Oikea valokuva", name: "rightImage", widget: "image" } 
       - label: Lounas ruokalista
-        name: "lunchfi"
+        name: lunchlist
         file: "/public/locales/fi/lunchlist.json"
         fields:
+          - { label: "Lounas julkinen",
+              name: lunch_public,
+              widget: boolean,
+              default: true,
+          }
           - { label: Lounaslista otsikko, name: heading, widget: string }
           - {
               label: "Lounaslista viikolle",
@@ -229,9 +234,16 @@ collections:
           - label: Lounas juomat
             name: drinks
             widget: list
+            required: false
             fields:
               - { label: Juoman nimi, name: title, widget: string }
               - { label: "Juoman hinta", name: "price", widget: "string" }
+              - { label: "Juomat julkiset",
+                  name: drinsk_public,
+                  widget: boolean,
+                  default: true,
+                  required: false
+                }
               - label: "Juoman tyyppi"
                 name: "type"
                 widget: "select"
@@ -300,7 +312,7 @@ collections:
               - { label: Menun nimi, name: title, widget: string }
               - { label: Julkinen, name: public, widget: boolean, default: true }
               - { label: Menun hinta, name: price, widget: string }
-              - { label: Aputeksti, name: info, widget: markdown, modes: [raw]}
+              - { label: Aputeksti, name: info, widget: markdown, modes: [raw], required: false}
               - label: Menun annokset
                 widget: list
                 name: foods
@@ -312,6 +324,7 @@ collections:
                     widget: markdown,
                     modes: [raw],
                     buttons: [bold],
+                    required: false
                   }
                 - { label: "Annoksen hinta", name: "price", widget: "string" }
                 - {
@@ -323,7 +336,8 @@ collections:
                 - label: "Annoksen tyyppi"
                   name: "type"
                   widget: "select"
-                  options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka"]
+                  options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka", ""]
+                  required: false
                 - {
                   label: "Valinta vaihtoehto",
                   name: choice,
@@ -333,6 +347,7 @@ collections:
               - label: Menun juomat
                 name: drinks
                 widget: list
+                required: false
                 fields:
                   - { label: Juoman nimi, name: title, widget: string }
                   - {
@@ -469,10 +484,15 @@ collections:
                 }
               - { label: "Vasen valokuva", name: "leftImage", widget: "image" }
               - { label: "Oikea valokuva", name: "rightImage", widget: "image" } 
-      - label: "Lounas ruokalista"
-        name: "lunchen"
+      - label: Lounas ruokalista
+        name: lunchlist
         file: "/public/locales/en/lunchlist.json"
         fields:
+          - { label: "Lounas julkinen",
+              name: lunch_public,
+              widget: boolean,
+              default: true,
+          }
           - { label: Lounaslista otsikko, name: heading, widget: string }
           - {
               label: "Lounaslista viikolle",
@@ -557,9 +577,16 @@ collections:
           - label: Lounas juomat
             name: drinks
             widget: list
+            required: false
             fields:
               - { label: Juoman nimi, name: title, widget: string }
               - { label: "Juoman hinta", name: "price", widget: "string" }
+              - { label: "Juomat julkiset",
+                  name: drinsk_public,
+                  widget: boolean,
+                  default: true,
+                  required: false
+                }
               - label: "Juoman tyyppi"
                 name: "type"
                 widget: "select"
@@ -571,7 +598,7 @@ collections:
                     { label: "Olut / Siideri", value: "Beer / Cider" },
                     { label: "Viini", value: "Wine" },
                   ]
-      - label: "A la carte ruokalista"
+      - label: A la carte ruokalista
         name: "alacarte"
         file: "/public/locales/en/alacartelist.json"
         fields:
@@ -628,7 +655,7 @@ collections:
               - { label: Menun nimi, name: title, widget: string }
               - { label: Julkinen, name: public, widget: boolean, default: true }
               - { label: Menun hinta, name: price, widget: string }
-              - { label: Aputeksti, name: info, widget: markdown, modes: [raw]}
+              - { label: Aputeksti, name: info, widget: markdown, modes: [raw], required: false}
               - label: Menun annokset
                 widget: list
                 name: foods
@@ -640,6 +667,7 @@ collections:
                     widget: markdown,
                     modes: [raw],
                     buttons: [bold],
+                    required: false
                   }
                 - { label: "Annoksen hinta", name: "price", widget: "string" }
                 - {
@@ -652,6 +680,7 @@ collections:
                   name: "type"
                   widget: "select"
                   options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka"]
+                  required: false
                 - {
                   label: "Valinta vaihtoehto",
                   name: choice,
@@ -661,6 +690,7 @@ collections:
               - label: Menun juomat
                 name: drinks
                 widget: list
+                required: false
                 fields:
                   - { label: Juoman nimi, name: title, widget: string }
                   - {

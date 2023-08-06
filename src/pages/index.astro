@@ -13,13 +13,17 @@ import Menu from "../components/MenuBloc.vue";
 import ImageGridBg from "../components/ImageGridBg.vue";
 import AboutUs from "../components/AboutUs.vue";
 import Footer from "../components/Footer.vue";
-import { t } from "i18next";
+import { t, changeLanguage } from "i18next";
 import { LanguageSelector } from "astro-i18next/components";
-// Data Imports
 
+changeLanguage("fi");
+
+// Data Imports
 const seasonmenusApi = t("seasonmenu:seasonmenus", { returnObjects: true });
 const seasonmenu = Object.create(seasonmenusApi);
 const seasonmenus = seasonmenu.map((menu) => menu);
+const lunchlistApi = t("lunchlist:lunch_public", { returnObjects: true });
+console.log(lunchlistApi);
 ---
 
 <Layout title={t("title")}>
@@ -68,6 +72,7 @@ const seasonmenus = seasonmenu.map((menu) => menu);
 		imageTwo={t("lunchlist:imagetwo")} 
 		imageThree={t("lunchlist:imagethree")}/>
 
+	{lunchlistApi && 
 		<div class="relative">
 			<h3 id="lounaslista">{t("lunchlist:heading")} {t("lunchlist:week")}</h3>
 			<Menu 
@@ -75,6 +80,7 @@ const seasonmenus = seasonmenu.map((menu) => menu);
 			drink={t("lunchlist:drinks", { returnObjects: true })}/>
 			<ImageGridBg />
 		</div>
+	}
 
 		{seasonmenus.map((menu) => (
 		<Show when={menu.public}>
