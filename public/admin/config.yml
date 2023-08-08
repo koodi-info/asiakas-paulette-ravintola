@@ -1,0 +1,712 @@
+backend:
+  name: git-gateway
+  repo: koodi-info/asiakas_paulette-ravintola
+  branch: main # NOTE this relates to your GitHub branch
+  local_backend: true
+publish_mode: editorial_workflow
+local_backend: true # allows for you to locally mess with your CMS
+media_folder: "public/images/uploads" # Media files will be stored in the repo under public/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+editor:
+  preview: false # we're going to hide the preview editor
+i18n:
+  # Required and can be one of multiple_folders, multiple_files or single_file
+  # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
+  # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
+  # single_file - persists a single file in `<folder>/<slug>.<extension>`
+  structure: multiple_folders
+
+  # Required - a list of locales to show in the editor UI
+  locales: [fi, en]
+
+  # Optional, defaults to the first item in locales.
+  # The locale to be used for fields validation and as a baseline for the entry.
+  default_locale: fi
+
+collections:   
+  - name: finnish_version
+    label: Suomi
+    create: false
+    files:
+      - label: Käännökset yleisiin kohtiin
+        name: Käännökset yleisiin kohtiin
+        file: /public/locales/fi/common.json
+        fields:
+          - label: Yleiset sisällöt suomeksi
+            name: context
+            widget: object
+            collapsed: false
+            fields: 
+              - { label: Nimi, name: name, widget: string }
+              - { label: Esittely, name: description, widget: text }
+              - { label: Valikko, name: menu, widget: string }
+              - { label: Valikko näytä, name: menuopen, widget: string }
+              - { label: Valikko sulje, name: menuclose, widget: string }
+              - { label: Me, name: we, widget: string }
+              - { label: Lounaslista, name: lunch, widget: string }
+              - { label: A la carte, name: alacarte, widget: string }
+              - { label: Catering, name: catering, widget: string }   
+              - { label: Pöytävaraus, name: tablereservation, widget: string }
+              - { label: Lahjakortti, name: giftcard, widget: string }
+              - { label: Ravintola, name: restaurant, widget: string }
+              - { label: Aukioloajat, name: opentimes, widget: string }
+              - { label: Poikkeusaukioloajat, name: extraopentimes, widget: string }
+              - { label: Tee pöytävaraus, name: tablereservationtext, widget: string } 
+              - { label: Yhteydenotto, name: contactlable, widget: string }
+              - { label: Ota yhteyttä sähköpostilla, name: formlabel01, widget: string }
+              - { label: Soita meille, name: formlabel02, widget: string }
+              - { label: Löydä meille, name: formlabel03, widget: string }
+              - { label: Seuraa meitä, name: formlabel04, widget: string }  
+              - { label: Etunimi Sukunimi, name: formlabel05, widget: string }  
+              - { label: Sähköpostiosoite, name: formlabel06, widget: string }  
+              - { label: Vapaa tekstikenttä, name: formlabel07, widget: string }
+              - { label: Lähetä, name: formlabel08, widget: string }
+              - { label: Asiani koskee, name: formlabel09, widget: string }
+              - label: "Asiani koskee valinnat"
+                name: "formlabel10"
+                widget: "list"
+                fields:
+                  - {label: Valinta, name: name, widget: string}
+              - { label: Osoite, name: address, widget: string }
+              - { label: Sähköposti, name: email, widget: string }
+              - { label: Puhelinnumero, name: phone, widget: string }
+      - label: Tervetuloa sisältö
+        name: welcome-fi
+        file: /public/locales/fi/welcome.json
+        fields:
+          - { label: Ostikko, name: title, widget: string }
+          - { label: Sisältö, name: intro, widget: text}
+          - { label: Valokuva, name: image, widget: image}
+      - label: Covid19 info
+        name: covid
+        file: "/public/locales/fi/covid.json"
+        fields:
+          - { label: Julkinen, name: public, widget: boolean, default: true }
+          - { label: Ostikko, name: title, widget: string }
+          - { label: Sisältö, name: body, widget: text }
+      - label: Ajankohtaista
+        name: Ajankohtaista
+        file: /public/locales/fi/news.json
+        fields: 
+          - {
+            label: Ajankohtaista,
+            name: news,
+            widget: markdown,
+            modes: [raw],
+            buttons: [bold],
+            }
+      - label: Aukioloajat
+        name: Aukioloajat
+        file: /public/locales/fi/opentimes.json
+        fields: 
+          - label: Aukioloajat
+            name: opening_hours
+            widget: list
+            fields:
+              - { label: Aukioloaika, name: item, widget: string }
+          - label: Poikkeusaukioloajat
+            name: exception_opening_hours
+            widget: list
+            fields:
+              - { label: Poikkeusaika, name: item, widget: string }
+      - label: Ilmoitustaulu
+        name: extra-info
+        file: /public/locales/fi/extrainfo.json
+        fields:
+          - { label: Julkinen, name: public, widget: boolean, default: true }
+          - { label: Otsikko, name: heading, widget: string }
+          - {
+              label: Sisältö,
+              name: content,
+              widget: markdown,
+              modes: [raw],
+              buttons: [bold],
+            }
+      - label: Esittely osiot
+        name: about
+        file: /public/locales/fi/aboutus.json
+        fields:
+          - label: Osion sisältö
+            widget: list
+            name: about_content
+            fields:
+              - { label: Otsikko, name: title, widget: string }
+              - { label: Ankkuri linkki teksti, name: navlink, widget: string }
+              - {
+                  label: Sisätö,
+                  name: body,
+                  widget: markdown,
+                  modes: [rich_text],
+                  buttons: [bold],
+                }
+              - { label: "Vasen valokuva", name: "leftImage", widget: "image" }
+              - { label: "Oikea valokuva", name: "rightImage", widget: "image" } 
+      - label: Lounas ruokalista
+        name: lunchlist
+        file: "/public/locales/fi/lunchlist.json"
+        fields:
+          - { label: "Lounas julkinen",
+              name: lunch_public,
+              widget: boolean,
+              default: true,
+          }
+          - { label: Lounaslista otsikko, name: heading, widget: string }
+          - {
+              label: "Lounaslista viikolle",
+              name: "week",
+              widget: "select",
+              options:
+                [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14",
+                  "15",
+                  "16",
+                  "17",
+                  "18",
+                  "19",
+                  "20",
+                  "21",
+                  "22",
+                  "23",
+                  "24",
+                  "25",
+                  "26",
+                  "27",
+                  "28",
+                  "29",
+                  "30",
+                  "31",
+                  "32",
+                  "33",
+                  "34",
+                  "35",
+                  "36",
+                  "37",
+                  "38",
+                  "39",
+                  "40",
+                  "41",
+                  "42",
+                  "43",
+                  "44",
+                  "45",
+                  "46",
+                  "47",
+                  "48",
+                  "49",
+                  "50",
+                  "51",
+                  "52",
+                ],
+            }
+          - { label: "Valokuva 1", name: "imageone", widget: "image" }
+          - { label: "Valokuva 2", name: "imagetwo", widget: "image" }
+          - { label: "Valokuva 3", name: "imagethree", widget: "image" }
+          - label: Lounas annokset
+            name: foods
+            widget: list
+            fields:
+              - { label: Annoksen nimi, name: title, widget: string }
+              - {
+                  label: Annoksen sisältö,
+                  name: content,
+                  widget: markdown,
+                  modes: [raw],
+                  buttons: [bold],
+                }
+              - { label: "Annoksen hinta", name: "price", widget: "string" }
+              - label: "Annoksen tyyppi"
+                name: "type"
+                widget: "select"
+                options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka"]
+          - label: Lounas juomat
+            name: drinks
+            widget: list
+            required: false
+            fields:
+              - { label: Juoman nimi, name: title, widget: string }
+              - { label: "Juoman hinta", name: "price", widget: "string" }
+              - { label: "Juomat julkiset",
+                  name: drinsk_public,
+                  widget: boolean,
+                  default: true,
+                  required: false
+                }
+              - label: "Juoman tyyppi"
+                name: "type"
+                widget: "select"
+                options:
+                  [
+                    { label: "Kahvi", value: "Kahvi" },
+                    { label: "Virvoitusjuoma", value: "Kahvi" },
+                    { label: "Alkoholittomat", value: "Alkoholittomat" },
+                    { label: "Olut / Siideri", value: "Olut / Siideri" },
+                    { label: "Viini", value: "Viini" },
+                  ]
+      - label: A la carte ruokalista
+        name: "alacarte"
+        file: "/public/locales/fi/alacartelist.json"
+        fields:
+          - { label: "Valokuva 1", name: "imageone", widget: "image" }
+          - { label: "Valokuva 2", name: "imagetwo", widget: "image" }
+          - { label: "Valokuva 3", name: "imagethree", widget: "image" }
+          - label: A ala carte annokset
+            name: foods
+            widget: list
+            fields:
+              - { label: Annoksen nimi, name: title, widget: string }
+              - {
+                  label: Annoksen sisältö,
+                  name: content,
+                  widget: markdown,
+                  modes: [raw],
+                  buttons: [bold],
+                }
+              - { label: "Annoksen hinta", name: "price", widget: "string" }
+              - label: "Annoksen tyyppi"
+                name: "type"
+                widget: "select"
+                options: ["Alkuruoka", "Pääruoka", "Jälkiruoka", "Plateau de"]
+          - label: A la carte juomat
+            name: drinks
+            widget: list
+            fields:
+              - { label: Juoman nimi, name: title, widget: string }
+              - {
+                  label: "Juoman kuvaus",
+                  name: "description",
+                  widget: "string",
+                }
+              - { label: "Juoman hinta", name: "price", widget: "string" }
+              - label: "Juoman tyyppi"
+                name: "type"
+                widget: "select"
+                options:
+                  [
+                    { label: "Muut juomat", value: "Muut juomat" },
+                    { label: "Valkoviini", value: "Valkoviini" },
+                    { label: "Punaviini", value: "Punaviini" },
+                    { label: "Kuohuviini", value: "Kuohuviini" },
+                    { label: "Rose", value: "Roseeviini" },
+                  ]
+      - label: Sesonki ruokalista
+        name: seasonmenu
+        file: /public/locales/fi/seasonmenu.json
+        fields:
+          - label: Menu
+            name: seasonmenus
+            widget: list
+            fields:
+              - { label: Menun nimi, name: title, widget: string }
+              - { label: Julkinen, name: public, widget: boolean, default: true }
+              - { label: Menun hinta, name: price, widget: string }
+              - { label: Aputeksti, name: info, widget: markdown, modes: [raw], required: false}
+              - label: Menun annokset
+                widget: list
+                name: foods
+                fields: 
+                - { label: Annoksen nimi, name: title, widget: string }
+                - {
+                    label: Annoksen sisältö,
+                    name: content,
+                    widget: markdown,
+                    modes: [raw],
+                    buttons: [bold],
+                    required: false
+                  }
+                - { label: "Annoksen hinta", name: "price", widget: "string" }
+                - {
+                  label: "Hinta julkinen",
+                  name: price_public,
+                  widget: boolean,
+                  default: true,
+                }
+                - label: "Annoksen tyyppi"
+                  name: "type"
+                  widget: "select"
+                  options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka", ""]
+                  required: false
+                - {
+                  label: "Valinta vaihtoehto",
+                  name: choice,
+                  widget: boolean,
+                  default: false,
+                }
+              - label: Menun juomat
+                name: drinks
+                widget: list
+                required: false
+                fields:
+                  - { label: Juoman nimi, name: title, widget: string }
+                  - {
+                      label: "Juoman kuvaus",
+                      name: "description",
+                      widget: "string",
+                    }
+                  - { label: "Juoman hinta", name: "price", widget: "string" }
+                  - label: "Juoman tyyppi"
+                    name: "type"
+                    widget: "select"
+                    options:
+                      [
+                        { label: "Muut juomat", value: "Other drinks" },
+                        { label: "Valkoviini", value: "White Wine" },
+                        { label: "Punaviini", value: "Red Wine" },
+                        { label: "Kuohuviini", value: "Sparkling Wine" },
+                        { label: "Rose", value: "Rose" },
+                      ]           
+  - name: english_version
+    label: Englanti
+    create: false
+    files:
+      - label: Käännökset yleisiin kohtiin
+        name: Käännökset yleisiin kohtiin
+        file: /public/locales/en/common.json
+        fields:
+          - label: Yleiset sisällöt englanniksi
+            name: context
+            widget: object
+            collapsed: false
+            fields: 
+              - { label: Nimi, name: name, widget: string }
+              - { label: Esittely, name: description, widget: text }
+              - { label: Valikko, name: menu, widget: string }
+              - { label: Valikko näytä, name: menuopen, widget: string }
+              - { label: Valikko sulje, name: menuclose, widget: string }
+              - { label: Me, name: we, widget: string }
+              - { label: Lounaslista, name: lunch, widget: string }
+              - { label: A la carte, name: alacarte, widget: string }
+              - { label: Catering, name: catering, widget: string }   
+              - { label: Pöytävaraus, name: tablereservation, widget: string }
+              - { label: Lahjakortti, name: giftcard, widget: string }
+              - { label: Ravintola, name: restaurant, widget: string }
+              - { label: Aukioloajat, name: opentimes, widget: string }
+              - { label: Poikkeusaukioloajat, name: extraopentimes, widget: string }
+              - { label: Tee pöytävaraus, name: tablereservationtext, widget: string }   
+              - { label: Yhteydenotto, name: contactlable, widget: string }
+              - { label: Ota yhteyttä sähköpostilla, name: formlabel01, widget: string }
+              - { label: Soita meille, name: formlabel02, widget: string }
+              - { label: Löydä meille, name: formlabel03, widget: string }
+              - { label: Seuraa meitä, name: formlabel04, widget: string }  
+              - { label: Etunimi Sukunimi, name: formlabel05, widget: string }  
+              - { label: Sähköpostiosoite, name: formlabel06, widget: string }  
+              - { label: Vapaa tekstikenttä, name: formlabel07, widget: string }
+              - { label: Lähetä, name: formlabel08, widget: string }     
+              - { label: Asiani koskee, name: formlabel09, widget: string }
+              - label: "Asiani koskee valinnat"
+                name: "formlabel10"
+                widget: "list"
+                fields:
+                  - {label: Valinta, name: name, widget: string}
+              - { label: Osoite, name: address, widget: string }
+              - { label: Sähköposti, name: email, widget: string }
+              - { label: Puhelinnumero, name: phone, widget: string }
+      - label: Tervetuloa sisältö
+        name: welcome-en
+        file: /public/locales/en/welcome.json
+        fields:
+          - { label: Ostikko, name: title, widget: string }
+          - { label: Sisältö, name: intro, widget: text}
+          - { label: Valokuva, name: image, widget: image}
+      - label: Covid19 info
+        name: Covid
+        file: /public/locales/en/covid.json
+        fields:
+          - { label: Julkinen, name: public, widget: boolean, default: true }
+          - { label: Ostikko, name: title, widget: string }
+          - { label: Sisältö, name: body, widget: text }
+      - label: Ajankohtaista
+        name: Ajankohtaista
+        file: /public/locales/en/news.json
+        fields: 
+          - {
+            label: Ajankohtaista,
+            name: news,
+            widget: markdown,
+            modes: [raw],
+            buttons: [bold],
+            }
+      - label: Aukioloajat
+        name: Aukioloajat
+        file: /public/locales/en/opentimes.json
+        fields: 
+          - label: Aukioloajat
+            name: opening_hours
+            widget: list
+            fields:
+              - { label: Aukioloaika, name: item, widget: string }
+          - label: Poikkeusaukioloajat
+            name: exception_opening_hours
+            widget: list
+            fields:
+              - { label: Poikkeusaika, name: item, widget: string }
+      - label: Ilmoitustaulu
+        name: extra-info
+        file: /public/locales/en/extrainfo.json
+        fields:
+          - { label: Julkinen, name: public, widget: boolean, default: true }
+          - { label: Otsikko, name: heading, widget: string }
+          - {
+              label: Sisältö,
+              name: content,
+              widget: markdown,
+              modes: [raw],
+              buttons: [bold],
+            }
+      - label: "Esittely osiot"
+        name: "about"
+        file: "/public/locales/en/aboutus.json"
+        fields:
+          - label: Osion sisältö
+            widget: list
+            name: about_content
+            fields:
+              - { label: Otsikko, name: title, widget: string }
+              - { label: Ankkuri linkki teksti, name: navlink, widget: string }
+              - {
+                  label: "Sisätö",
+                  name: "body",
+                  widget: markdown,
+                  modes: [rich_text],
+                  buttons: [bold],
+                }
+              - { label: "Vasen valokuva", name: "leftImage", widget: "image" }
+              - { label: "Oikea valokuva", name: "rightImage", widget: "image" } 
+      - label: Lounas ruokalista
+        name: lunchlist
+        file: "/public/locales/en/lunchlist.json"
+        fields:
+          - { label: "Lounas julkinen",
+              name: lunch_public,
+              widget: boolean,
+              default: true,
+          }
+          - { label: Lounaslista otsikko, name: heading, widget: string }
+          - {
+              label: "Lounaslista viikolle",
+              name: "week",
+              widget: "select",
+              options:
+                [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14",
+                  "15",
+                  "16",
+                  "17",
+                  "18",
+                  "19",
+                  "20",
+                  "21",
+                  "22",
+                  "23",
+                  "24",
+                  "25",
+                  "26",
+                  "27",
+                  "28",
+                  "29",
+                  "30",
+                  "31",
+                  "32",
+                  "33",
+                  "34",
+                  "35",
+                  "36",
+                  "37",
+                  "38",
+                  "39",
+                  "40",
+                  "41",
+                  "42",
+                  "43",
+                  "44",
+                  "45",
+                  "46",
+                  "47",
+                  "48",
+                  "49",
+                  "50",
+                  "51",
+                  "52",
+                ],
+            }
+          - { label: "Valokuva 1", name: "imageone", widget: "image" }
+          - { label: "Valokuva 2", name: "imagetwo", widget: "image" }
+          - { label: "Valokuva 3", name: "imagethree", widget: "image" }
+          - label: Lounas annokset
+            name: foods
+            widget: list
+            fields:
+              - { label: Annoksen nimi, name: title, widget: string }
+              - {
+                  label: Annoksen sisältö,
+                  name: content,
+                  widget: markdown,
+                  modes: [raw],
+                  buttons: [bold],
+                }
+              - { label: "Annoksen hinta", name: "price", widget: "string" }
+              - label: "Annoksen tyyppi"
+                name: "type"
+                widget: "select"
+                options: ["Lunch", "Appetizer", "Main course", "Dessert"]
+          - label: Lounas juomat
+            name: drinks
+            widget: list
+            required: false
+            fields:
+              - { label: Juoman nimi, name: title, widget: string }
+              - { label: "Juoman hinta", name: "price", widget: "string" }
+              - { label: "Juomat julkiset",
+                  name: drinsk_public,
+                  widget: boolean,
+                  default: true,
+                  required: false
+                }
+              - label: "Juoman tyyppi"
+                name: "type"
+                widget: "select"
+                options:
+                  [
+                    { label: "Kahvi", value: "Cafe" },
+                    { label: "Virvoitusjuoma", value: "Soft drink" },
+                    { label: "Alkoholittomat", value: "Non-alcoholic" },
+                    { label: "Olut / Siideri", value: "Beer / Cider" },
+                    { label: "Viini", value: "Wine" },
+                  ]
+      - label: A la carte ruokalista
+        name: "alacarte"
+        file: "/public/locales/en/alacartelist.json"
+        fields:
+          - { label: "Valokuva 1", name: "imageone", widget: "image" }
+          - { label: "Valokuva 2", name: "imagetwo", widget: "image" }
+          - { label: "Valokuva 3", name: "imagethree", widget: "image" }
+          - label: A ala carte annokset
+            name: foods
+            widget: list
+            fields:
+              - { label: Annoksen nimi, name: title, widget: string }
+              - {
+                  label: Annoksen sisältö,
+                  name: content,
+                  widget: markdown,
+                  modes: [raw],
+                  buttons: [bold],
+                }
+              - { label: "Annoksen hinta", name: "price", widget: "string" }
+              - label: "Annoksen tyyppi"
+                name: "type"
+                widget: "select"
+                options: ["Appetizer", "Main course", "Dessert", "Plateau de"]
+          - label: A la carte juomat
+            name: drinks
+            widget: list
+            fields:
+              - { label: Juoman nimi, name: title, widget: string }
+              - {
+                  label: "Juoman kuvaus",
+                  name: "description",
+                  widget: "string",
+                }
+              - { label: "Juoman hinta", name: "price", widget: "string" }
+              - label: "Juoman tyyppi"
+                name: "type"
+                widget: "select"
+                options:
+                  [
+                    { label: "Muut juomat", value: "Other drinks" },
+                    { label: "Valkoviini", value: "White Wine" },
+                    { label: "Punaviini", value: "Red Wine" },
+                    { label: "Kuohuviini", value: "Sparkling Wine" },
+                    { label: "Rose", value: "Rose" },
+                  ]
+      - label: Sesonki ruokalista
+        name: seasonmenu
+        file: /public/locales/en/seasonmenu.json
+        fields:
+          - label: Menu
+            name: seasonmenus
+            widget: list
+            fields:
+              - { label: Menun nimi, name: title, widget: string }
+              - { label: Julkinen, name: public, widget: boolean, default: true }
+              - { label: Menun hinta, name: price, widget: string }
+              - { label: Aputeksti, name: info, widget: markdown, modes: [raw], required: false}
+              - label: Menun annokset
+                widget: list
+                name: foods
+                fields: 
+                - { label: Annoksen nimi, name: title, widget: string }
+                - {
+                    label: Annoksen sisältö,
+                    name: content,
+                    widget: markdown,
+                    modes: [raw],
+                    buttons: [bold],
+                    required: false
+                  }
+                - { label: "Annoksen hinta", name: "price", widget: "string" }
+                - {
+                  label: "Hinta julkinen",
+                  name: price_public,
+                  widget: boolean,
+                  default: true,
+                }
+                - label: "Annoksen tyyppi"
+                  name: "type"
+                  widget: "select"
+                  options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka"]
+                  required: false
+                - {
+                  label: "Valinta vaihtoehto",
+                  name: choice,
+                  widget: boolean,
+                  default: false,
+                }
+              - label: Menun juomat
+                name: drinks
+                widget: list
+                required: false
+                fields:
+                  - { label: Juoman nimi, name: title, widget: string }
+                  - {
+                      label: "Juoman kuvaus",
+                      name: "description",
+                      widget: "string",
+                    }
+                  - { label: "Juoman hinta", name: "price", widget: "string" }
+                  - label: "Juoman tyyppi"
+                    name: "type"
+                    widget: "select"
+                    options:
+                      [
+                        { label: "Muut juomat", value: "Other drinks" },
+                        { label: "Valkoviini", value: "White Wine" },
+                        { label: "Punaviini", value: "Red Wine" },
+                        { label: "Kuohuviini", value: "Sparkling Wine" },
+                        { label: "Rose", value: "Rose" },
+                      ]           
