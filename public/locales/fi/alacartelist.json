@@ -1,14 +1,14 @@
 {
   "foods": [
     {
-      "title": "POMME de TERRE d’ÉTÉ ",
-      "content": "Saariston kesäperunoita, paistettua kotimaista korvasientä, \nluomu uppomuna, tuoreita herneitä ja tillihollandaise\n\nSummer potatoes, sautéed false morel , organic poached egg,\nfresh summer peas and dill Hollandaise\n\n\n\n\n",
-      "price": "17",
+      "title": "CARROTTE et POMME de TERRE au TRUFFE",
+      "content": "Kotimaista luomu porkkanaa, pähkinävoissa paistettu tryffeli-perunalettu, tryffeli-krassisalaattia ja tryffelidressing\n \nFinnish organic carrot, truffle potato crepe pan fried  in nut\nbutter, truffle cress salad and truffle dressing\n\n\n\n\n\n",
+      "price": "18",
       "type": "Alkuruoka"
     },
     {
-      "title": "LANGOUSTINE et PAIN PERDU ",
-      "content": "Rapeaksi paistettu “Pain Perdu”, Merirapua, rakuunaa\nja tillillä maustettua Beurre Blanc -kastiketta\n\nPain perdu fried to crisp, Langoustine, tarragon \nand Beurre Blanc seasoned with dill\n\n\n",
+      "title": "SAUMON WASABI",
+      "content": "Sokerisuolattua lohifilettä, pikkelöityä kurkkua,\nwasabikreemiä ja kirjolohenmätiä\n\nSugar salted salmon filée, cucumber pickles, wasabi creme \nand salmon roe\n\n\n\n",
       "price": "21",
       "type": "Alkuruoka"
     },
@@ -31,8 +31,8 @@
       "type": "Pääruoka"
     },
     {
-      "title": "CHOUFLEUR et TRUFFE",
-      "content": "\r\nLuomu kukkakaali Flan, paahdettua kukkakaalia, \nkarhunlaukkakastiketta  ja tuoretta kesätryffeliä\n                                  \nOrganic cauliflower flan, roasted  cauliflower, ramsons sauce \n& fresh summer truffle   \n\n\n\n\n",
+      "title": "BETTRAVE  FLAN et FROMAGE de CHEVRE",
+      "content": "\r\nLuomu punajuuri-Flan, mehustettua punajuurta, \npunajuurihollandaise ja pehmeää vuohenjuustoa\n                                   \nOrganic beetroot flan, beetroot juice, beetroot hollandaise \nand goat cheese\n   \n\n\n\n\n",
       "price": "26",
       "type": "Pääruoka"
     },
@@ -43,33 +43,33 @@
       "type": "Pääruoka"
     },
     {
-      "title": "BOEUF ROSSINI",
-      "content": "Beef Rossini;  Naudan kotimaisesta sisäfileestä, paistettua ranskalaista ankanmaksaa, tryffelikastiketta ja  briossia\n\nBeef Rossini; Finish tenderloin, fried French duck liver, truffle\nsauce &  brioche\n   \n\n\n",
-      "price": "38",
+      "title": "GIGOT d’AGNEAU et ENTRECOTE d’AGNEAU",
+      "content": "Miedosti yön yli kypsennettyä luomu karitsan entrecotea, karitsan kareeta, savustettua luomu selleripyreetä, kyssäkaalia ja tumma rosmariinikastike\n\nOver night cooked organic lamb, smoked celery purée, kohlrabi\nand dark rosmary sauce \n\n   \n\n\n",
+      "price": "39",
       "type": "Pääruoka"
     },
     {
-      "title": "GLACE à la CHOCOLAT BLANC et CARAMEL SALÉ",
-      "content": "Valkosuklaa jäätelöä ja suolakaramellia\n\nWhite chocolate ice cream with salted caramel\n\n\n\n\n\r\n\n",
+      "title": "TARTE TATIN",
+      "content": "Omena Tarte Tatin ja Calvadosjäätelöä\n \nApple Tarte Tatin and Calvados Ice Cream\n\n\n\n\n\n\r\n\n",
       "price": "12",
       "type": "Jälkiruoka"
     },
     {
-      "title": "PAVLOVA d’ÉTÉ et SORBET à la FRAISE",
-      "content": "Kesäinen Pavlova ja mansikkasorbettia\n\nSummary Pavlova with strawberry sorbet\n\n",
+      "title": "CREME BRULÉE ",
+      "content": "Lakritsilla maustettu creme brulée ja sitruunaruohosorbettia\n\nLicorice flavoured Creme Brulée and lemongrass sorbet\n\n\n",
       "price": "12",
       "type": "Jälkiruoka"
     },
     {
-      "title": "APRICOT et SABAYON",
-      "content": "Vaniljalla ja tähtianiksella maustettuja sekä karamellisoituja\naprikooseja, vadelmasorbettia ja Sabayon -kastiketta\n\nVanilla & star anise flavored and caramelized apricot, \nraspberry sorbet and Sabayon\n\n\n\n\r\n",
+      "title": "GROSEILLE et FINANCIER",
+      "content": "Vanilija sokeriliemessä kypsennettyjä Kotimaisia Karviaisia, \nmantelikakkua ja karviaisvaahtoa\n \nFinish Gooseberry in vanilla sugar syrup, almond cake and\nGooseberry-whipped cream\n\n\n\n\n\r\n",
       "price": "12",
       "type": "Jälkiruoka"
     },
     {
       "title": "MENU SURPRISE",
       "content": "Keittiömestarin 5 ruokalajin yllätysmenu, sesongin parhaista raaka-aineista\n\nChef’s 5-course surprise menu, from the best ingredients of the season\n",
-      "price": "72",
+      "price": "75",
       "type": "Pääruoka"
     },
     {
