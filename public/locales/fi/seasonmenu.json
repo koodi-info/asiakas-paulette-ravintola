@@ -50,69 +50,104 @@
       "drinks": []
     },
     {
-      "public": false,
-      "title": "UUDENVUODEN MENU",
-      "price": "79",
-      "info": "7 RUOKALAJIN MENU ALKAEN KLO:16:00",
+      "public": true,
+      "title": "Samppanja menu",
+      "price": "87",
+      "info": "Samppanja illallis menu launataina 7.10.\nMenun hinta 87 € sekä juoma paketti 92 €",
       "foods": [
         {
           "price_public": false,
           "choice": false,
-          "title": "Coquille Saint-Jacques  et Oeufs de Truite",
-          "content": "Kampasimpukkaa ja taimenen mätiä \r\nScallop with Trout roe\r\n",
+          "title": "Ostereita",
+          "content": "Gillardeau,  Perle Blanche sekä Irlantilainen Tia-maraa\n",
           "price": "0",
           "type": "Alkuruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Artichaut et Truffe",
-          "content": "Maa-artisokkaa ja tryffeliä\n\n\r\nJerusalem artichoke and truffle\r\n",
+          "title": "Ankanmaksa moussea ja omenaa",
+          "content": "Pehmeä ankanmaksaaa ja karamellisoitua omenaa\r\n",
           "price": "0",
           "type": "Alkuruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Cerf Tartare",
-          "content": "Peuratartar\n\n\r\nDeer tartar\r\n",
+          "title": "Tonnikalaa pain perdu ja dashia",
+          "content": "Grillattua Tonnikalaa, paistettua pain perdu sekä dashi lientä",
           "price": "0",
           "type": "Alkuruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Cabillaud et Wasabi",
-          "content": "Turskaa ja wasabia\n\n\r\nCodfish and wasabi\r\n",
+          "title": "Porkkanaa ja Tryffeliä",
+          "content": "Kotimaisia paahdettuja väriporkkanoita, mustaa tryffeliä, tryffeli-perunalettu ja porkkanakastiketta\n",
           "price": "0",
           "type": "Alkuruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Canard et Figue",
-          "content": "Ankanrintaa ja viikunaa\n\n\r\nDuck breast and fig\r\n",
+          "title": "Ruijan pallasta ja ranskalaista kaviaaria",
+          "content": "Beurre Blanc -kastikkeessa kypsennettyä norjalaista Ruijan pallasta, puikulaperunaa ja ranskalaista kaviaaria\n\r\n",
           "price": "0",
           "type": "Pääruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Orange sanguine et Campari",
-          "content": "Veriappelsiinia ja Camparia\n\n\r\nBlood orange and Campari\r\n",
+          "title": "Passionhedelmä Pavlova ja mango sorbettia",
+          "content": "Passionhedelmä Pavlova ja mango sorbettia\n",
           "price": "0",
           "type": "Pääruoka"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "title": "Chocolat et framboise",
-          "content": "Suklaata ja vadelmaa\n\n\r\nChocolate and raspberry\r\n",
-          "price": "0",
-          "type": "Jälkiruoka"
         }
       ],
-      "drinks": []
+      "drinks": [
+        {
+          "title": "Champagne Taittinger Brut reserve, Reims",
+          "description": "Champagne",
+          "price": "0",
+          "type": "Sparkling Wine"
+        },
+        {
+          "title": "Champagne Gruet Cuvée des 3 Blancs, Cote des Bar",
+          "description": "Champagne",
+          "price": "0",
+          "type": "Sparkling Wine"
+        },
+        {
+          "title": "Champagne Palmer & Co Blanc de Noirs Magnum, Reims",
+          "description": "Champagne",
+          "price": "0",
+          "type": "Sparkling Wine"
+        },
+        {
+          "title": "Champagne Pascal Walczak Rosé de Maceration, Les Riceys",
+          "description": "Champagne",
+          "price": "0",
+          "type": "Sparkling Wine"
+        },
+        {
+          "title": "Champagne Gosset extra Brut, Aý ",
+          "description": "Champagne",
+          "price": "0",
+          "type": "Sparkling Wine"
+        },
+        {
+          "title": "Champagne H. Goutorbe Special Club 2012, Aý",
+          "description": "Champagne",
+          "price": "0",
+          "type": "Sparkling Wine"
+        },
+        {
+          "title": "Champagne Barbier-Louvet Doux 1er Cru",
+          "description": "Champagne",
+          "price": "0",
+          "type": "Sparkling Wine"
+        }
+      ]
     },
     {
       "public": true,
