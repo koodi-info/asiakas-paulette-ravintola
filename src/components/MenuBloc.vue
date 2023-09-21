@@ -11,7 +11,7 @@
                 class="menu__item__price"
                 v-if="!!item.price_public || item.price_public == null"
               >
-                €{{ item.price }}
+                {{ item.price }}€
               </div>
             </div>
             <div class="menu__item__decription">
@@ -31,7 +31,12 @@
                 {{ item.title }}<br />
                 <span>{{ item.description }}</span>
               </p>
-              <div class="menu__item__price">€{{ item.price }}</div>
+             <div
+                class="menu__item__price"
+                v-if="!!item.price_public || (item.price_public == null && item.price !== '')"
+              >
+                {{ item.price }}€
+              </div>
             </div>
             <div class="menu__item__decription">
               <p>

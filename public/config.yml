@@ -336,7 +336,7 @@ collections:
                 - label: "Annoksen tyyppi"
                   name: "type"
                   widget: "select"
-                  options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka", ""]
+                  options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka", "Menu"]
                   required: false
                 - {
                   label: "Valinta vaihtoehto",
@@ -355,7 +355,7 @@ collections:
                       name: "description",
                       widget: "string",
                     }
-                  - { label: "Juoman hinta", name: "price", widget: "string" }
+                  - { label: "Juoman hinta", name: "price", widget: "string", required: false}
                   - label: "Juoman tyyppi"
                     name: "type"
                     widget: "select"
@@ -580,7 +580,7 @@ collections:
             required: false
             fields:
               - { label: Juoman nimi, name: title, widget: string }
-              - { label: "Juoman hinta", name: "price", widget: "string" }
+              - { label: "Juoman hinta", name: "price", widget: "string", required: false }
               - { label: "Juomat julkiset",
                   name: drinsk_public,
                   widget: boolean,
