@@ -58,7 +58,7 @@
         {
           "price_public": false,
           "choice": false,
-          "title": "Ostereita",
+          "title": "HUÎTRES",
           "content": "Gillardeau,  Perle Blanche sekä Irlantilainen Tia-maraa\n",
           "price": "0",
           "type": "Menu"
@@ -66,15 +66,15 @@
         {
           "price_public": false,
           "choice": false,
-          "title": "Ankanmaksa moussea ja omenaa",
-          "content": "Pehmeä ankanmaksaaa ja karamellisoitua omenaa\r\n",
+          "title": "FOIS de CANARD",
+          "content": "Pehmeää ankanmaksaaa ja karamellisoitua omenaa\r\n",
           "price": "0",
           "type": "Menu"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Tonnikalaa pain perdu ja dashia",
+          "title": "THON",
           "content": "Grillattua Tonnikalaa, paistettua pain perdu sekä dashi lientä",
           "price": "0",
           "type": "Menu"
@@ -82,7 +82,7 @@
         {
           "price_public": false,
           "choice": false,
-          "title": "Porkkanaa ja Tryffeliä",
+          "title": "CARROTS et TRUFFES",
           "content": "Kotimaisia paahdettuja väriporkkanoita, mustaa tryffeliä, tryffeli-perunalettu ja porkkanakastiketta\n",
           "price": "0",
           "type": "Menu"
@@ -90,7 +90,7 @@
         {
           "price_public": false,
           "choice": false,
-          "title": "Ruijan pallasta ja ranskalaista kaviaaria",
+          "title": "FLÉTAN et CAVIAR",
           "content": "Beurre Blanc -kastikkeessa kypsennettyä norjalaista Ruijan pallasta, puikulaperunaa ja ranskalaista kaviaaria\n\r\n",
           "price": "0",
           "type": "Menu"
@@ -98,7 +98,7 @@
         {
           "price_public": false,
           "choice": false,
-          "title": "Passionhedelmä Pavlova ja mango sorbettia",
+          "title": "PASSION PAVLOVA",
           "content": "Passionhedelmä Pavlova ja mango sorbettia\n",
           "price": "0",
           "type": "Menu"
