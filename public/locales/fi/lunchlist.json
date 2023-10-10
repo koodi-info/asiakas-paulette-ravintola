@@ -1,47 +1,11 @@
 {
   "heading": "Paulette Lounas 10-13.10",
   "imagethree": "/images/uploads/petitpois.jpg",
-  "luncmenuheading": "Lounas menu",
-  "price": "100",
-  "lunchmenu": [
-    {
-      "title": "Annos 1",
-      "content": "S﻿isältö",
-      "price": "10",
-      "type": "Alkuruoka"
-    },
-    {
-      "title": "Annos 2",
-      "content": "S﻿isältö",
-      "price": "10",
-      "type": "Pääruoka"
-    },
-    {
-      "title": "Annos 3",
-      "content": "S﻿isältö",
-      "price": "10",
-      "type": "Jälkiruoka"
-    }
-  ],
   "lunchlists": "hello",
   "imageone": "/images/uploads/lounassalaatti.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
   "week": "41",
-  "foods": [
-    {
-      "title": "Bouillabaisse",
-      "content": "Pauleten klassikko Bouillabaisse",
-      "price": "28",
-      "type": "Lounas"
-    },
-    {
-      "title": "Plat du jour",
-      "content": "Spagetti Bolognese",
-      "price": "15",
-      "type": "Lounas"
-    }
-  ],
-  "lunch_drinks_public": true,
+  "foods": [],
   "drinks": [
     {
       "title": "Espresso ",
@@ -104,5 +68,5 @@
       "type": "Olut / Siideri"
     }
   ],
-  "lunch_public": false
+  "lunch_public": true
 }
