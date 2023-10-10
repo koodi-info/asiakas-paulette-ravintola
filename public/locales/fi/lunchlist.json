@@ -5,7 +5,20 @@
   "imageone": "/images/uploads/lounassalaatti.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
   "week": "41",
-  "foods": [],
+  "foods": [
+    {
+      "title": "Plat du jour ",
+      "content": "Spagetti Bolognese",
+      "price": "15",
+      "type": "Lounas"
+    },
+    {
+      "title": "CARROTTE et POMME de TERRE au TRUFFE",
+      "price": "18",
+      "type": "Lounas",
+      "content": "safafg"
+    }
+  ],
   "drinks": [
     {
       "title": "Espresso ",
