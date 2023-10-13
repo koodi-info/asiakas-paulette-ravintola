@@ -3,36 +3,36 @@
     {
       "title": "Meistä",
       "body": "Syksyllä 2021 Ravintola Paulette koki omistajamuutoksen, kun Jack's Delistä tutut keittiöpuolen taiturit Kalle Lindroth ja Andreas Toth ottivat kokonaisuudessaan vastuun ravintolatoiminnasta. Kalle ja Andreas ovat vuosikymmenien ajan keränneet kokemusta Helsingin huippu ruokaravintoloista. \"Paulettessa haluamme tuoda kokemuksen tunnelmallisesta kortteliravintolasta, jossa pääsemme jakamaan asiakkaidemme kanssa ruokaelämyksiä, joita olemme keränneet pitkin vuosia ja luoda ihania ruoka- ja viininautintoja kaikille nautiskelijoille\".",
-      "leftImage": "/images/uploads/tryffeli.jpg",
-      "rightImage": "/images/uploads/keittio.jpeg",
+      "leftImage": "/images/uploads/tausta.png",
+      "rightImage": "/images/uploads/plating.jpg",
       "navlink": "about-us"
     },
     {
       "title": "Keittiö",
       "body": "Kallen ja Andyn lisäksi keittiössä vaikuttaa Jari, Suomenlinnasta rantautunut intohimoinen villiyrttiharrastaja. Työssään tunnollinen monitaituri on kerännyt kattavaa kokemusta Helsingin ruokaravintoloissa ja on ollut mukana yhteisessä toiminnassa jo Jack's Delin alkuajoilta.",
-      "leftImage": "/images/uploads/img_1511.jpg",
-      "rightImage": "/images/uploads/paulette.jpg",
+      "leftImage": "/images/uploads/tausta.png",
+      "rightImage": "/images/uploads/cooks.jpg",
       "navlink": "kitchen"
     },
     {
       "title": "Sali",
       "body": "Saliin pirskahtelevaa energiaa tuovat Nuppe ja Sini. Ammattitaitoinen ote työhön ja aito välittäminen juoma-ja ruokatuotteita kohtaan välittyy heidän työskentelyssään. Ihana asiakaslähtöinen läsnäolo ja hetkessä oleminen luovat entisestään Pauletten pehmeää tunnelmaa.",
-      "leftImage": "/images/uploads/img-5072.jpg",
-      "rightImage": "/images/uploads/paulettehenksu1.2.jpg",
+      "leftImage": "/images/uploads/tausta.png",
+      "rightImage": "/images/uploads/staff.jpg",
       "navlink": "dining-room"
     },
     {
       "title": "Ruoka",
       "body": "Ruokamme perustuu pitkälti ranskalaiseen keittiöön, mutta myös nykypäivään ja Pohjolan makuihin nojautuvia raaka-aineita voi löytää lautaselta. Pidämme yksinkertaisista ja selkeistä mauista, jotka tuovat hyvin esille juuri sesongissa olevan raaka-aineen tunnuspiirteet. Tietysti makukokemusta voi rikastuttaa vielä nauttien annokset hyvien viinien kera, jotka olemme harkitusti valinneet kohtaamaan seosingin annokset. Ruokalistamme vaihtuu sesonkien mukaan unohtamatta klassikkoannoksia, jotka pysyvät vaikka sesongit vaihtuvat. \n\nRuoka ja viini ovat meidän intohimomme. Haluamme tarjota asiakkaillemme unohtumattomia ravintolakokemuksia. \n\nBienvenue!",
-      "leftImage": "/images/uploads/punajuuri.jpg",
-      "rightImage": "/images/uploads/lemonpie.jpg",
+      "leftImage": "/images/uploads/flower.jpg",
+      "rightImage": "/images/uploads/tartars.jpg",
       "navlink": "food"
     },
     {
       "title": "Catering",
       "body": "Teemme myös tilauksesta catering toimituksia, tai voit myös tilata paikanpäälle kokin, sekä tarjoilijan jos niin haluat. Olethan yhteydessä sähköpostitse \n\nhello@paulettehelsinki.com tai puhelimitse +358 40 767 1037 \n\nniin teemme juhlistanne ikimuistoisen.",
-      "leftImage": "/images/uploads/painperdu.jpg",
-      "rightImage": "/images/uploads/peuraa.jpg",
+      "leftImage": "/images/uploads/kitchen.jpg",
+      "rightImage": "/images/uploads/catering.jpg",
       "navlink": "catering"
     }
   ]
