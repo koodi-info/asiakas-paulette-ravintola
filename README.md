@@ -20,3 +20,7 @@
 {t("welcome.title")}
 {t("welcome:title")}
 {t("welcome:title")}
+
+
+Korjaa:
+jos menusta puuttuu "drinks": [] tulee map errori.

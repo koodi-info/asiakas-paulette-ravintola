@@ -71,7 +71,7 @@ console.log(lunchlistApi);
 		imageOne={t("lunchlist:imageone")} 
 		imageTwo={t("lunchlist:imagetwo")} 
 		imageThree={t("lunchlist:imagethree")}/>
-
+	
 	{lunchlistApi && 
 		<div class="relative">
 			<h3 id="lounaslista">{t("lunchlist:heading")} {t("lunchlist:week")}</h3>
@@ -81,6 +81,7 @@ console.log(lunchlistApi);
 			<ImageGridBg />
 		</div>
 	}
+
 
 		{seasonmenus.map((menu) => (
 		<Show when={menu.public}>

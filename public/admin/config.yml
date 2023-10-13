@@ -231,6 +231,8 @@ collections:
                 name: "type"
                 widget: "select"
                 options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka"]
+          - { label: Lounas menu otsikko, name: luncmenuheading, widget: string }
+          - { label: Lounas menu hinta, name: price, widget: string }
           - label: Lounas juomat
             name: drinks
             widget: list
@@ -301,7 +303,7 @@ collections:
                     { label: "Kuohuviini", value: "Kuohuviini" },
                     { label: "Rose", value: "Roseeviini" },
                   ]
-      - label: Sesonki ruokalista
+      - label: Sesonki ruokalista sekä menut
         name: seasonmenu
         file: /public/locales/fi/seasonmenu.json
         fields:
@@ -644,7 +646,7 @@ collections:
                     { label: "Kuohuviini", value: "Sparkling Wine" },
                     { label: "Rose", value: "Rose" },
                   ]
-      - label: Sesonki ruokalista
+      - label: Sesonki ruokalista sekä menut
         name: seasonmenu
         file: /public/locales/en/seasonmenu.json
         fields:

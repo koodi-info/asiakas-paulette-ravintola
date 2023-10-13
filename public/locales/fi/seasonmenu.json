@@ -1,56 +1,65 @@
 {
   "seasonmenus": [
     {
-      "public": false,
-      "title": "JOULULOUNAS",
-      "price": "46",
-      "info": "Valitse joululounaslistan vaihtoehdoista yksi alkuruoka ja yksi pääruoka.",
+      "public": true,
+      "title": "Paulette Lunch",
+      "info": "Ravintola Paulette tarjoaa päivittäin kolmen ruokalajin herkullisen lounaan. Menun annokset ovat myös tilattavissa erikseen. Klassikko annos Bouillabaisse -kalakeitto sekä päivän Plat du jour ovat myös tilattavissa menun lisäksi. Menu sisältää: alkuruoan, pääruoan ja jälkiruoan.\n",
+      "price": "35",
       "foods": [
         {
-          "price_public": false,
-          "title": "BETTERAVES et MORILLES ",
-          "content": "Luomu punajuurta, vuohenjuustolla täytettyä huhtasientä\r\nja punajuurivaahtoa\n\n\r\nOrganic beetroot, goat cheese filled morel mushrooms\r\nand beetroot foam\r\n",
-          "price": "19",
-          "type": "Alkuruoka",
-          "choice": true
+          "price_public": true,
+          "choice": false,
+          "title": "Bouillabaisse",
+          "price": "28",
+          "type": null,
+          "content": "Pauleten klassikko Bouillabaisse"
         },
         {
-          "price_public": false,
-          "title": "CERF TARTARE",
-          "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\npikkelöityä punasipulia, kaprista ja rapeaa perunaa\n\n\r\nTartar of Finnish organic deer, organic egg, \r\npickled red onion, capers and crispy potato\r\n",
-          "price": "20",
-          "type": "Alkuruoka",
-          "choice": true
-        },
-        {
-          "price_public": false,
-          "title": "CABILLAUD et CHOU FLEUR",
-          "content": "Pähkinävoissa haudutettua turskan seläkettä, kukkakaalia\r\nja wasabikastiketta.                                  \r\nF﻿illet of cod poached with beaurre noisette, cauliflower and wasabi sauce",
-          "price": "29",
-          "type": "Pääruoka",
-          "choice": true
-        },
-        {
-          "price_public": false,
-          "title": "MAGRET de CANARD",
-          "content": "P﻿aahdettua ranskalaista ankanrintaa, beluga-linssiragu, \nm﻿ustaherukkaa ja tummaa ankanliemi-kastikettaa.\n\nR﻿oasted French duck breast, beluga lentil ragu\nb﻿lack currant and dark duck jus sauce",
-          "price": "31",
-          "type": "Pääruoka",
-          "choice": true
-        },
-        {
-          "price_public": false,
-          "title": "CITRON et RÉGLISSE ",
-          "content": "Sitruunasavariini ja lakritsijäätelöä\n\n\r\nLemon savarin and licorice ice cream\r\n",
-          "price": "12",
-          "type": "Jälkiruoka",
-          "choice": false
+          "price_public": true,
+          "choice": false,
+          "title": "Plat du jour",
+          "content": "Spagetti bolognese",
+          "price": "15",
+          "type": null
         }
       ],
       "drinks": []
     },
     {
       "public": true,
+      "title": "Paulette Lunch Menu",
+      "price": "35",
+      "info": "",
+      "foods": [
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Bouef Tartare",
+          "content": "Tartar kotimaisesta härän luomu paistista, luomu kananmunaa, pikkelöityä punasipulia ja siianmätiä Beef tartare from Finnish organic beef rump, organic egg, pickled red onion, capers and crispy potatoes",
+          "price": "0",
+          "type": "Alkuruoka"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "SANDRE",
+          "content": "Valkoviinissä kypsennettyä kuhaa, puikulaperunaa, hopeasipulia, pinaattia, Beurre Blanc -kastiketta. In white wine poached pike-perch , potato, pyrè, silver onion, spinach, Beurre Blanc",
+          "price": "0",
+          "type": "Pääruoka"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "CREME BRULÉE",
+          "content": "Lakritsilla maustettu creme brulée ja sitruunaruohosorbettia Licorice flavoured Creme Brulée and lemongrass sorbet",
+          "price": "0",
+          "type": "Jälkiruoka"
+        }
+      ],
+      "drinks": []
+    },
+    {
+      "public": false,
       "title": "Samppanja menu",
       "price": "87",
       "info": "Samppanja illallis menu launataina 7.10.\nMenun hinta 87 € sekä juoma paketti 92 €",
@@ -150,26 +159,50 @@
       ]
     },
     {
-      "public": true,
-      "title": "Paulette Lunch",
-      "info": "Ravintola Paulette tarjoaa päivittäin kolmen ruokalajin herkullisen lounaan. Menun annokset ovat myös tilattavissa erikseen. Klassikko annos Bouillabaisse -kalakeitto sekä päivän Plat du jour ovat myös tilattavissa menun lisäksi. Menu sisältää: alkuruoan, pääruoan ja jälkiruoan.\n",
-      "price": "35",
+      "public": false,
+      "title": "JOULULOUNAS",
+      "price": "46",
+      "info": "Valitse joululounaslistan vaihtoehdoista yksi alkuruoka ja yksi pääruoka.",
       "foods": [
         {
-          "price_public": true,
-          "choice": false,
-          "title": "Bouillabaisse",
-          "price": "28",
-          "type": null,
-          "content": "Pauleten klassikko Bouillabaisse"
+          "price_public": false,
+          "title": "BETTERAVES et MORILLES ",
+          "content": "Luomu punajuurta, vuohenjuustolla täytettyä huhtasientä\r\nja punajuurivaahtoa\n\n\r\nOrganic beetroot, goat cheese filled morel mushrooms\r\nand beetroot foam\r\n",
+          "price": "19",
+          "type": "Alkuruoka",
+          "choice": true
         },
         {
-          "price_public": true,
-          "choice": false,
-          "title": "Plat du jour",
-          "content": "Päivän annos, kysy lisää tarjoilijalta",
-          "price": "15",
-          "type": null
+          "price_public": false,
+          "title": "CERF TARTARE",
+          "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\npikkelöityä punasipulia, kaprista ja rapeaa perunaa\n\n\r\nTartar of Finnish organic deer, organic egg, \r\npickled red onion, capers and crispy potato\r\n",
+          "price": "20",
+          "type": "Alkuruoka",
+          "choice": true
+        },
+        {
+          "price_public": false,
+          "title": "CABILLAUD et CHOU FLEUR",
+          "content": "Pähkinävoissa haudutettua turskan seläkettä, kukkakaalia\r\nja wasabikastiketta.                                  \r\nF﻿illet of cod poached with beaurre noisette, cauliflower and wasabi sauce",
+          "price": "29",
+          "type": "Pääruoka",
+          "choice": true
+        },
+        {
+          "price_public": false,
+          "title": "MAGRET de CANARD",
+          "content": "P﻿aahdettua ranskalaista ankanrintaa, beluga-linssiragu, \nm﻿ustaherukkaa ja tummaa ankanliemi-kastikettaa.\n\nR﻿oasted French duck breast, beluga lentil ragu\nb﻿lack currant and dark duck jus sauce",
+          "price": "31",
+          "type": "Pääruoka",
+          "choice": true
+        },
+        {
+          "price_public": false,
+          "title": "CITRON et RÉGLISSE ",
+          "content": "Sitruunasavariini ja lakritsijäätelöä\n\n\r\nLemon savarin and licorice ice cream\r\n",
+          "price": "12",
+          "type": "Jälkiruoka",
+          "choice": false
         }
       ],
       "drinks": []

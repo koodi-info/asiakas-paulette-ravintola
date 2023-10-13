@@ -105,9 +105,10 @@ export default {
   &__container {
     @apply relative container mx-auto max-w-6xl flex justify-start flex-wrap bg-white p-4 sm:p-8 z-10;
     h3 {
-      @apply font-serif font-bold mb-12;
+      @apply font-serif font-bold mb-6;
       color: var(--color02);
       font-size: clamp(1rem, 1vw + 1.2rem, 1.2rem);
+      text-align: left;
     }
     h4 {
       @apply font-serif font-bold mb-4;
