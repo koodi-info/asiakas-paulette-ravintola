@@ -18,7 +18,7 @@
           "price_public": true,
           "choice": false,
           "title": "Plat du jour",
-          "content": "Spagetti bolognese",
+          "content": "Linguine Vongole",
           "price": "15",
           "type": null
         }
@@ -34,24 +34,24 @@
         {
           "price_public": false,
           "choice": false,
-          "title": "Bouef Tartare",
-          "content": "Tartar kotimaisesta härän luomu paistista, luomu kananmunaa, pikkelöityä punasipulia ja siianmätiä Beef tartare from Finnish organic beef rump, organic egg, pickled red onion, capers and crispy potatoes",
+          "title": "CARROTTE et POMME de TERRE au TRUFFE",
+          "content": "Kotimaista luomu porkkanaa, pähkinävoissa paistettu tryffeli-perunalettu, tryffeli-krassisalaattia ja tryffelidressing Finnish organic carrot, truffle potato crepe pan fried in nut butter, truffle cress salad and truffle dressing",
           "price": "0",
           "type": "Alkuruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "SANDRE",
-          "content": "Valkoviinissä kypsennettyä kuhaa, puikulaperunaa, hopeasipulia, pinaattia, Beurre Blanc -kastiketta. In white wine poached pike-perch , potato, pyrè, silver onion, spinach, Beurre Blanc",
+          "title": "ENTRECOTE d’AGNEAU et ROMARIN",
+          "content": "Miedosti yön yli kypsennettyä luomu karitsan entrecotea ja tumma rosmariinikastike Over night cooked organic lamb and dark rosmary sauce",
           "price": "0",
           "type": "Pääruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "CREME BRULÉE",
-          "content": "Lakritsilla maustettu creme brulée ja sitruunaruohosorbettia Licorice flavoured Creme Brulée and lemongrass sorbet",
+          "title": "GROSEILLE et FINANCIER",
+          "content": "Vanilija sokeriliemessä kypsennettyjä Kotimaisia Karviaisia, mantelikakkua ja karviaisvaahtoa Finish Gooseberry in vanilla sugar syrup, almond cake and Gooseberry-whipped cream",
           "price": "0",
           "type": "Jälkiruoka"
         }
