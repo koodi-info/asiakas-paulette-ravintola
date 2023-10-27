@@ -18,7 +18,7 @@
           "price_public": true,
           "choice": false,
           "title": "Plat du jour",
-          "content": "C﻿roque monsieur (L)",
+          "content": "E﻿ntrecôte & Bearnaise",
           "price": "15",
           "type": null
         }
@@ -34,24 +34,24 @@
         {
           "price_public": false,
           "choice": false,
-          "title": "Soupe de homard et saumon",
-          "content": "Kuohkeaa hummerikeittoa, paahdettua lohta ja marinoitua fenkolia (L,G)",
+          "title": "Artichaut & Truffe",
+          "content": "P﻿aahdettua maa-artisokkaa, kotimaista omenaa ja tuoretta tryffeliä (L,G)",
           "price": "0",
           "type": "Alkuruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Risotto aux gaufres en entonnoir",
-          "content": "S﻿uppilovahvero risotto, parmesaania ja tuoretta tryffeliä (L,G)",
+          "title": "Saumon fumé & Plaquette d`entonnoir",
+          "content": "Miedosti savustettua lohta ja suppilovahverokastiketta (L)",
           "price": "0",
           "type": "Pääruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Creme brulèe",
-          "content": "Lakritsilla maustettu creme brulée ja sitruunaruohosorbettia Licorice flavoured Creme Brulée and lemongrass sorbet",
+          "title": "Chocolat noir & Miel",
+          "content": "T﻿ummaa suklaata, luomu hunajaa ja vaniljajäätelöä (L,G)",
           "price": "0",
           "type": "Jälkiruoka"
         }
