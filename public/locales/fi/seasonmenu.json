@@ -3,14 +3,14 @@
     {
       "public": true,
       "title": "Paulette Lunch",
-      "info": "Ravintola Paulette tarjoaa päivittäin kolmen ruokalajin herkullisen lounaan. Menun annokset ovat myös tilattavissa erikseen. Klassikko annos Bouillabaisse -kalakeitto sekä päivän Plat du jour ovat myös tilattavissa menun lisäksi. Menu sisältää: alkuruoan, pääruoan ja jälkiruoan. Lounas 30.10-3.11.2023 Viikko 44\n",
+      "info": "Ravintola Paulette tarjoaa päivittäin kolmen ruokalajin herkullisen lounaan. Menun annokset ovat myös tilattavissa erikseen. Klassikko annos Bouillabaisse -kalakeitto sekä päivän Plat du jour ovat myös tilattavissa menun lisäksi. Menu sisältää: alkuruoan, pääruoan ja jälkiruoan. Lounas 7-10.11.2023 Viikko 45\n",
       "price": "35",
       "foods": [
         {
           "price_public": true,
           "choice": false,
           "title": "Bouillabaisse",
-          "price": "28",
+          "price": "32",
           "type": null,
           "content": "Pauleten klassikko Bouillabaisse"
         },
@@ -18,7 +18,7 @@
           "price_public": true,
           "choice": false,
           "title": "Plat du jour",
-          "content": "E﻿ntrecôte & Bearnaise",
+          "content": "R﻿agoût de cerf\nP﻿eura Ragù",
           "price": "15",
           "type": null
         }
@@ -34,24 +34,24 @@
         {
           "price_public": false,
           "choice": false,
-          "title": "Artichaut & Truffe",
-          "content": "P﻿aahdettua maa-artisokkaa, kotimaista omenaa ja tuoretta tryffeliä (L,G)",
+          "title": "Carrotte et Truffe",
+          "content": "P﻿aahdettua luomu porkkanaa, yrttisalaattia, porkkanavoikastiketta ja tuoretta tryffeliä",
           "price": "0",
           "type": "Alkuruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Saumon fumé & Plaquette d`entonnoir",
-          "content": "Miedosti savustettua lohta ja suppilovahverokastiketta (L)",
+          "title": "Poisson frit du jour",
+          "content": "P﻿aistettua päivän kalaa, sienikastiketta ja piparjuurta",
           "price": "0",
           "type": "Pääruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Chocolat noir & Miel",
-          "content": "T﻿ummaa suklaata, luomu hunajaa ja vaniljajäätelöä (L,G)",
+          "title": "Croseille et financier",
+          "content": "K﻿otimaisia karviaisia, karviaisvaahtoa ja financier",
           "price": "0",
           "type": "Jälkiruoka"
         }
