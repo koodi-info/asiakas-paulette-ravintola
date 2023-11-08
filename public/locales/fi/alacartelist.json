@@ -168,64 +168,58 @@
       "type": "Valkoviini"
     },
     {
-      "title": "Brachetto d'Acqui",
-      "description": "Brachetto TANARO, ITALY",
-      "price": "38",
+      "title": "Château Haut-Bergeron, Lìllot,  2018",
+      "description": "Sémillon, Sauvignon blanc PREIGNAC, SAUTERNES, FRANCE",
+      "price": "11",
       "type": "Muut juomat"
     },
     {
-      "title": "Ruby Port",
-      "description": "Touriga franca, touriga nacional, tinta roriz PINHÃO, DOURO PORTUGAL",
+      "title": "Moscato d'Asti Massimo Rivetti",
+      "description": "Moscato  TREISO, PIEMONTE, ITALY",
       "type": "Muut juomat",
-      "price": "65"
+      "price": "10"
     },
     {
-      "title": "La Vie en Rouge",
+      "title": "Braida, Brachetto d'Acqui\t",
+      "description": "Brachetto TANARO, ITALY",
+      "price": "10",
+      "type": "Muut juomat"
+    },
+    {
+      "title": "Francois Ducrot, La Vie en Rouge",
       "description": "Merlot  LANGUEDOC, FRANCE",
       "price": "58",
       "type": "Punaviini"
     },
     {
-      "title": "Chitry Bourgogne Rouge Constance",
-      "description": "Pinot Noir CHITRY, FRANCE",
-      "price": "93",
+      "title": "Olivier Morin,Chitry Bourgogne Rouge Constance",
+      "description": "Pinot Noir CHITRY, BOURGOGNE,  FRANCE",
+      "price": "95",
       "type": "Punaviini"
     },
     {
-      "title": "Léon et seraphin 2016 & 2017",
-      "description": "Syrah, Grenache LA BEAUME, RHÔNE, FRANCE",
+      "title": "Domaine Richaud, Côtes du Rhône",
+      "description": "Grenache, Carginan LA BEAUME, RHÔNE, FRANCE",
       "price": "80",
       "type": "Punaviini"
     },
     {
-      "title": "Bagatelle 2017 ",
-      "description": "Cabernet Franc\t\t      LE-PUY-NOTRE-DAME, FRANCE",
+      "title": "Manoir de la Tête Rouge, Bagatelle \t ",
+      "description": "Cabernet Franc LE-PUY-NOTRE-DAME, FRANCE",
       "price": "76",
       "type": "Punaviini"
     },
     {
-      "title": "Juliénas\t",
-      "description": "Gamay BOURGOGNE,FRANCE",
-      "price": "85",
+      "title": "Aradón, Momento de Aradón 2020",
+      "description": "Tempranillo, Garnacha, Graciano RIOJA, SPAIN",
+      "price": "60",
       "type": "Punaviini"
     },
     {
-      "title": "Les mas de vessiere rosé",
-      "description": "Grenache noir, syrah Pay d´Oc, FRANCE",
-      "price": "65",
-      "type": "Roseeviini"
-    },
-    {
-      "title": "Orange Moon 2021",
-      "description": "Grüner Veltliner, Riesling KREMSTAL, AUSTRIA",
-      "price": "67",
-      "type": "Roseeviini"
-    },
-    {
-      "title": "À Flot Rosé",
-      "description": "Grenache, cinsault, syrah CÔTES DE PROVENCE, FRANCE\t",
-      "price": "70",
-      "type": "Roseeviini"
+      "title": "Bodegas San Roman, Prima 2020",
+      "description": "Tempranillo TORO, SPAIN",
+      "price": "68",
+      "type": "Punaviini"
     }
   ]
 }
