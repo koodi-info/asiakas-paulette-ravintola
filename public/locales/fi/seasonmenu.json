@@ -3,7 +3,7 @@
     {
       "public": true,
       "title": "Paulette Lunch",
-      "info": "Ravintola Paulette tarjoaa päivittäin kolmen ruokalajin herkullisen lounaan. Menun annokset ovat myös tilattavissa erikseen. Klassikko annos Bouillabaisse -kalakeitto sekä päivän Plat du jour ovat myös tilattavissa menun lisäksi. Menu sisältää: alkuruoan, pääruoan ja jälkiruoan. Lounas 7-10.11.2023 Viikko 45\n",
+      "info": "Ravintola Paulette tarjoaa päivittäin kolmen ruokalajin herkullisen lounaan. Menun annokset ovat myös tilattavissa erikseen. Klassikko annos Bouillabaisse -kalakeitto sekä päivän Plat du jour ovat myös tilattavissa menun lisäksi. Menu sisältää: alkuruoan, pääruoan ja jälkiruoan. Lounas 14-17.11.2023. Viikko: 46\n",
       "price": "35",
       "foods": [
         {
@@ -18,7 +18,7 @@
           "price_public": true,
           "choice": false,
           "title": "Plat du jour",
-          "content": "R﻿agoût de cerf\nP﻿eura Ragù",
+          "content": "S﻿campi linquine (L)",
           "price": "15",
           "type": null
         }
@@ -34,24 +34,24 @@
         {
           "price_public": false,
           "choice": false,
-          "title": "Carrotte et Truffe",
-          "content": "P﻿aahdettua luomu porkkanaa, yrttisalaattia, porkkanavoikastiketta ja tuoretta tryffeliä",
+          "title": "Betterave & formage de Chèvre",
+          "content": "P﻿aahdettua luomu punajuurta, yrttisalaattia, tuoretta vuohenjuustoa ja marcona mantelia (L,G)",
           "price": "0",
           "type": "Alkuruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Poisson frit du jour",
-          "content": "P﻿aistettua päivän kalaa, sienikastiketta ja piparjuurta",
+          "title": "Confit de canard et lentilles béluga",
+          "content": "A﻿nkankoipi confit ja beluga linssi muhennosta (L,G)",
           "price": "0",
           "type": "Pääruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Croseille et financier",
-          "content": "K﻿otimaisia karviaisia, karviaisvaahtoa ja financier",
+          "title": "Réglisse et financier",
+          "content": "L﻿akritsijuuri jäätelöä ja mantelikakkua (L,G)",
           "price": "0",
           "type": "Jälkiruoka"
         }
