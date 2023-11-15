@@ -11,9 +11,10 @@ const config: AstroI18nextConfig = {
     "opentimes", 
     "extrainfo", 
     "lunchlist", 
-    "alacartelist", 
+    "alacartelist",
     "seasonmenu",
-    "aboutus"
+    "aboutus",
+    "drinkpairings"
   ]
 };
 

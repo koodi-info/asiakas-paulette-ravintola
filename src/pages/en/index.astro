@@ -70,7 +70,7 @@ const lunchlistApi = t("lunchlist:lunch_public", { returnObjects: true });
 		imageOne={t("lunchlist:imageone")} 
 		imageTwo={t("lunchlist:imagetwo")} 
 		imageThree={t("lunchlist:imagethree")}/>
-
+	
 	{lunchlistApi && 
 		<div class="relative">
 			<h3 id="lounaslista">{t("lunchlist:heading")} {t("lunchlist:week")}</h3>
@@ -80,6 +80,7 @@ const lunchlistApi = t("lunchlist:lunch_public", { returnObjects: true });
 			<ImageGridBg />
 		</div>
 	}
+
 
 		{seasonmenus.map((menu) => (
 		<Show when={menu.public}>
@@ -91,6 +92,7 @@ const lunchlistApi = t("lunchlist:lunch_public", { returnObjects: true });
 		</Show>
 		))}
 
+			
 		<PhotoGrid 
 		imageOne={t("alacartelist:imageone")}
 		imageTwo={t("alacartelist:imagetwo")}

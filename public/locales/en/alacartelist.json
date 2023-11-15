@@ -1,213 +1,219 @@
 {
-    "foods": [
-      {
-        "title": "BETTERAVES et MORILLES",
-        "content": "Luomu Punajuurta, vuohenjuustolla täytettyä huhtasientä\r\nja punajuurivaahtoa\n\n\r\nOrganic beetroot, goat cheese filled Morel mushrooms\r\nand beetroot foam\r\n\n\n",
-        "price": "19",
-        "type": "Appetizer"
-      },
-      {
-        "title": "COQUILLE SAINT-JACQUES et YUZU ",
-        "content": "Raakakypsytettyä kampasimpukkaa, yuzu dressing, \ntaimenen mätiä ja finger limeä\n  \nRaw ripened scallop, yuzu dressing, Trout roe and Finger lime\n\n",
-        "price": "23",
-        "type": "Appetizer"
-      },
-      {
-        "title": "FOIE de CANARD et CUISSES de CAILLE",
-        "price": "23",
-        "content": "Ankanmaksaa, viiriäisen koipia, rapeeta viljaa ja olutvaahtoa\n\n\r\nDuck liver, quail legs, crispy grain and beer foam \r\n\n\n",
-        "type": "Appetizer"
-      },
-      {
-        "title": "CERF TARTARE",
-        "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\npikkelöityä punasipulia, kaprista ja rapeaa perunaa\n\n\r\nTartar from Finnish organic deer rump, organic egg, \r\npickled red onion, capers and crispy potato\r\n",
-        "price": "20",
-        "type": "Appetizer"
-      },
-      {
-        "title": "BOUILLABAISSE",
-        "content": "Siikaa, kampasimpukka, jättirapua, \r\nsinisimpukkaa, hummerilientä ja rouillea\r\n\n\nWhitefish, scallop, king prawn, mussels, \r\nlobster broth and rouille\r\n\n",
-        "price": "28",
-        "type": "Main course"
-      },
-      {
-        "title": "ARTICHAUT et TRUFFE",
-        "content": "\r\nLuomu maa-artisokka tartaletti, kotimaista omenaa \r\nja mustaa tryffeliä\n\n\r\nOrganic jerusalem artichoke tartlet, finnish apple \r\nand black truffle\r\n\n\n",
-        "price": "26",
-        "type": "Main course"
-      },
-      {
-        "title": "CABILLAUD et RACINE NOIRE",
-        "content": "Pähkinävoissa haudutettua turskan seläkettä, paahdettua mustajuurta, kukkakaalia\r\nja wasabilla maustettua kastiketta\n                                  \r\nIn roasted butter cooked cod pension, black root, cauliflower and with wasabi flavored sauce\r\n\n \r\n\n",
-        "price": "29",
-        "type": "Main course"
-      },
-      {
-        "title": "BOEUF WELLINGTON",
-        "content": "Taikinoitu kotimainen naudan sisäfilettä, tryffelillä maustettu sieni dûxelles,\r\npaistettuja haricot vert papuja ja punaviinikastiketta\n\n\r\nBattered finnish beef filet, with truffle flavored mushroom duxelles, haricot vert beans\r\nand red wine sauce\r\n\n",
-        "price": "38",
-        "type": "Main course"
-      },
-      {
-        "title": "CITRON et RÉGLISSE",
-        "content": "Sitruuna Savariini ja lakritsilla maustettua jäätelöä\n\n\r\nLemon Savarin and licorice ice cream\r\n\n\n\r\n\n",
-        "price": "12",
-        "type": "Dessert"
-      },
-      {
-        "title": "CHOCOLAT et FRAMBOISE",
-        "content": "Tumma suklaa Namelakaa, maitosuklaamousse \t\t          ja vadelmasorbettia\n                                                                                                    Dark chocolate Namelaka, milk chocolate mousse                                   and rasberry sorbet",
-        "price": "12",
-        "type": "Dessert"
-      },
-      {
-        "title": "CHAMPAGNE et ORANGE SANGUINE",
-        "content": "Shampanja-hyytelöityä veriappelsiinia, campari sorbettia\nja Sabayon -kastiketta\n\nChampagne jellied blood orange, Campari sorbet and Sabayon\n\n\n\r\n",
-        "price": "12",
-        "type": "Dessert"
-      },
-      {
-        "title": "MENU SURPRISE",
-        "content": "Keittiömestarin 5 ruokalajin yllätysmenu, sesongin parhaista raaka-aineista\n\nChef’s 5-course surprise menu, from the best ingredients of the season\n",
-        "price": "72",
-        "type": "Main course"
-      },
-      {
-        "title": "FROMAGE ",
-        "content": "Sesongin juustoja, hillokkeita ja talon omaa juurileipää\n\nSeasonal cheeses, with compotes and house made root bread\n\r\n",
-        "price": "18",
-        "type": "Dessert"
-      }
-    ],
-    "imageone": "/images/uploads/magretdecanard.jpg",
-    "imagetwo": "/images/uploads/beeftartar.jpg",
-    "imagethree": "/images/uploads/kampasimpukkaa.jpg",
-    "drinks": [
-      {
-        "title": "Castell de Ribes Cava Brut Nature Parellada, Xarello, Macabeo",
-        "description": "PENEDES, SPAIN",
-        "price": "45",
-        "type": "Sparkling Wine"
-      },
-      {
-        "title": "Dopff & Irion Extra Brut Rose Pinot Noir ",
-        "description": "A.O.C Crémant d`Alsace, FRANCE",
-        "price": "55",
-        "type": "Sparkling Wine"
-      },
-      {
-        "title": "Champagne Henri Dosnon Brut Sélection Pinot Noir, Chardonnay",
-        "description": "CHAMPAGNE, FRANCE",
-        "price": "89",
-        "type": "Sparkling Wine"
-      },
-      {
-        "title": "Champagne Taittinger Réserve Brut Chardonnay, Pinot Noir, Pinot Meunier",
-        "description": "CHAMPAGNE, FRANCE",
-        "price": "95",
-        "type": "Sparkling Wine"
-      },
-      {
-        "title": "Franzen Quarzit-Schiefer Riesling",
-        "description": "MOSEL, GERMANY",
-        "price": "63",
-        "type": "White Wine"
-      },
-      {
-        "title": "Kerner Feinherb Weingut Lidy Kerner",
-        "description": "PFALZ, GERMANY",
-        "price": "65",
-        "type": "White Wine"
-      },
-      {
-        "title": "Domaine De Bablut Sauvignon blanc",
-        "description": "LOIRE, FRANCE",
-        "price": "54",
-        "type": "White Wine"
-      },
-      {
-        "title": "Grüner Veltliner Ried Hintern Dorf Grüner Veltliner",
-        "description": "WEINVIERTEL, AUSTRIA",
-        "price": "57",
-        "type": "White Wine"
-      },
-      {
-        "title": "Moillard Le Duché Chardonnay Chardonnay",
-        "description": "BOURGOGNE, FRANCE ",
-        "price": "76",
-        "type": "White Wine"
-      },
-      {
-        "title": "Cortese Vanedda Bianco Catarratto, Grillo",
-        "description": "IGP TERRE SISILIANE, ITALY",
-        "price": "57",
-        "type": "White Wine"
-      },
-      {
-        "title": "Francois d N. Chablis 2018 Chardonnay",
-        "description": "BURGUNDI, FRANCE",
-        "price": "78",
-        "type": "White Wine"
-      },
-      {
-        "title": "Lìlot 2018 Semillon, Sauvignon Blanc",
-        "description": "PREIGNAC, SAUTERNES, FRANCE ",
-        "price": "63",
-        "type": "White Wine"
-      },
-      {
-        "title": "Moscato d'Asti La Vita Moscato",
-        "description": "DOCG MOSCATO D'ASTI, ITALY",
-        "price": "63",
-        "type": "Other drinks"
-      },
-      {
-        "title": "Parajes De Cabriel Bobal 2019",
-        "description": "CAUDETE DE LAS FUENTES, SPAIN",
-        "price": "55",
-        "type": "Red Wine"
-      },
-      {
-        "title": "Chianti Colli Senesi 2019 Sangiovese, Canaiolo, Colorino, Ciliegiolo",
-        "description": "TUSCANY, ITALY",
-        "price": "63",
-        "type": "Red Wine"
-      },
-      {
-        "title": "De lil en Aiguille Merlot",
-        "description": "LANGUEDOC, FRANCE",
-        "price": "51",
-        "type": "Red Wine"
-      },
-      {
-        "title": "Côtes du Rhône Vin Rouge 2016 Carignan, Grenache",
-        "description": "LA BEAUME, RHÔNE, FRANCE",
-        "price": "74",
-        "type": "Red Wine"
-      },
-      {
-        "title": "Château Pontet-Fumet 1996 Merlot, Cabernet Sauvignon, Cabernet Franc",
-        "description": "BORDEAUX, FRANCE",
-        "price": "92",
-        "type": "Red Wine"
-      },
-      {
-        "title": "Moillard Le Duche `Pinot Noir  Pinot Noir",
-        "description": "BOURGOGNE, FRANCE",
-        "price": "67",
-        "type": "Red Wine"
-      },
-      {
-        "title": "La Galoche Rose 2020 Gamay",
-        "description": "ANSE, BEAUJOLAISE, FRANCE",
-        "price": "59",
-        "type": "Rose"
-      },
-      {
-        "title": "Coeur d'Artichaut Rosé` ",
-        "description": " Malbec, Merlot",
-        "price": "50",
-        "type": "Rose"
-      }
-    ]
-  }
+  "foods": [
+    {
+      "title": "BETTERAVES et MORILLES",
+      "content": "Luomu Punajuurta, vuohenjuustolla täytettyä huhtasientä\r\nja punajuurivaahtoa\n\n\r\nOrganic beetroot, goat cheese filled Morel mushrooms\r\nand beetroot foam\r\n\n\n",
+      "price": "19",
+      "type": "Appetizer"
+    },
+    {
+      "title": "COQUILLE SAINT-JACQUES et YUZU ",
+      "content": "Raakakypsytettyä kampasimpukkaa, yuzu dressing, \ntaimenen mätiä ja finger limeä\n  \nRaw ripened scallop, yuzu dressing, Trout roe and Finger lime\n\n",
+      "price": "23",
+      "type": "Appetizer"
+    },
+    {
+      "title": "FOIE de CANARD et CUISSES de CAILLE",
+      "price": "23",
+      "content": "Ankanmaksaa, viiriäisen koipia, rapeeta viljaa ja olutvaahtoa\n\n\r\nDuck liver, quail legs, crispy grain and beer foam \r\n\n\n",
+      "type": "Appetizer"
+    },
+    {
+      "title": "CERF TARTARE",
+      "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\npikkelöityä punasipulia, kaprista ja rapeaa perunaa\n\n\r\nTartar from Finnish organic deer rump, organic egg, \r\npickled red onion, capers and crispy potato\r\n",
+      "price": "20",
+      "type": "Appetizer"
+    },
+    {
+      "title": "BOUILLABAISSE",
+      "content": "Siikaa, kampasimpukka, jättirapua, \r\nsinisimpukkaa, hummerilientä ja rouillea\r\n\n\nWhitefish, scallop, king prawn, mussels, \r\nlobster broth and rouille\r\n\n",
+      "price": "28",
+      "type": "Main course"
+    },
+    {
+      "title": "ARTICHAUT et TRUFFE",
+      "content": "\r\nLuomu maa-artisokka tartaletti, kotimaista omenaa \r\nja mustaa tryffeliä\n\n\r\nOrganic jerusalem artichoke tartlet, finnish apple \r\nand black truffle\r\n\n\n",
+      "price": "26",
+      "type": "Main course"
+    },
+    {
+      "title": "CABILLAUD et RACINE NOIRE",
+      "content": "Pähkinävoissa haudutettua turskan seläkettä, paahdettua mustajuurta, kukkakaalia\r\nja wasabilla maustettua kastiketta\n                                  \r\nIn roasted butter cooked cod pension, black root, cauliflower and with wasabi flavored sauce\r\n\n \r\n\n",
+      "price": "29",
+      "type": "Main course"
+    },
+    {
+      "title": "BOEUF WELLINGTON",
+      "content": "Taikinoitu kotimainen naudan sisäfilettä, tryffelillä maustettu sieni dûxelles,\r\npaistettuja haricot vert papuja ja punaviinikastiketta\n\n\r\nBattered finnish beef filet, with truffle flavored mushroom duxelles, haricot vert beans\r\nand red wine sauce\r\n\n",
+      "price": "38",
+      "type": "Main course"
+    },
+    {
+      "title": "CITRON et RÉGLISSE",
+      "content": "Sitruuna Savariini ja lakritsilla maustettua jäätelöä\n\n\r\nLemon Savarin and licorice ice cream\r\n\n\n\r\n\n",
+      "price": "12",
+      "type": "Dessert"
+    },
+    {
+      "title": "CHOCOLAT et FRAMBOISE",
+      "content": "Tumma suklaa Namelakaa, maitosuklaamousse \t\t          ja vadelmasorbettia\n                                                                                                    Dark chocolate Namelaka, milk chocolate mousse                                   and rasberry sorbet",
+      "price": "12",
+      "type": "Dessert"
+    },
+    {
+      "title": "CHAMPAGNE et ORANGE SANGUINE",
+      "content": "Shampanja-hyytelöityä veriappelsiinia, campari sorbettia\nja Sabayon -kastiketta\n\nChampagne jellied blood orange, Campari sorbet and Sabayon\n\n\n\r\n",
+      "price": "12",
+      "type": "Dessert"
+    },
+    {
+      "title": "MENU SURPRISE",
+      "content": "Keittiömestarin 5 ruokalajin yllätysmenu, sesongin parhaista raaka-aineista\n\nChef’s 5-course surprise menu, from the best ingredients of the season\n",
+      "price": "72",
+      "type": "Main course"
+    },
+    {
+      "title": "FROMAGE ",
+      "content": "Sesongin juustoja, hillokkeita ja talon omaa juurileipää\n\nSeasonal cheeses, with compotes and house made root bread\n\r\n",
+      "price": "18",
+      "type": "Dessert"
+    }
+  ],
+  "imageone": "/images/uploads/magretdecanard.jpg",
+  "imagetwo": "/images/uploads/beeftartar.jpg",
+  "imagethree": "/images/uploads/kampasimpukkaa.jpg",
+  "drinks": [
+    {
+      "title": "Dégustation vin",
+      "description": "Wine package for the chef's 5-course surprise menu",
+      "price": "72",
+      "type": "Wine Pairing"
+    },
+    {
+      "title": "Castell de Ribes Cava Brut Nature Parellada, Xarello, Macabeo",
+      "description": "PENEDES, SPAIN",
+      "price": "45",
+      "type": "Sparkling Wine"
+    },
+    {
+      "title": "Dopff & Irion Extra Brut Rose Pinot Noir ",
+      "description": "A.O.C Crémant d`Alsace, FRANCE",
+      "price": "55",
+      "type": "Sparkling Wine"
+    },
+    {
+      "title": "Champagne Henri Dosnon Brut Sélection Pinot Noir, Chardonnay",
+      "description": "CHAMPAGNE, FRANCE",
+      "price": "89",
+      "type": "Sparkling Wine"
+    },
+    {
+      "title": "Champagne Taittinger Réserve Brut Chardonnay, Pinot Noir, Pinot Meunier",
+      "description": "CHAMPAGNE, FRANCE",
+      "price": "95",
+      "type": "Sparkling Wine"
+    },
+    {
+      "title": "Franzen Quarzit-Schiefer Riesling",
+      "description": "MOSEL, GERMANY",
+      "price": "63",
+      "type": "White Wine"
+    },
+    {
+      "title": "Kerner Feinherb Weingut Lidy Kerner",
+      "description": "PFALZ, GERMANY",
+      "price": "65",
+      "type": "White Wine"
+    },
+    {
+      "title": "Domaine De Bablut Sauvignon blanc",
+      "description": "LOIRE, FRANCE",
+      "price": "54",
+      "type": "White Wine"
+    },
+    {
+      "title": "Grüner Veltliner Ried Hintern Dorf Grüner Veltliner",
+      "description": "WEINVIERTEL, AUSTRIA",
+      "price": "57",
+      "type": "White Wine"
+    },
+    {
+      "title": "Moillard Le Duché Chardonnay Chardonnay",
+      "description": "BOURGOGNE, FRANCE ",
+      "price": "76",
+      "type": "White Wine"
+    },
+    {
+      "title": "Cortese Vanedda Bianco Catarratto, Grillo",
+      "description": "IGP TERRE SISILIANE, ITALY",
+      "price": "57",
+      "type": "White Wine"
+    },
+    {
+      "title": "Francois d N. Chablis 2018 Chardonnay",
+      "description": "BURGUNDI, FRANCE",
+      "price": "78",
+      "type": "White Wine"
+    },
+    {
+      "title": "Lìlot 2018 Semillon, Sauvignon Blanc",
+      "description": "PREIGNAC, SAUTERNES, FRANCE ",
+      "price": "63",
+      "type": "White Wine"
+    },
+    {
+      "title": "Moscato d'Asti La Vita Moscato",
+      "description": "DOCG MOSCATO D'ASTI, ITALY",
+      "price": "63",
+      "type": "Other drinks"
+    },
+    {
+      "title": "Parajes De Cabriel Bobal 2019",
+      "description": "CAUDETE DE LAS FUENTES, SPAIN",
+      "price": "55",
+      "type": "Red Wine"
+    },
+    {
+      "title": "Chianti Colli Senesi 2019 Sangiovese, Canaiolo, Colorino, Ciliegiolo",
+      "description": "TUSCANY, ITALY",
+      "price": "63",
+      "type": "Red Wine"
+    },
+    {
+      "title": "De lil en Aiguille Merlot",
+      "description": "LANGUEDOC, FRANCE",
+      "price": "51",
+      "type": "Red Wine"
+    },
+    {
+      "title": "Côtes du Rhône Vin Rouge 2016 Carignan, Grenache",
+      "description": "LA BEAUME, RHÔNE, FRANCE",
+      "price": "74",
+      "type": "Red Wine"
+    },
+    {
+      "title": "Château Pontet-Fumet 1996 Merlot, Cabernet Sauvignon, Cabernet Franc",
+      "description": "BORDEAUX, FRANCE",
+      "price": "92",
+      "type": "Red Wine"
+    },
+    {
+      "title": "Moillard Le Duche `Pinot Noir  Pinot Noir",
+      "description": "BOURGOGNE, FRANCE",
+      "price": "67",
+      "type": "Red Wine"
+    },
+    {
+      "title": "La Galoche Rose 2020 Gamay",
+      "description": "ANSE, BEAUJOLAISE, FRANCE",
+      "price": "59",
+      "type": "Rose"
+    },
+    {
+      "title": "Coeur d'Artichaut Rosé` ",
+      "description": " Malbec, Merlot",
+      "price": "50",
+      "type": "Rose"
+    }
+  ]
+}

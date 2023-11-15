@@ -1,0 +1,11 @@
+{
+  "winepairs": [
+    {
+      "public": true,
+      "title": "Dégustation vin",
+      "price": "72",
+      "info": "Viinipaketti keittiömestarin 5 ruokalajin yllätysmenulle",
+      "type": "Viinipaketti"
+    }
+  ]
+}

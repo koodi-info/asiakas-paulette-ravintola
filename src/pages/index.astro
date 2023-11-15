@@ -23,7 +23,6 @@ const seasonmenusApi = t("seasonmenu:seasonmenus", { returnObjects: true });
 const seasonmenu = Object.create(seasonmenusApi);
 const seasonmenus = seasonmenu.map((menu) => menu);
 const lunchlistApi = t("lunchlist:lunch_public", { returnObjects: true });
-console.log(lunchlistApi);
 ---
 
 <Layout title={t("title")}>
@@ -93,6 +92,7 @@ console.log(lunchlistApi);
 		</Show>
 		))}
 
+			
 		<PhotoGrid 
 		imageOne={t("alacartelist:imageone")}
 		imageTwo={t("alacartelist:imagetwo")}

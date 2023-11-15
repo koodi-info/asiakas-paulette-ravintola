@@ -90,6 +90,12 @@
   "imagethree": "/images/uploads/truffe.jpg",
   "drinks": [
     {
+      "type": "Viinipaketti",
+      "title": "Dégustation vin",
+      "description": "Viinipaketti keittiömestarin 5 ruokalajin yllätysmenulle",
+      "price": "72"
+    },
+    {
       "title": "Bois- Mozé, Crémant de Loire Blanc brut tradition ",
       "description": "Chenin blanc  LOIRE, FRANCE",
       "price": "68",

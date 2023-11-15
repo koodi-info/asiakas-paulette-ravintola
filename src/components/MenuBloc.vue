@@ -23,6 +23,29 @@
         </div>
       </div>
       <div class="menu__container__right" v-if="sortedDrinks">
+       
+       <!--div v-for="(group, index) in sortedWinePackage" :key="index">
+        <h3>{{ index }}:</h3>
+          <div class="menu__item" v-for="(item, index) in group" :key="index">
+            <div class="menu__item__container">
+              <p class="menu__item__name">
+                {{ item.title }}
+              </p>
+             <div
+                class="menu__item__price"
+                v-if="!!item.price_public || (item.price_public == null && item.price !== '')"
+              >
+                {{ item.price }}€
+              </div>
+            </div>
+            <div class="menu__item__decription">
+              <p>
+                {{ item.info }}
+              </p>
+            </div>
+          </div>
+       </div-->
+
         <div v-for="(group, index) in sortedDrinks" :key="index">
           <h3>{{ index }}:</h3>
           <div class="menu__item" v-for="(item, index) in group" :key="index">
@@ -53,20 +76,23 @@
 <script>
 
 export default {
-  props: ["food", "drink"],
+  props: {
+    food: {
+      type: Array, 
+      default: () => []
+    },
+    drink: {
+      type: Array,
+      default: () => []
+    }
+    /*
+    winepack: {
+      type: Array,
+      default: () => []
+    }
+    */
+  },
   setup(props) {
-    const slice = (input, begin, end) => {
-      return input.slice(begin, end);
-    };
-    const chunk = (input, size) => {
-      return input.reduce((arr, item, idx) => {
-        return idx % size === 0
-          ? [...arr, [item]]
-          : [...arr.slice(0, -1), [...arr.slice(-1)[0], item]];
-      }, []);
-    };
-    const foodItems = props.food.map((f) => [f]);
-    const drinkItems = props.drink.map((d) => [d]);
 
     const sortedPortions = props.food.reduce((newGroup, obj) => {
       if (!newGroup[obj.type]) {
@@ -76,8 +102,6 @@ export default {
       return newGroup;
     }, {});
 
-    const choicePortion = props.food.map((f) => [f]);
-
     const sortedDrinks = props.drink.reduce((drinks, items) => {
       if (!drinks[items.type]) {
         drinks[items.type] = [];
@@ -86,14 +110,20 @@ export default {
       return drinks;
     },{});
 
+    /*
+    const sortedWinePackage = props.winepack.reduce((newGroup, obj) => {
+      if (!newGroup[obj.type]) {
+        newGroup[obj.type] = [];
+      }
+      newGroup[obj.type].push(obj);
+      return newGroup
+    },{});
+    */
+
     return {
-      chunk,
-      slice,
-      foodItems,
-      drinkItems,
       sortedPortions,
-      sortedDrinks,
-      choicePortion
+      sortedDrinks
+      //sortedWinePackage
     };
   },
 };

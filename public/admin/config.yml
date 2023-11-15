@@ -298,6 +298,7 @@ collections:
                 options:
                   [
                     { label: "Muut juomat", value: "Muut juomat" },
+                    { label: "Viinipaketti", value: "Viinipaketti" },
                     { label: "Valkoviini", value: "Valkoviini" },
                     { label: "Punaviini", value: "Punaviini" },
                     { label: "Kuohuviini", value: "Kuohuviini" },
@@ -369,6 +370,23 @@ collections:
                         { label: "Kuohuviini", value: "Sparkling Wine" },
                         { label: "Rose", value: "Rose" },
                       ]           
+      - label: Juomapaketit
+        name: drinkpairing
+        file: /public/locales/fi/drinkpairings.json
+        fields:
+          - label: Juomapaketti
+            widget: list
+            name: winepairs
+            fields:
+              - { label: Juomapakettin nimi, name: title, widget: string }
+              - { label: Juomapakettin hinta, name: price, widget: string }
+              - { label: Julkinen, name: public, widget: boolean, default: true }
+              - { label: Juomapaketin info, name: info, widget: markdown, modes: [raw], required: false }
+              - { label: Juomapaketin tyyppi, 
+                  name: type, 
+                  widget: select, 
+                  options: [Viinipaketti, Juomapaketti],
+                  required: false}
   - name: english_version
     label: Englanti
     create: false
@@ -641,6 +659,7 @@ collections:
                 options:
                   [
                     { label: "Muut juomat", value: "Other drinks" },
+                    { label: "Viinipaketti", value: "Wine Pairing" },
                     { label: "Valkoviini", value: "White Wine" },
                     { label: "Punaviini", value: "Red Wine" },
                     { label: "Kuohuviini", value: "Sparkling Wine" },
@@ -711,4 +730,21 @@ collections:
                         { label: "Punaviini", value: "Red Wine" },
                         { label: "Kuohuviini", value: "Sparkling Wine" },
                         { label: "Rose", value: "Rose" },
-                      ]           
+                      ]
+      - label: Juomapaketit
+        name: drinkpairing
+        file: /public/locales/en/drinkpairings.json
+        fields:
+          - label: Juomapaketti
+            widget: list
+            name: winepairs
+            fields:
+              - { label: Juomapakettin nimi, name: title, widget: string }
+              - { label: Juomapakettin hinta, name: price, widget: string }
+              - { label: Julkinen, name: public, widget: boolean, default: true }
+              - { label: Juomapaketin info, name: info, widget: markdown, modes: [raw], required: false }
+              - { label: Juomapaketin tyyppi, 
+                  name: type, 
+                  widget: select, 
+                  options: [Viinipaketti, Juomapaketti],
+                  required: false}

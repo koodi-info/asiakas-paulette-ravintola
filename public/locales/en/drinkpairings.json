@@ -1,0 +1,11 @@
+{
+  "winepairs": [
+    {
+      "public": true,
+      "title": "Dégustation vin",
+      "price": "72",
+      "info": "Wine package for the chef's 5-course surprise menu",
+      "type": "Viinipaketti"
+    }
+  ]
+}
