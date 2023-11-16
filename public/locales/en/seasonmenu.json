@@ -50,6 +50,104 @@
       "drinks": []
     },
     {
+      "public": true,
+      "price": "49,00",
+      "info": "Voit halutessasi tilata annokset myös yksittäisinä!\n\nEn outre les classiques\nLisäksi tarjoamme lounaalla meidän klassikkoannostamme",
+      "title": "Menu de Noël 2023 - Christmas lunch",
+      "foods": [
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Organic jerusalem artichoke tartlet, finnish apple and black truffle",
+          "title": "ARTICHAUT et TRUFFE",
+          "type": "Alkuruoka",
+          "price": "0"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "In brown butter cooked halibut, watergrass, spinach, lapland potato\n&amp; French caviar",
+          "title": "FLETAN et CAVIAR",
+          "type": "Pääruoka",
+          "price": "0"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Roasted organic honey, with szechuan pepper flavored\ndark chocolate and bourbon vanilla ice cream",
+          "title": "RAYON DE MIEL ET CHOCOLAT NOIR",
+          "type": "Jälkiruoka",
+          "price": "0"
+        }
+      ],
+      "time": "5.12-8.12.2023 (6.12, olemme suljettuna)"
+    },
+    {
+      "public": false,
+      "title": "Menu de Noël 2023 - Christmas lunch",
+      "time": "12.12-15.12.2023",
+      "price": "49,00€",
+      "info": "Voit halutessasi tilata annokset myös yksittäisinä!\n\nEn outre les classiques\nLisäksi tarjoamme lounaalla meidän klassikkoannostamme",
+      "foods": [
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Sugar salted salmon filée, cucumber pickles, wasabi creme\nand horseradish\n",
+          "title": "SAUMON WASABI",
+          "type": "Alkuruoka",
+          "price": "0"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Roasted French duck breast, Beluga lentils ragù,\nblackcurrant and dark duck stock sauce",
+          "title": "MAGRET de CANARD",
+          "type": "Pääruoka",
+          "price": "0"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "With espresso seasoned brulee &amp; raspberry sorbet\n",
+          "title": "ESPRESSO CREME BRÛLÉE",
+          "type": "Jälkiruoka",
+          "price": "0"
+        }
+      ]
+    },
+    {
+      "public": false,
+      "title": "Menu de Noël 2023 - Christmas lunch",
+      "price": "49",
+      "info": "Voit halutessasi tilata annokset myös yksittäisinä!\n\nEn outre les classiques\nLisäksi tarjoamme lounaalla meidän klassikkoannostamme",
+      "time": "19.12-22.12.2023",
+      "foods": [
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Vol au vent of seasonal mushrooms, porcini stew and Umami mushroom stock",
+          "title": "VOL AU VENT DE CHAMPIGNONS ET BOUILLON",
+          "price": "0",
+          "type": "Alkuruoka"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Overnight cooked organic lamb, smoked celery purée, kohlrabi\nand dark rosemary sauce",
+          "title": "ENTRECÔTE d’AGNEAU",
+          "price": "0",
+          "type": "Pääruoka"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Champagne jellied blood\norange, Campari sorbet and Sabayon",
+          "title": "ORANGE SANGUINE ET CAMPARI",
+          "price": "0"
+        }
+      ]
+    },
+    {
       "public": false,
       "title": "NEW YEAR'S MENU",
       "price": "79",

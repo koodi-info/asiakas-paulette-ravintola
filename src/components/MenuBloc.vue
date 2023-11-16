@@ -7,10 +7,7 @@
           <div class="menu__item" v-for="(item, index) in group" :key="index" :class="group[0].choice ? 'menu__item__choise':'menu__item'" data-content="Tai">
             <div class="menu__item__container">
               <p class="menu__item__name">{{ item.title }}</p>
-              <div
-                class="menu__item__price"
-                v-if="!!item.price_public || item.price_public == null"
-              >
+              <div class="menu__item__price" v-if="!!item.price_public || item.price_public == null">
                 {{ item.price }}€
               </div>
             </div>

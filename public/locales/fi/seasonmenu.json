@@ -3,8 +3,8 @@
     {
       "public": true,
       "title": "Paulette Lunch",
-      "info": "Ravintola Paulette tarjoaa päivittäin kolmen ruokalajin herkullisen lounaan. Menun annokset ovat myös tilattavissa erikseen. Klassikko annos Bouillabaisse -kalakeitto sekä päivän Plat du jour ovat myös tilattavissa menun lisäksi. Menu sisältää: alkuruoan, pääruoan ja jälkiruoan. Lounas 14-17.11.2023. Viikko: 46\n",
-      "price": "35",
+      "info": "\n",
+      "price": "",
       "foods": [
         {
           "price_public": true,
@@ -29,7 +29,7 @@
       "public": true,
       "title": "Paulette Lunch Menu",
       "price": "35",
-      "info": "",
+      "info": "Ravintola Paulette tarjoaa päivittäin kolmen ruokalajin herkullisen lounaan. Menun annokset ovat myös tilattavissa erikseen. Klassikko annos Bouillabaisse -kalakeitto sekä päivän Plat du jour ovat myös tilattavissa menun lisäksi. Menu sisältää: alkuruoan, pääruoan ja jälkiruoan. ",
       "foods": [
         {
           "price_public": false,
@@ -56,7 +56,106 @@
           "type": "Jälkiruoka"
         }
       ],
-      "drinks": []
+      "drinks": [],
+      "time": "14-17.11.2023"
+    },
+    {
+      "public": true,
+      "price": "49,00",
+      "info": "Voit halutessasi tilata annokset myös yksittäisinä!\n\nEn outre les classiques\nLisäksi tarjoamme lounaalla meidän klassikkoannostamme",
+      "title": "Menu de Noël 2023 - Joululounas",
+      "foods": [
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Luomu maa-artisokka tartaletti, kotimaista omenaa\nja mustaa tryffeliä",
+          "title": "ARTICHAUT et TRUFFE",
+          "type": "Alkuruoka",
+          "price": "0"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Pähkinävoissa kypsennettyä ruijanpallasta, vesikrassia, pinaattia,\npuikulaperunaa ja ranskalaista kaviaaria",
+          "title": "FLETAN et CAVIAR",
+          "type": "Pääruoka",
+          "price": "0"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Paahdettua luomuhunajaa, szechuan pippurilla\nmaustettua tummaa suklaata,\nsekä bourbon vanilja jäätelöä",
+          "title": "RAYON DE MIEL ET CHOCOLAT NOIR",
+          "type": "Jälkiruoka",
+          "price": "0"
+        }
+      ],
+      "time": "5.12-8.12.2023 (6.12, olemme suljettuna)"
+    },
+    {
+      "public": false,
+      "title": "Menu de Noël 2023 - Joululounas",
+      "time": "12.12-15.12.2023",
+      "price": "49,00€",
+      "info": "Voit halutessasi tilata annokset myös yksittäisinä!\n\nEn outre les classiques\nLisäksi tarjoamme lounaalla meidän klassikkoannostamme",
+      "foods": [
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Sokerisuolattua lohifilettä, pikkelöityä kurkkua,\nwasabikreemiä ja piparjuurta\n",
+          "title": "SAUMON WASABI",
+          "type": "Alkuruoka",
+          "price": "0"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Paahdettua ranskalaista ankanrintaa, Beluga linssi ragù, mustaherukkaa\nja tummaa ankan liemi kastiketta",
+          "title": "MAGRET de CANARD",
+          "type": "Pääruoka",
+          "price": "0"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Espressolla maustettu brulee &amp; vadelmasorbetti\n",
+          "title": "ESPRESSO CREME BRÛLÉE",
+          "type": "Jälkiruoka",
+          "price": "0"
+        }
+      ]
+    },
+    {
+      "public": false,
+      "title": "Menu de Noël 2023 - Joululounas",
+      "price": "49",
+      "info": "Voit halutessasi tilata annokset myös yksittäisinä!\n\nEn outre les classiques\nLisäksi tarjoamme lounaalla meidän klassikkoannostamme",
+      "time": "19.12-22.12.2023",
+      "foods": [
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Sieni vannike, herkkutatti muhennosta ja Umami sienilientä",
+          "title": "VOL AU VENT DE CHAMPIGNONS ET BOUILLON",
+          "price": "0",
+          "type": "Alkuruoka"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Miedosti yön yli kypsennettyä luomu karitsan entrecotea,, savustettua\nluomu selleripyreetä, kyssäkaalia ja tumma rosmariinikastike",
+          "title": "ENTRECÔTE d’AGNEAU",
+          "price": "0",
+          "type": "Pääruoka"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Shampanja-hyytelöityä veriappelsiinia, campari sorbettia &amp; Sabayon kastiketta",
+          "title": "ORANGE SANGUINE ET CAMPARI",
+          "price": "0"
+        }
+      ]
     },
     {
       "public": false,
@@ -157,55 +256,6 @@
           "type": "Sparkling Wine"
         }
       ]
-    },
-    {
-      "public": false,
-      "title": "JOULULOUNAS",
-      "price": "46",
-      "info": "Valitse joululounaslistan vaihtoehdoista yksi alkuruoka ja yksi pääruoka.",
-      "foods": [
-        {
-          "price_public": false,
-          "title": "BETTERAVES et MORILLES ",
-          "content": "Luomu punajuurta, vuohenjuustolla täytettyä huhtasientä\r\nja punajuurivaahtoa\n\n\r\nOrganic beetroot, goat cheese filled morel mushrooms\r\nand beetroot foam\r\n",
-          "price": "19",
-          "type": "Alkuruoka",
-          "choice": true
-        },
-        {
-          "price_public": false,
-          "title": "CERF TARTARE",
-          "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\npikkelöityä punasipulia, kaprista ja rapeaa perunaa\n\n\r\nTartar of Finnish organic deer, organic egg, \r\npickled red onion, capers and crispy potato\r\n",
-          "price": "20",
-          "type": "Alkuruoka",
-          "choice": true
-        },
-        {
-          "price_public": false,
-          "title": "CABILLAUD et CHOU FLEUR",
-          "content": "Pähkinävoissa haudutettua turskan seläkettä, kukkakaalia\r\nja wasabikastiketta.                                  \r\nF﻿illet of cod poached with beaurre noisette, cauliflower and wasabi sauce",
-          "price": "29",
-          "type": "Pääruoka",
-          "choice": true
-        },
-        {
-          "price_public": false,
-          "title": "MAGRET de CANARD",
-          "content": "P﻿aahdettua ranskalaista ankanrintaa, beluga-linssiragu, \nm﻿ustaherukkaa ja tummaa ankanliemi-kastikettaa.\n\nR﻿oasted French duck breast, beluga lentil ragu\nb﻿lack currant and dark duck jus sauce",
-          "price": "31",
-          "type": "Pääruoka",
-          "choice": true
-        },
-        {
-          "price_public": false,
-          "title": "CITRON et RÉGLISSE ",
-          "content": "Sitruunasavariini ja lakritsijäätelöä\n\n\r\nLemon savarin and licorice ice cream\r\n",
-          "price": "12",
-          "type": "Jälkiruoka",
-          "choice": false
-        }
-      ],
-      "drinks": []
     }
   ]
 }

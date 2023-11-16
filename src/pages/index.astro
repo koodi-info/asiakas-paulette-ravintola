@@ -24,9 +24,7 @@ const seasonmenu = Object.create(seasonmenusApi);
 const seasonmenus = seasonmenu.map((menu) => menu);
 const lunchlistApi = t("lunchlist:lunch_public", { returnObjects: true });
 ---
-
 <Layout title={t("title")}>
-	
 	<NavBar client:visible data={t("common:context", {returnObjects: true})}>
 		<LanguageSelector showFlag={true} class="language-selector"/>
 	</NavBar>
@@ -36,14 +34,12 @@ const lunchlistApi = t("lunchlist:lunch_public", { returnObjects: true });
 			body={t("covid:body")}
 			public_info={t("covid:public")}
 		/> 
-
 		<Welcome 
 			title={t("welcome:title")} 
 			body={t("welcome:intro")} 
 			image={t("welcome:image")}
 			restaurant={t("common:context:restaurant")}
 		/>
-
 		<InfoArea 
 			restaurant={t("common:context:restaurant")}
 			name={t("common:context:name")}
@@ -58,58 +54,56 @@ const lunchlistApi = t("lunchlist:lunch_public", { returnObjects: true });
 			extraopentimes={t("common:context:extraopentimes")}
 			newstitle={t("common:context:newstitle")}
 		/>
-
 		<Show when={t("extrainfo:public")}>
 			<TextArea
-				heading={t("extrainfo:heading")}
-				content={t("extrainfo:content")}
+			heading={t("extrainfo:heading")}
+			content={t("extrainfo:content")}
 			/>
 		</Show>
-
 		<PhotoGrid 
-		imageOne={t("lunchlist:imageone")} 
-		imageTwo={t("lunchlist:imagetwo")} 
-		imageThree={t("lunchlist:imagethree")}/>
-	
-	{lunchlistApi && 
-		<div class="relative">
-			<h3 id="lounaslista">{t("lunchlist:heading")} {t("lunchlist:week")}</h3>
-			<Menu 
-			food={t("lunchlist:foods", { returnObjects: true })} 
-			drink={t("lunchlist:drinks", { returnObjects: true })}/>
-			<ImageGridBg />
-		</div>
-	}
-
-
+			imageOne={t("lunchlist:imageone")} 
+			imageTwo={t("lunchlist:imagetwo")} 
+			imageThree={t("lunchlist:imagethree")}
+		/>
+		{lunchlistApi && 
+			<div class="relative">
+				<h3 id="lounaslista">{t("lunchlist:heading")} {t("lunchlist:week")}</h3>
+				<Menu 
+					food={t("lunchlist:foods", { returnObjects: true })} 
+					drink={t("lunchlist:drinks", { returnObjects: true })}
+				/>
+				<ImageGridBg />
+			</div>
+		}
 		{seasonmenus.map((menu) => (
-		<Show when={menu.public}>
-		<div class="relative">
-			<h3 id="extralista">{menu.title} - {menu.price}€</h3>
-			<h4>{menu.info} </h4>
-			<Menu food={menu.foods} drink={menu.drinks}/>
-		</div>
-		</Show>
+			<Show when={menu.public}>
+				<div class="relative" id="extralista">
+					<div id="extralista_content">
+						<h3>{menu.title}  {menu.price ? <span> - € {menu.price}</span> : null }</h3>
+						<h4>{menu.time}</h4>
+						<h5>{menu.info}</h5>
+					</div>
+					<Menu food={menu.foods} drink={menu.drinks}/>
+				</div>
+			</Show>
 		))}
-
-			
 		<PhotoGrid 
-		imageOne={t("alacartelist:imageone")}
-		imageTwo={t("alacartelist:imagetwo")}
-		imageThree={t("alacartelist:imagethree")}/>
-
+			imageOne={t("alacartelist:imageone")}
+			imageTwo={t("alacartelist:imagetwo")}
+			imageThree={t("alacartelist:imagethree")}
+		/>
 		<div class="relative">
 			<h3 id="alacartelista">{t("common:context:alacarte")}</h3>
 			<Menu 
-			food={t("alacartelist:foods", { returnObjects: true })} 
-			drink={t("alacartelist:drinks", { returnObjects: true })}/>
+				food={t("alacartelist:foods", { returnObjects: true })} 
+				drink={t("alacartelist:drinks", { returnObjects: true })}
+			/>
 			<ImageGridBg />
 		</div>
-
 		<h3>{t("common:context:name")}</h3>
-		<AboutUs data={t("aboutus:about_content", { returnObjects: true })}/>
+		<AboutUs data={t("aboutus:about_content", { returnObjects: true })}
+		/>
 		<Footer data={t("common:context", { returnObjects: true })} />
-
 	</main>
 </Layout>
 
@@ -117,13 +111,20 @@ const lunchlistApi = t("lunchlist:lunch_public", { returnObjects: true });
 	main{
 		@apply pt-14;
 	}
+	#extralista_content{
+		@apply px-4;
+	}
 	h3{
 		@apply text-center xl:text-left  container mx-auto max-w-6xl font-serif text-5xl font-bold text-brand-dark mb-4;
 		font-size: clamp(0.9rem, 1vw + 1.5rem, 3rem);
 	}
 	h4{
-		@apply text-center xl:text-left  container mx-auto max-w-6xl font-serif text-2xl font-normal  text-brand-dark;
-		font-size: clamp(0.4rem, 0.7vw + 1.2rem, 1.5rem);
+		@apply text-center xl:text-left container mx-auto max-w-6xl font-serif text-2xl font-normal text-brand-dark mb-4;
+		font-size: clamp(0.9rem, 0.9vw + 1.4rem, 1.6rem);
+	}
+	h5{
+		@apply text-center xl:text-left container mx-auto max-w-6xl font-serif text-2xl font-normal text-brand-dark;
+		font-size: clamp(0.4rem, 0.5vw + 1rem, 1.3rem);
 	}
 	.language-selector {
 		background: none;

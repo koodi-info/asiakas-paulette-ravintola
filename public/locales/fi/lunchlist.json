@@ -1,85 +1,13 @@
 {
   "heading": "Paulette Lounas 10-13.10",
   "imagethree": "/images/uploads/poachedegg.jpg",
+  "luncmenuheading": "",
+  "price": "",
   "lunchlists": "hello",
   "imageone": "/images/uploads/lunch.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
   "week": "41",
-  "foods": [
-    {
-      "title": "Plat du jour ",
-      "content": "Spagetti Bolognese",
-      "price": "15",
-      "type": "Lounas"
-    },
-    {
-      "title": "CARROTTE et POMME de TERRE au TRUFFE",
-      "price": "18",
-      "type": "Lounas",
-      "content": "safafg"
-    }
-  ],
-  "drinks": [
-    {
-      "title": "Espresso ",
-      "price": "4,5",
-      "type": "Kahvi"
-    },
-    {
-      "title": "Tuplaespresso",
-      "price": "5",
-      "type": "Kahvi"
-    },
-    {
-      "title": "Americano",
-      "price": "5",
-      "type": "Kahvi"
-    },
-    {
-      "title": "Cappuccino",
-      "price": "5",
-      "type": "Kahvi"
-    },
-    {
-      "title": "Latte / White Flatte",
-      "price": "5,5",
-      "type": "Kahvi"
-    },
-    {
-      "title": "Filter coffee",
-      "price": "3,5",
-      "type": "Kahvi"
-    },
-    {
-      "title": "Tea (green, black, rooibos)",
-      "price": "3,5",
-      "type": "Kahvi"
-    },
-    {
-      "title": "Virvokkeet",
-      "price": "3,5",
-      "type": "Kahvi"
-    },
-    {
-      "title": "Birra Moretti zero 0.0%",
-      "price": "6",
-      "type": "Alkoholittomat"
-    },
-    {
-      "title": "Birra Moretti",
-      "price": "8",
-      "type": "Olut / Siideri"
-    },
-    {
-      "title": "Leffe Blonde",
-      "price": "10",
-      "type": "Olut / Siideri"
-    },
-    {
-      "title": "Mattsson Enigma IPA",
-      "price": "10",
-      "type": "Olut / Siideri"
-    }
-  ],
+  "foods": [],
+  "drinks": [],
   "lunch_public": false
 }

@@ -150,7 +150,7 @@ collections:
               widget: boolean,
               default: true,
           }
-          - { label: Lounaslista otsikko, name: heading, widget: string }
+          - { label: Lounaslista otsikko, name: heading, widget: string, required: false }
           - {
               label: "Lounaslista viikolle",
               name: "week",
@@ -214,6 +214,8 @@ collections:
           - { label: "Valokuva 1", name: "imageone", widget: "image" }
           - { label: "Valokuva 2", name: "imagetwo", widget: "image" }
           - { label: "Valokuva 3", name: "imagethree", widget: "image" }
+          - { label: Lounas menu otsikko, name: luncmenuheading, widget: string, required: false }
+          - { label: Lounas menu hinta, name: price, widget: string, required: false }
           - label: Lounas annokset
             name: foods
             widget: list
@@ -231,8 +233,6 @@ collections:
                 name: "type"
                 widget: "select"
                 options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka"]
-          - { label: Lounas menu otsikko, name: luncmenuheading, widget: string }
-          - { label: Lounas menu hinta, name: price, widget: string }
           - label: Lounas juomat
             name: drinks
             widget: list
@@ -314,8 +314,9 @@ collections:
             fields:
               - { label: Menun nimi, name: title, widget: string }
               - { label: Julkinen, name: public, widget: boolean, default: true }
-              - { label: Menun hinta, name: price, widget: string }
-              - { label: Aputeksti, name: info, widget: markdown, modes: [raw], required: false}
+              - { label: Menun hinta, name: price, widget: string, required: false }
+              - { label: Aputeksti, name: info, widget: markdown, modes: [raw], required: false }
+              - { label: Ajankohta, name: time, widget: string,  required: false }
               - label: Menun annokset
                 widget: list
                 name: foods
@@ -335,6 +336,7 @@ collections:
                   name: price_public,
                   widget: boolean,
                   default: true,
+                  required: false
                 }
                 - label: "Annoksen tyyppi"
                   name: "type"
@@ -370,23 +372,6 @@ collections:
                         { label: "Kuohuviini", value: "Sparkling Wine" },
                         { label: "Rose", value: "Rose" },
                       ]           
-      - label: Juomapaketit
-        name: drinkpairing
-        file: /public/locales/fi/drinkpairings.json
-        fields:
-          - label: Juomapaketti
-            widget: list
-            name: winepairs
-            fields:
-              - { label: Juomapakettin nimi, name: title, widget: string }
-              - { label: Juomapakettin hinta, name: price, widget: string }
-              - { label: Julkinen, name: public, widget: boolean, default: true }
-              - { label: Juomapaketin info, name: info, widget: markdown, modes: [raw], required: false }
-              - { label: Juomapaketin tyyppi, 
-                  name: type, 
-                  widget: select, 
-                  options: [Viinipaketti, Juomapaketti],
-                  required: false}
   - name: english_version
     label: Englanti
     create: false
@@ -485,9 +470,9 @@ collections:
               modes: [raw],
               buttons: [bold],
             }
-      - label: "Esittely osiot"
-        name: "about"
-        file: "/public/locales/en/aboutus.json"
+      - label: Esittely osiot
+        name: about
+        file: /public/locales/en/aboutus.json
         fields:
           - label: Osion sisältö
             widget: list
@@ -513,7 +498,7 @@ collections:
               widget: boolean,
               default: true,
           }
-          - { label: Lounaslista otsikko, name: heading, widget: string }
+          - { label: Lounaslista otsikko, name: heading, widget: string, required: false }
           - {
               label: "Lounaslista viikolle",
               name: "week",
@@ -577,6 +562,8 @@ collections:
           - { label: "Valokuva 1", name: "imageone", widget: "image" }
           - { label: "Valokuva 2", name: "imagetwo", widget: "image" }
           - { label: "Valokuva 3", name: "imagethree", widget: "image" }
+          - { label: Lounas menu otsikko, name: luncmenuheading, widget: string, required: false }
+          - { label: Lounas menu hinta, name: price, widget: string, required: false }
           - label: Lounas annokset
             name: foods
             widget: list
@@ -593,14 +580,14 @@ collections:
               - label: "Annoksen tyyppi"
                 name: "type"
                 widget: "select"
-                options: ["Lunch", "Appetizer", "Main course", "Dessert"]
+                options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka"]
           - label: Lounas juomat
             name: drinks
             widget: list
             required: false
             fields:
               - { label: Juoman nimi, name: title, widget: string }
-              - { label: "Juoman hinta", name: "price", widget: "string", required: false }
+              - { label: "Juoman hinta", name: "price", widget: "string" }
               - { label: "Juomat julkiset",
                   name: drinsk_public,
                   widget: boolean,
@@ -612,11 +599,11 @@ collections:
                 widget: "select"
                 options:
                   [
-                    { label: "Kahvi", value: "Cafe" },
-                    { label: "Virvoitusjuoma", value: "Soft drink" },
-                    { label: "Alkoholittomat", value: "Non-alcoholic" },
-                    { label: "Olut / Siideri", value: "Beer / Cider" },
-                    { label: "Viini", value: "Wine" },
+                    { label: "Kahvi", value: "Kahvi" },
+                    { label: "Virvoitusjuoma", value: "Kahvi" },
+                    { label: "Alkoholittomat", value: "Alkoholittomat" },
+                    { label: "Olut / Siideri", value: "Olut / Siideri" },
+                    { label: "Viini", value: "Viini" },
                   ]
       - label: A la carte ruokalista
         name: "alacarte"
@@ -675,8 +662,9 @@ collections:
             fields:
               - { label: Menun nimi, name: title, widget: string }
               - { label: Julkinen, name: public, widget: boolean, default: true }
-              - { label: Menun hinta, name: price, widget: string }
-              - { label: Aputeksti, name: info, widget: markdown, modes: [raw], required: false}
+              - { label: Menun hinta, name: price, widget: string, required: false }
+              - { label: Aputeksti, name: info, widget: markdown, modes: [raw], required: false }
+              - { label: Ajankohta, name: time, widget: string,  required: false }
               - label: Menun annokset
                 widget: list
                 name: foods
@@ -690,12 +678,13 @@ collections:
                     buttons: [bold],
                     required: false
                   }
-                - { label: "Annoksen hinta", name: "price", widget: "string" }
+                - { label: "Annoksen hinta", name: "price", widget: "string", required: false}
                 - {
                   label: "Hinta julkinen",
                   name: price_public,
                   widget: boolean,
                   default: true,
+                  required: false
                 }
                 - label: "Annoksen tyyppi"
                   name: "type"
@@ -731,20 +720,3 @@ collections:
                         { label: "Kuohuviini", value: "Sparkling Wine" },
                         { label: "Rose", value: "Rose" },
                       ]
-      - label: Juomapaketit
-        name: drinkpairing
-        file: /public/locales/en/drinkpairings.json
-        fields:
-          - label: Juomapaketti
-            widget: list
-            name: winepairs
-            fields:
-              - { label: Juomapakettin nimi, name: title, widget: string }
-              - { label: Juomapakettin hinta, name: price, widget: string }
-              - { label: Julkinen, name: public, widget: boolean, default: true }
-              - { label: Juomapaketin info, name: info, widget: markdown, modes: [raw], required: false }
-              - { label: Juomapaketin tyyppi, 
-                  name: type, 
-                  widget: select, 
-                  options: [Viinipaketti, Juomapaketti],
-                  required: false}
