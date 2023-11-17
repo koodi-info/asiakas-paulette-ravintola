@@ -18,7 +18,7 @@
           "price_public": true,
           "choice": false,
           "title": "Plat du jour",
-          "content": "Scampi linquine (L)",
+          "content": "P﻿eurapyöryköitä  ja puikulaperunapyrettä (L)",
           "price": "15",
           "type": null
         }
@@ -34,30 +34,30 @@
         {
           "price_public": false,
           "choice": false,
-          "title": "Betterave & formage de Chèvre",
-          "content": "P﻿aahdettua luomu punajuurta, yrttisalaattia, tuoretta vuohenjuustoa ja marcona mantelia (L,G)",
+          "title": "Soupe à la citrouille et pomme",
+          "content": "K﻿uohkea kurpitsakeitto ja kotimaista omenaa (L,G)",
           "price": "0",
           "type": "Alkuruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Confit de canard et lentilles béluga",
-          "content": "A﻿nkankoipi confit ja beluga linssi muhennosta (L,G)",
+          "title": "Poisson blanc et raifort",
+          "content": "P﻿aistettua villisiikaa ja tuoretta piparjuurta (L,G)",
           "price": "0",
           "type": "Pääruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Réglisse et financier",
-          "content": "Lakritsijuuri jäätelöä ja mantelikakkua (L,G)",
+          "title": "Tarte Tatin",
+          "content": "K﻿aramellisoitu omenapiiras ja Calvados jäätelöä (L)",
           "price": "0",
           "type": "Jälkiruoka"
         }
       ],
       "drinks": [],
-      "time": "14-17.11.2023"
+      "time": "21-24.11.2023"
     },
     {
       "public": true,
