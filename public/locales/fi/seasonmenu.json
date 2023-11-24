@@ -18,7 +18,7 @@
           "price_public": true,
           "choice": false,
           "title": "Plat du jour",
-          "content": "P﻿eurapyöryköitä  ja puikulaperunapyrettä (L)",
+          "content": "T﻿ryffeli & herkkutattirisotto (L,G)",
           "price": "15",
           "type": null
         }
@@ -34,30 +34,30 @@
         {
           "price_public": false,
           "choice": false,
-          "title": "Soupe à la citrouille et pomme",
-          "content": "K﻿uohkea kurpitsakeitto ja kotimaista omenaa (L,G)",
+          "title": "Soupe de céleries fumés et rillettes de canard",
+          "content": "K﻿uohkeaa savusellerikeittoa ja ankka rillette (L,G)",
           "price": "0",
           "type": "Alkuruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Poisson blanc et raifort",
-          "content": "P﻿aistettua villisiikaa ja tuoretta piparjuurta (L,G)",
+          "title": "Octopus grillés avec sa sauce romesco",
+          "content": "G﻿rillattua mustekalaa ja Romesco kastiketta (M,G)",
           "price": "0",
           "type": "Pääruoka"
         },
         {
           "price_public": false,
           "choice": false,
-          "title": "Tarte Tatin",
-          "content": "K﻿aramellisoitu omenapiiras ja Calvados jäätelöä (L)",
+          "title": "Financier et sorbet à la fraise ",
+          "content": "F﻿inancier leivosta ja mansikka sorbeeta (L,G)",
           "price": "0",
           "type": "Jälkiruoka"
         }
       ],
       "drinks": [],
-      "time": "21-24.11.2023"
+      "time": "28.11-1.12.2023"
     },
     {
       "public": true,
