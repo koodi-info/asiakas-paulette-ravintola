@@ -158,102 +158,104 @@
       ]
     },
     {
-      "public": false,
-      "title": "Samppanja menu",
+      "public": true,
+      "title": "UUDENVUODEN MENU",
       "price": "87",
-      "info": "Samppanja illallis menu launataina 7.10.\nMenun hinta 87 € sekä juoma paketti 92 €",
+      "info": "Uudenvuoden illallis menu sunnuntaina 31.12.\nMenun hinta 89 € sekä juoma paketti 70 €",
       "foods": [
         {
-          "price_public": false,
-          "choice": false,
-          "title": "HUÎTRES",
-          "content": "Gillardeau,  Perle Blanche sekä Irlantilainen Tia-maraa\n",
+          "price_public": true,
+          "choice": true,
+          "title": "Coquille Saint-Jacques  et citron vert",
+          "content": "Kampasimpukkaa ja finger limeä\nScallop with finger lime\n",
           "price": "0",
           "type": "Menu"
         },
         {
-          "price_public": false,
-          "choice": false,
-          "title": "FOIS de CANARD",
-          "content": "Pehmeää ankanmaksaaa ja karamellisoitua omenaa\r\n",
+          "price_public": true,
+          "choice": true,
+          "title": "Artichaut et Truffe",
+          "content": "Maa-artisokkaa ja tryffeliä\nJerusalem artichoke and truffle\n\n",
           "price": "0",
           "type": "Menu"
         },
         {
-          "price_public": false,
-          "choice": false,
-          "title": "THON",
-          "content": "Grillattua Tonnikalaa, paistettua pain perdu sekä dashi lientä",
+          "price_public": true,
+          "choice": true,
+          "title": "Cerf Tartare",
+          "content": "Peuratartar\nDeer tartar\n",
           "price": "0",
           "type": "Menu"
         },
         {
-          "price_public": false,
-          "choice": false,
-          "title": "CARROTS et TRUFFES",
-          "content": "Kotimaisia paahdettuja väriporkkanoita, mustaa tryffeliä, tryffeli-perunalettu ja porkkanakastiketta\n",
+          "price_public": true,
+          "choice": true,
+          "title": "Flètan et Caviar",
+          "content": "Ruijanpallasta ja kaviaaria\nHalibut & Caviar\n\n",
           "price": "0",
           "type": "Menu"
         },
         {
-          "price_public": false,
-          "choice": false,
-          "title": "FLÉTAN et CAVIAR",
-          "content": "Beurre Blanc -kastikkeessa kypsennettyä norjalaista Ruijan pallasta, puikulaperunaa ja ranskalaista kaviaaria\n\r\n",
+          "price_public": true,
+          "choice": true,
+          "title": "Boeuf Wellington",
+          "content": "Naudanliha Wellington\nBeef Wellington\n\n\r\n",
           "price": "0",
           "type": "Menu"
         },
         {
-          "price_public": false,
-          "choice": false,
-          "title": "PASSION PAVLOVA",
-          "content": "Passionhedelmä Pavlova ja mango sorbettia\n",
+          "price_public": true,
+          "choice": true,
+          "title": "Orange sanguine et Campari",
+          "content": "Veriappelsiinia ja Camparia\nBlood orange and Campari\n",
           "price": "0",
           "type": "Menu"
+        },
+        {
+          "price_public": true,
+          "choice": true,
+          "title": "Chocolat et framboise",
+          "content": "Suklaata ja vadelmaa\nChocolate and raspberry\n",
+          "type": "Menu",
+          "price": "0"
         }
       ],
       "drinks": [
         {
-          "title": "Champagne Taittinger Brut reserve, Reims",
-          "description": "Champagne",
-          "price": "",
+          "title": "Champagne Henri Dosnon Brut Sélection",
+          "description": "Pinot Noir, Chardonnay CHAMPAGNE, FRANCE",
+          "price": "0",
           "type": "Sparkling Wine"
         },
         {
-          "title": "Champagne Gruet Cuvée des 3 Blancs, Cote des Bar",
-          "description": "Champagne",
-          "price": "",
-          "type": "Sparkling Wine"
+          "title": "Olivier Morin,Chitry Bourgogne Rouge Constance",
+          "description": "Pinot Noir BOURGOGNE, FRANCE",
+          "price": "0",
+          "type": "Red Wine"
         },
         {
-          "title": "Champagne Palmer & Co Blanc de Noirs Magnum, Reims",
-          "description": "Champagne",
-          "price": "",
-          "type": "Sparkling Wine"
+          "title": "Domaine Neymeyer, Tulipé",
+          "description": "Pinot Blanc ALSACE FRANCE",
+          "price": "0",
+          "type": "White Wine"
         },
         {
-          "title": "Champagne Pascal Walczak Rosé de Maceration, Les Riceys",
-          "description": "Champagne",
-          "price": "",
-          "type": "Sparkling Wine"
+          "title": "Manoir de la Tête Rouge, Bagatelle ",
+          "description": "Cabernet  Franc LE-PUY-NOTRE-DAME, FRANCE",
+          "price": "0",
+          "type": "Red Wine"
         },
         {
-          "title": "Champagne Gosset extra Brut, Aý ",
-          "description": "Champagne",
-          "price": "",
-          "type": "Sparkling Wine"
+          "title": "Cucumber collins",
+          "description": "Mocktail",
+          "price": "0",
+          "type": "Other drinks"
         },
         {
-          "title": "Champagne H. Goutorbe Special Club 2012, Aý",
-          "description": "Champagne",
-          "price": "",
-          "type": "Sparkling Wine"
-        },
-        {
-          "title": "Champagne Barbier-Louvet Doux 1er Cru",
-          "description": "Champagne",
-          "price": "",
-          "type": "Sparkling Wine"
+          "title": "Edmond Briottet, Crème de Figue",
+          "description": "DIJON, FRANCE",
+          "price": "0",
+          "type": "Other drinks"
         }
       ]
     }
