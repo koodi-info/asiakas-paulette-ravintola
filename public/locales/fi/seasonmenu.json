@@ -224,37 +224,37 @@
         {
           "title": "Champagne Henri Dosnon Brut Sélection",
           "description": "Pinot Noir, Chardonnay CHAMPAGNE, FRANCE",
-          "price": "0",
+          "price": "",
           "type": "Sparkling Wine"
         },
         {
           "title": "Olivier Morin,Chitry Bourgogne Rouge Constance",
           "description": "Pinot Noir BOURGOGNE, FRANCE",
-          "price": "0",
+          "price": "",
           "type": "Red Wine"
         },
         {
           "title": "Domaine Neymeyer, Tulipé",
           "description": "Pinot Blanc ALSACE FRANCE",
-          "price": "0",
+          "price": "",
           "type": "White Wine"
         },
         {
           "title": "Manoir de la Tête Rouge, Bagatelle ",
           "description": "Cabernet  Franc LE-PUY-NOTRE-DAME, FRANCE",
-          "price": "0",
+          "price": "",
           "type": "Red Wine"
         },
         {
           "title": "Cucumber collins",
           "description": "Mocktail",
-          "price": "0",
+          "price": "",
           "type": "Other drinks"
         },
         {
           "title": "Edmond Briottet, Crème de Figue",
           "description": "DIJON, FRANCE",
-          "price": "0",
+          "price": "",
           "type": "Other drinks"
         }
       ]
