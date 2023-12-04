@@ -1,7 +1,7 @@
 {
   "seasonmenus": [
     {
-      "public": true,
+      "public": false,
       "title": "Paulette Lunch",
       "info": "\n",
       "price": "",
@@ -26,7 +26,7 @@
       "drinks": []
     },
     {
-      "public": true,
+      "public": false,
       "title": "Paulette Lunch Menu",
       "price": "35",
       "info": "Ravintola Paulette tarjoaa päivittäin kolmen ruokalajin herkullisen lounaan. Menun annokset ovat myös tilattavissa erikseen. Klassikko annos Bouillabaisse -kalakeitto sekä päivän Plat du jour ovat myös tilattavissa menun lisäksi. Menu sisältää: alkuruoan, pääruoan ja jälkiruoan. ",
