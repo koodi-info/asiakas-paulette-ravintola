@@ -93,7 +93,7 @@
       "time": "5.12-8.12.2023 (6.12, olemme suljettuna)"
     },
     {
-      "public": true,
+      "public": false,
       "title": "Menu de Noël 2023 - Joululounas",
       "time": "12.12-15.12.2023",
       "price": "49,00€",
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "public": false,
+      "public": true,
       "title": "Menu de Noël 2023 - Joululounas",
       "price": "49",
       "info": "Voit halutessasi tilata annokset myös yksittäisinä!\n\nEn outre les classiques\nLisäksi tarjoamme lounaalla meidän klassikkoannostamme",
