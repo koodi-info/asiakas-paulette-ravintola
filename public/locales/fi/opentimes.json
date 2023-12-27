@@ -1,14 +1,15 @@
 {
   "opening_hours": [
     {
-      "item": "Lounas: Ti-Pe 11:30-14:30"
-    },
-    {
-      "item": "Ilta: Ke-La 16:00-22:00"
+      "item": "Ilta: Ke-La 14:00-22:00"
     },
     {
       "item": "Su-Ma Suljettu"
     }
   ],
-  "exception_opening_hours": []
+  "exception_opening_hours": [
+    {
+      "item": "31.12.2023 sunnuntaina 16.00-22.00"
+    }
+  ]
 }
