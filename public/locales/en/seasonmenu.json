@@ -50,7 +50,7 @@
       "drinks": []
     },
     {
-      "public": true,
+      "public": false,
       "price": "49,00",
       "info": "Voit halutessasi tilata annokset myös yksittäisinä!\n\nEn outre les classiques\nLisäksi tarjoamme lounaalla meidän klassikkoannostamme",
       "title": "Menu de Noël 2023 - Christmas lunch",
