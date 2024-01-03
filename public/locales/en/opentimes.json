@@ -7,9 +7,5 @@
       "item": "Sunday-Thuesday closed"
     }
   ],
-  "exception_opening_hours": [
-    {
-      "item": "We are open on 31.12.2023 and serve a New Year menu, settings at 16 & 20 o`clock, book a table."
-    }
-  ]
+  "exception_opening_hours": []
 }
