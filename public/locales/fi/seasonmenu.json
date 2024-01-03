@@ -158,7 +158,7 @@
       ]
     },
     {
-      "public": true,
+      "public": false,
       "title": "UUDENVUODEN MENU",
       "price": "89",
       "info": "Uudenvuoden illallis menu sunnuntaina 31.12.\nMenun hinta 89 € sekä juoma paketti 70 €",
