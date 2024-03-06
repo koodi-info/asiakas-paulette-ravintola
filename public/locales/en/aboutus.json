@@ -29,6 +29,11 @@
       "navlink": "food"
     },
     {
+      "title": "Restaurants",
+      "navlink": "Restaurants",
+      "body": "We don't focus on just one restaurant. We also run other interesting establishments, such as <a href='https://ravintolaspora.fi/' target='blank'>Restaurant Spora</a> in Vallila, where the lunch offerings have been revitalized under our management. Additionally, we have brought new life to the restaurant at <a href='https://www.pargasport.fi/fi' target='blank'>Paraisten portti</a>."
+    },
+    {
       "title": "Catering",
       "body": "Teemme myös tilauksesta catering toimituksia, tai voit myös tilata paikanpäälle kokin, sekä tarjoilijan jos niin haluat. Olethan yhteydessä sähköpostitse \n\nhello@paulettehelsinki.com tai puhelimitse +358 40 767 1037 \n\nniin teemme juhlistanne ikimuistoisen.",
       "leftImage": "/images/uploads/sante.jpg",

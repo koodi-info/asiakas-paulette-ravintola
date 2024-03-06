@@ -23,14 +23,20 @@
     },
     {
       "title": "Ruoka",
-      "body": "Ruokamme perustuu pitkälti kotimaisiin laadukkaisiin sesongin raaka-aineisiin ja ranskalaiseen keittämiseen.Keittiötämme voisi luonnehtia ”skandi-ranskalaiseksi bistroksi” jossa pohjoisen raaka-aineet ja klassinen ranskalainen keittiö kohtaavat. Pidämme yksinkertaisista ja selkeistä mauista, jotta sesongin tunnuspiirteet pääsevät oikeutetusti esiin. Kokonaisvaltaisen makukokemuksen rikastuttamiseksi etsimme kulloisellekin menulle sopivat elegantit viiniparit. Ruokalistamme vaihtuu sesonkien mukaan unohtamatta pysyviä klassikkoannoksia.\\\nRuoka ja viini ovat meidän intohimomme ja haluamme tarjota asiakkaillemme unohtumattomia ravintolaelämyksiä.\\\n\\\nBienvenue!",
+      "body": "Ruokamme perustuu pitkälti kotimaisiin laadukkaisiin sesongin raaka-aineisiin ja ranskalaiseen keittämiseen.Keittiötämme voisi luonnehtia ”skandi-ranskalaiseksi bistroksi” jossa pohjoisen raaka-aineet ja klassinen ranskalainen keittiö kohtaavat. Pidämme yksinkertaisista ja selkeistä mauista, jotta sesongin tunnuspiirteet pääsevät oikeutetusti esiin. Kokonaisvaltaisen makukokemuksen rikastuttamiseksi etsimme kulloisellekin menulle sopivat elegantit viiniparit. Ruokalistamme vaihtuu sesonkien mukaan unohtamatta pysyviä klassikkoannoksia. Ruoka ja viini ovat meidän intohimomme ja haluamme tarjota asiakkaillemme unohtumattomia ravintolaelämyksiä. Bienvenue!",
       "leftImage": "/images/uploads/veggies.jpg",
       "rightImage": "/images/uploads/bouillabaisse.jpg",
       "navlink": "food"
     },
     {
+      "title": "Ravintolat",
+      "navlink": "restaurants",
+      "body": "Me emme keskity vain yhteen ravintolaan. Pyöritämme myös muita kiinnostavia kohteita, kuten <a href='https://ravintolaspora.fi/' target='blank'> Ravintola Spora </a>Vallilan varikolla, jossa lounastarjonta on saanut uuden ilmeen meidän käsissämme. Lisäksi olemme tuoneet uutta eloa <a href='https://www.pargasport.fi/fi' target='blank'>Paraisten portin</a> ravintolaan.",
+      "leftImage": ""
+    },
+    {
       "title": "Catering",
-      "body": "Teemme myös tilauksesta catering toimituksia, tai voit myös tilata paikanpäälle kokin, sekä tarjoilijan jos niin haluat. Olethan yhteydessä sähköpostitse \n\nhello@paulettehelsinki.com tai puhelimitse +358 40 767 1037 \n\nniin teemme juhlistanne ikimuistoisen.",
+      "body": "Teemme myös tilauksesta catering toimituksia, tai voit myös tilata paikanpäälle kokin, sekä tarjoilijan jos niin haluat. Olethan yhteydessä sähköpostitse hello@paulettehelsinki.com tai puhelimitse +358 40 767 1037 niin teemme juhlistanne ikimuistoisen.",
       "leftImage": "/images/uploads/friends3.jpg",
       "rightImage": "/images/uploads/sante.jpg",
       "navlink": "catering"

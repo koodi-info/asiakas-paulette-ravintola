@@ -36,13 +36,22 @@
         :imageRight="data[3].rightImage"
       />
     </div>
-     <div class="relative" :id="data[4].navlink">
+    <div class="relative" :id="data[4].navlink">
       <PhotoTextItem
-        alignment="right"
+        alignment="full"
         :headingText="data[4].title"
         :bodyText="data[4].body"
         :imageLeft="data[4].leftImage"
         :imageRight="data[4].rightImage"
+      />
+    </div>
+    <div class="relative" :id="data[5].navlink">
+      <PhotoTextItem
+        alignment="right"
+        :headingText="data[5].title"
+        :bodyText="data[5].body"
+        :imageLeft="data[5].leftImage"
+        :imageRight="data[5].rightImage"
       />
     </div>
   </div>

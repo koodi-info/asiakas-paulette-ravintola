@@ -12,11 +12,11 @@
           <span v-else>{{`${data.menuopen} ` + `${data.menu}`}}</span>
         </div>
       </div>
-
       <div class="navbar__items" :class="{ navbar__mobile: navigation }">
         <a href="#about-us" @click="navigationToggle()">{{data.we}}</a>
         <a href="#lounaslista" @click="navigationToggle()">{{data.lunch}}</a>
         <a href="#alacartelista" @click="navigationToggle()">{{data.alacarte}}</a>
+        <a href="#restaurants" @click="navigationToggle()">{{data.restaurants}}</a>
         <a href="#catering" @click="navigationToggle()">{{data.catering}}</a>
         <a href="https://v2.tableonline.fi/instabook/bookings/yUijLmr" target="_blank">{{data.tablereservation}}</a>
         <a href="#yhteydenotto">{{data.giftcard}}</a>

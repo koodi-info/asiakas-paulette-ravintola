@@ -5,13 +5,15 @@
         <h4>{{ headingText }}</h4>
         <p v-html="handleNewLine(bodyText)"></p>
       </div>
-      <div class="photoTextItem__images">
+      <div class="photoTextItem__images" v-if="imageRight && imageLeft">
         <img
+          v-if="imageRight"
           :src="imageRight"
           alt="Kuva annoksesta tai ravintolasta"
           role="presentation"
         />
         <img
+          v-if="imageLeft"
           :src="imageLeft"
           alt="Kuva annoksesta tai ravintolasta"
           role="presentation"
@@ -48,6 +50,9 @@ export default {
 .left {
   @apply flex-row;
 }
+.full {
+  @apply flex-row w-10/12;
+}
 .photoTextItem {
   @apply container mx-auto px-4;
   &__container {
@@ -80,10 +85,14 @@ img {
   aspect-ratio: 1 / 1;
 }
 h4 {
-  @apply font-serif text-3xl font-bold mb-4;
-  color: var(--color03);
+  @apply font-serif text-3xl font-bold mb-4 text-left;
+  color: var(--color02);
 }
 p {
   @apply font-sans text-base text-gray-800 leading-loose mb-4;
+}
+::v-deep a {
+  @apply underline;
+  color: var(--color02);
 }
 </style>

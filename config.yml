@@ -49,6 +49,7 @@ collections:
               - { label: Pöytävaraus, name: tablereservation, widget: string }
               - { label: Lahjakortti, name: giftcard, widget: string }
               - { label: Ravintola, name: restaurant, widget: string }
+              - { label: Ravintolat, name: restaurants, widget: string }
               - { label: Aukioloajat, name: opentimes, widget: string }
               - { label: Poikkeusaukioloajat, name: extraopentimes, widget: string }
               - { label: Tee pöytävaraus, name: tablereservationtext, widget: string } 
@@ -139,8 +140,8 @@ collections:
                   modes: [rich_text],
                   buttons: [bold],
                 }
-              - { label: "Vasen valokuva", name: "leftImage", widget: "image" }
-              - { label: "Oikea valokuva", name: "rightImage", widget: "image" } 
+              - { label: "Vasen valokuva", name: "leftImage", widget: "image", required: false}
+              - { label: "Oikea valokuva", name: "rightImage", widget: "image", required: false} 
       - label: Lounas ruokalista
         name: lunchlist
         file: "/public/locales/fi/lunchlist.json"
@@ -392,6 +393,7 @@ collections:
               - { label: Pöytävaraus, name: tablereservation, widget: string }
               - { label: Lahjakortti, name: giftcard, widget: string }
               - { label: Ravintola, name: restaurant, widget: string }
+              - { label: Ravintolat, name: restaurants, widget: string }
               - { label: Aukioloajat, name: opentimes, widget: string }
               - { label: Poikkeusaukioloajat, name: extraopentimes, widget: string }
               - { label: Tee pöytävaraus, name: tablereservationtext, widget: string }   
@@ -482,8 +484,8 @@ collections:
                   modes: [rich_text],
                   buttons: [bold],
                 }
-              - { label: "Vasen valokuva", name: "leftImage", widget: "image" }
-              - { label: "Oikea valokuva", name: "rightImage", widget: "image" } 
+              - { label: "Vasen valokuva", name: "leftImage", widget: "image",  required: false}
+              - { label: "Oikea valokuva", name: "rightImage", widget: "image",  required: false} 
       - label: Lounas ruokalista
         name: lunchlist
         file: "/public/locales/en/lunchlist.json"
