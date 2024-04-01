@@ -1,13 +1,44 @@
 {
-  "heading": "Paulette Lounas 10-13.10",
+  "heading": "Paulette Lounas 2-5.4.2024",
   "imagethree": "/images/uploads/poachedegg.jpg",
   "luncmenuheading": "",
   "price": "",
   "lunchlists": "hello",
   "imageone": "/images/uploads/lunch.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
-  "week": "41",
-  "foods": [],
+  "week": "14",
+  "foods": [
+    {
+      "title": "Salade du jour: Chèvre et betterave ",
+      "content": "Salade du jour: Chèvre et betterave \r\nPäivän salaatti: paahdettua vuohenjuustoa ja luomupunajuurta \r\nSalad from roasted goat cheese and organic beetroot\r\n",
+      "price": "16€",
+      "type": "Pääruoka"
+    },
+    {
+      "title": "Plat du jour; Croque Monsieur",
+      "content": "Ranskalainen klassinen lämmin leipä; Luomukinkkua, grûyer-juustoa, dijòn-sinappia, cornichons-kurkkua ja luomusalaattia\r\nFrench classic toast; Organic ham, Grûyer cheese, dijòn mustard, cornichons and organic salads \r\n",
+      "price": "15€",
+      "type": "Pääruoka"
+    },
+    {
+      "title": "Agneau et truffe  ",
+      "content": "Punaviinissä haudutettu karitsan entrecôte, tryffeliperunaa ja madeirakastiketta\r\n Lamb entrecôte braised in red wine, truffle potatoes and Madeira Sauce\r\n",
+      "price": "24€",
+      "type": "Pääruoka"
+    },
+    {
+      "title": "Bouillabaisse",
+      "price": "32€",
+      "type": "Pääruoka",
+      "content": "Siikaa, kampasimpukkaa, jättirapua, sinisimpukkaa, hummerilientä ja rouillea\r\nWhitefish, scallop, king prawn, mussels, lobster broth and rouille\r\n"
+    },
+    {
+      "title": "Crème Caramel",
+      "content": "Vaniljalla maustettu paahtovanukas \r\nVanilla flavored flan\r\n",
+      "price": "10€",
+      "type": "Jälkiruoka"
+    }
+  ],
   "drinks": [],
-  "lunch_public": false
+  "lunch_public": true
 }
