@@ -13,7 +13,7 @@
           "title": "ASPERGES et OEUF POCHÉ",
           "content": "White asparagus, poached organic egg & sauce Hollandaise\nWine recommend:Domaine Goulley, Chablis 2022 15/85€",
           "price": "0",
-          "type": "Alkuruoka"
+          "type": "Appetizer"
         },
         {
           "price_public": false,
@@ -21,7 +21,7 @@
           "title": "LANGOUSTINE et PAIN PERDU",
           "content": "Pain perdu fried to crisp, Langoustine, tarragon\nand Beurre Blanc seasoned with dill\nWine recommend:Domaine Sancerre blanc 2022 15/85€",
           "price": "0",
-          "type": "Alkuruoka"
+          "type": "Appetizer"
         },
         {
           "price_public": true,
@@ -29,14 +29,14 @@
           "content": "Cod cooked in browned butter, baby potato, silver onion,\nspinach, Beurre Blanc and French caviar\nWine recommend:Arnaud Combier, Couette blanche 2022 15/65€",
           "title": "CABILLAUD et CAVIAR",
           "price": "0",
-          "type": "Pääruoka"
+          "type": "Main course"
         },
         {
           "price_public": true,
           "choice": true,
           "title": "BEEF BAVETTE et CHOU DE PRINTEMPS",
           "content": "Grilled flank steak, roasted spring cabbage & organic carrots and Madeira sauce\nWine recommend:Arnaud Combier 2022 16/65€",
-          "type": "Pääruoka",
+          "type": "Main course",
           "price": "0"
         },
         {
@@ -45,7 +45,7 @@
           "title": "FROMAGE",
           "content": "Seasonal cheeses, with compotes and house made root bread\nWine recommend: D.Rocher-Corbin, Les Promesses 2017 13/75€",
           "price": "10",
-          "type": "Jälkiruoka"
+          "type": "Cheese platter"
         },
         {
           "price_public": false,
@@ -53,7 +53,7 @@
           "title": "CEREME BRÛLÈE",
           "content": "Liquorice flavoured creme brûlèe and juiced berries\nWine recommend:Lìlot Sauternes 2021 13€",
           "price": "0",
-          "type": "Jälkiruoka"
+          "type": "Dessert"
         },
         {
           "price_public": false,
@@ -61,7 +61,7 @@
           "title": "PAVLOVA d’ÉTÉ et SORBET à la RHUBARBE",
           "content": "“Vappu” Pavlova with rhubarb sorbet\nWine recommend:Moscato d'Asti 12€",
           "price": "0",
-          "type": "Jälkiruoka"
+          "type": "Dessert"
         }
       ]
     }
