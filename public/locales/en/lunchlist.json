@@ -97,5 +97,6 @@
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
   "imagethree": "/images/uploads/petitpois.jpg",
   "week": "7",
-  "heading": "Lunch for week"
+  "heading": "Lunch for week",
+  "lunch_public": false
 }
