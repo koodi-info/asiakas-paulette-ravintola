@@ -341,7 +341,7 @@ collections:
                 - label: "Annoksen tyyppi"
                   name: "type"
                   widget: "select"
-                  options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka", "Menu"]
+                  options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka","Juustotarjotin", "Menu"]
                   required: false
                 - {
                   label: "Valinta vaihtoehto",
