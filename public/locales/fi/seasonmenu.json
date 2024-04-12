@@ -167,7 +167,7 @@
           "price_public": false,
           "choice": true,
           "title": "ASPERGES et OEUF POCHÉ",
-          "content": "\n\nASPERGES et OEUF POCHÉ\t\t\t\t\t\t\tValkoista parsaa, luomu uppomuna ja hollandaise kastiketta  \t\t\t\t\tWhite asparagus,  poached organic egg & sauce Hollandaise\t\t\t      \t\t Viinisuositus: Domaine Goulley, Chablis 2022 15/85€",
+          "content": "\n\nASPERGES et OEUF POCHÉ\t\t\t\t\t\t\tValkoista parsaa, luomu uppomuna ja hollandaise kastiketta\t\t      \t\t Viinisuositus: Domaine Goulley, Chablis 2022 15/85€",
           "price": "0",
           "type": "Alkuruoka"
         },
@@ -175,9 +175,49 @@
           "price_public": false,
           "choice": true,
           "title": "LANGOUSTINE et PAIN PERDU",
-          "content": "Rapeaksi paistettu “Pain Perdu”, Merirapua, rakuunalla ja tillillä maustettua Beurre Blanc -kastiketta Pain perdu fried to crisp, Langoustine, tarragon and Beurre Blanc seasoned with dill",
+          "content": "Rapeaksi paistettu “Pain Perdu”, Merirapua, rakuunalla ja tillillä maustettua Beurre Blanc -kastiketta\nViinisuositus: Domaine Sancerre blanc 2022 15/85€",
           "type": "Alkuruoka",
           "price": "0"
+        },
+        {
+          "price_public": false,
+          "choice": true,
+          "title": "CABILLAUD et CAVIAR",
+          "content": "Pähkinävoissa kypsennettyä turskaa, puikulaperunaa, hopeasipulia, pinaattia, Beurre Blanc -kastiketta ja ranskalaista kaviaaria\nViinisuositus: Arnaud Combier, Couette blanche 2022 15/65€",
+          "price": "0",
+          "type": "Pääruoka"
+        },
+        {
+          "price_public": false,
+          "choice": true,
+          "title": "BEEF BAVETTE et CHOU DE PRINTEMPS",
+          "content": "Grillattu Black Angus flank steak, paahdettua kevätkaalia, sekä luomu porkkanaa ja Madeira Kastiketta\nViinisuositus: Arnaud Combier 2022 16/65",
+          "price": "0",
+          "type": "Pääruoka"
+        },
+        {
+          "price_public": true,
+          "choice": false,
+          "title": "FROMAGE",
+          "content": "Sesongin juustoja, hillokkeita ja talon omaa juurileipää\nViinisuositus: D.Rocher-Corbin, Les Promesses 2017 13/75 €",
+          "price": "10",
+          "type": "Jälkiruoka"
+        },
+        {
+          "price_public": false,
+          "choice": true,
+          "title": "CEREME BRÛLÈE",
+          "content": "Lakritsilla maustettua creme brûlèe ja mehustettuja marjoja\nViinisuositus: Lìlot Sauternes 2021 13€",
+          "price": "0",
+          "type": "Jälkiruoka"
+        },
+        {
+          "price_public": false,
+          "choice": true,
+          "title": "PAVLOVA d’ÉTÉ et SORBET à la RHUBARBE",
+          "content": "Vappu Pavlovaja Raparperi sorbet\nViinisuositus: Moscato d'Asti 12€",
+          "price": "0",
+          "type": "Jälkiruoka"
         }
       ],
       "drinks": [],
