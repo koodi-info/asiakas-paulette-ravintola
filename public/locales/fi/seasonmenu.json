@@ -159,17 +159,25 @@
     },
     {
       "public": true,
-      "title": "VAPPU MENU",
-      "price": "89",
+      "title": "PREMIER MAI 2024:",
+      "price": "68-78",
       "info": "V﻿appu Menu kattaukset klo. 12 & 15\nKolmen ruokalajin Menun hinta 68e juustojen kera 78e",
       "foods": [
         {
           "price_public": false,
-          "choice": false,
-          "title": "3 rkl Vappu Menu",
-          "content": "PREMIER MAI 2024:\nEntrées:\n ASPERGES et OEUF POCHÉ\t\t\t\t\t\t\tValkoista parsaa, luomu uppomuna ja hollandaise kastiketta  \t\t\t\t\tWhite asparagus,  poached organic egg & sauce Hollandaise\t\t\t      \t\t Viinisuositus: Domaine Goulley, Chablis 2022 15/85€\n\nTai\n\nLANGOUSTINE et PAIN PERDU \nRapeaksi paistettu “Pain Perdu”, Merirapua, rakuunalla\n ja tillillä maustettua Beurre Blanc -kastiketta\nPain perdu fried to crisp, Langoustine, tarragon \nand Beurre Blanc seasoned with dill\nViinisuositus: Domaine Sancerre blanc 2022  15/85€\n\nPlats:  \nCABILLAUD et CAVIAR   \nPähkinävoissa kypsennettyä turskaa, puikulaperunaa,\nhopeasipulia, pinaattia, Beurre Blanc -kastiketta ja \nranskalaista kaviaaria\nCod cooked in browned butter, baby potato, silver onion, \nspinach, Beurre Blanc and French caviar\nViinisuositus: Arnaud Combier, Couette blanche 2022 15/65€\n\nT﻿ai\n\nBEEF BAVETTE et CHOU DE PRINTEMPS \nGrillattu Black Angus flank steak, paahdettua kevätkaalia, sekä luomu porkkanaa  \nja Madeira Kastiketta\nGrilled flank steak, roasted spring cabbage & organic carrots and Madeira sauce\nViinisuositus: Arnaud Combier 2022  16/65€\n\nFROMAGE 10€\nSesongin juustoja, hillokkeita ja talon omaa juurileipää\nSeasonal cheeses, with compotes and house made root bread\nViinisuositus: D.Rocher-Corbin, Les Promesses 2017 13/75€       \n\nDesserts:\n\nCEREME BRÛLÈE \nLakritsilla maustettua creme brûlèe ja mehustettuja marjoja\nLiquorice flavoured creme brûlèe and juiced berries\nViinisuositus: Lìlot Sauternes 2021  13€\n\nT﻿ai\n\nPAVLOVA d’ÉTÉ et SORBET à la RHUBARBE \nVappu Pavlova ja Raparperi sorbet\n“Vappu” Pavlova with rhubarb sorbet\nViinisuositus: Moscato d'Asti   12€\nMenun hinta 68€/ Juustoilla 78€  \n\n",
+          "choice": true,
+          "title": "ASPERGES et OEUF POCHÉ",
+          "content": "\n\nASPERGES et OEUF POCHÉ\t\t\t\t\t\t\tValkoista parsaa, luomu uppomuna ja hollandaise kastiketta  \t\t\t\t\tWhite asparagus,  poached organic egg & sauce Hollandaise\t\t\t      \t\t Viinisuositus: Domaine Goulley, Chablis 2022 15/85€",
           "price": "0",
-          "type": "Menu"
+          "type": "Alkuruoka"
+        },
+        {
+          "price_public": false,
+          "choice": true,
+          "title": "LANGOUSTINE et PAIN PERDU",
+          "content": "Rapeaksi paistettu “Pain Perdu”, Merirapua, rakuunalla ja tillillä maustettua Beurre Blanc -kastiketta Pain perdu fried to crisp, Langoustine, tarragon and Beurre Blanc seasoned with dill",
+          "type": "Alkuruoka",
+          "price": "0"
         }
       ],
       "drinks": [],
