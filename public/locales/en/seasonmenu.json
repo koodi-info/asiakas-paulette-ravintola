@@ -1,216 +1,69 @@
 {
   "seasonmenus": [
     {
-      "public": false,
-      "title": "CHRISTMAS LUNCH",
-      "price": "46",
-      "info": "Valitse joululounaslistan vaihtoehdoista yksi alkuruoka ja yksi pääruoka.",
+      "public": true,
+      "title": "PREMIER MAI 2024:",
+      "info": "May Day Menu settings at 12 & 15 Three-course Menu price 68€ with cheeses 78€",
+      "price": "68-78",
+      "time": "1.5.2024",
       "foods": [
         {
           "price_public": false,
-          "title": "BETTERAVES et MORILLES ",
-          "content": "Luomu punajuurta, vuohenjuustolla täytettyä huhtasientä\r\nja punajuurivaahtoa\n\n\r\nOrganic beetroot, goat cheese filled morel mushrooms\r\nand beetroot foam\r\n",
-          "price": "19",
-          "type": "Appetizer",
-          "choice": true
-        },
-        {
-          "price_public": false,
-          "title": "CERF TARTARE",
-          "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\npikkelöityä punasipulia, kaprista ja rapeaa perunaa\n\n\r\nTartar of Finnish organic deer, organic egg, \r\npickled red onion, capers and crispy potato\r\n",
-          "price": "20",
-          "type": "Appetizer",
-          "choice": true
-        },
-        {
-          "price_public": false,
-          "title": "CABILLAUD et CHOU FLEUR",
-          "content": "Pähkinävoissa haudutettua turskan seläkettä, kukkakaalia\r\nja wasabikastiketta.                                  \r\nF﻿illet of cod poached with beaurre noisette, cauliflower and wasabi sauce",
-          "price": "29",
-          "type": "Main course",
-          "choice": true
-        },
-        {
-          "price_public": false,
-          "title": "MAGRET de CANARD",
-          "content": "Paahdettua ranskalaista ankanrintaa, beluga-linssiragu, \nm﻿ustaherukkaa ja tummaa ankanliemi-kastikettaa.\n\nR﻿oasted French duck breast, beluga lentil ragu\nb﻿lack currant and dark duck jus sauce",
-          "price": "31",
-          "type": "Main course",
-          "choice": true
-        },
-        {
-          "price_public": false,
-          "title": "CITRON et RÉGLISSE ",
-          "content": "Sitruunasavariini ja lakritsijäätelöä\n\n\r\nLemon savarin and licorice ice cream\r\n",
-          "price": "12",
-          "type": "Dessert",
-          "choice": false
-        }
-      ],
-      "drinks": []
-    },
-    {
-      "public": false,
-      "price": "49,00",
-      "info": "Voit halutessasi tilata annokset myös yksittäisinä!\n\nEn outre les classiques\nLisäksi tarjoamme lounaalla meidän klassikkoannostamme",
-      "title": "Menu de Noël 2023 - Christmas lunch",
-      "foods": [
-        {
-          "price_public": false,
-          "choice": false,
-          "content": "Organic jerusalem artichoke tartlet, finnish apple and black truffle",
-          "title": "ARTICHAUT et TRUFFE",
-          "type": "Alkuruoka",
-          "price": "0"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "content": "In brown butter cooked halibut, watergrass, spinach, lapland potato\n&amp; French caviar",
-          "title": "FLETAN et CAVIAR",
-          "type": "Pääruoka",
-          "price": "0"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "content": "Roasted organic honey, with szechuan pepper flavored\ndark chocolate and bourbon vanilla ice cream",
-          "title": "RAYON DE MIEL ET CHOCOLAT NOIR",
-          "type": "Jälkiruoka",
-          "price": "0"
-        }
-      ],
-      "time": "5.12-8.12.2023 (6.12, olemme suljettuna)"
-    },
-    {
-      "public": false,
-      "title": "Menu de Noël 2023 - Christmas lunch",
-      "time": "12.12-15.12.2023",
-      "price": "49,00€",
-      "info": "Voit halutessasi tilata annokset myös yksittäisinä!\n\nEn outre les classiques\nLisäksi tarjoamme lounaalla meidän klassikkoannostamme",
-      "foods": [
-        {
-          "price_public": false,
-          "choice": false,
-          "content": "Sugar salted salmon filée, cucumber pickles, wasabi creme\nand horseradish\n",
-          "title": "SAUMON WASABI",
-          "type": "Alkuruoka",
-          "price": "0"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "content": "Roasted French duck breast, Beluga lentils ragù,\nblackcurrant and dark duck stock sauce",
-          "title": "MAGRET de CANARD",
-          "type": "Pääruoka",
-          "price": "0"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "content": "With espresso seasoned brulee &amp; raspberry sorbet\n",
-          "title": "ESPRESSO CREME BRÛLÉE",
-          "type": "Jälkiruoka",
-          "price": "0"
-        }
-      ]
-    },
-    {
-      "public": false,
-      "title": "Menu de Noël 2023 - Christmas lunch",
-      "price": "49",
-      "info": "Voit halutessasi tilata annokset myös yksittäisinä!\n\nEn outre les classiques\nLisäksi tarjoamme lounaalla meidän klassikkoannostamme",
-      "time": "19.12-22.12.2023",
-      "foods": [
-        {
-          "price_public": false,
-          "choice": false,
-          "content": "Vol au vent of seasonal mushrooms, porcini stew and Umami mushroom stock",
-          "title": "VOL AU VENT DE CHAMPIGNONS ET BOUILLON",
+          "choice": true,
+          "title": "ASPERGES et OEUF POCHÉ",
+          "content": "White asparagus, poached organic egg & sauce Hollandaise\nWine recommend:Domaine Goulley, Chablis 2022 15/85€",
           "price": "0",
           "type": "Alkuruoka"
         },
         {
           "price_public": false,
-          "choice": false,
-          "content": "Overnight cooked organic lamb, smoked celery purée, kohlrabi\nand dark rosemary sauce",
-          "title": "ENTRECÔTE d’AGNEAU",
+          "choice": true,
+          "title": "LANGOUSTINE et PAIN PERDU",
+          "content": "Pain perdu fried to crisp, Langoustine, tarragon\nand Beurre Blanc seasoned with dill\nWine recommend:Domaine Sancerre blanc 2022 15/85€",
+          "price": "0",
+          "type": "Alkuruoka"
+        },
+        {
+          "price_public": true,
+          "choice": true,
+          "content": "Cod cooked in browned butter, baby potato, silver onion,\nspinach, Beurre Blanc and French caviar\nWine recommend:Arnaud Combier, Couette blanche 2022 15/65€",
+          "title": "CABILLAUD et CAVIAR",
           "price": "0",
           "type": "Pääruoka"
         },
         {
-          "price_public": false,
-          "choice": false,
-          "content": "Champagne jellied blood\norange, Campari sorbet and Sabayon",
-          "title": "ORANGE SANGUINE ET CAMPARI",
+          "price_public": true,
+          "choice": true,
+          "title": "BEEF BAVETTE et CHOU DE PRINTEMPS",
+          "content": "Grilled flank steak, roasted spring cabbage & organic carrots and Madeira sauce\nWine recommend:Arnaud Combier 2022 16/65€",
+          "type": "Pääruoka",
           "price": "0"
+        },
+        {
+          "price_public": true,
+          "choice": false,
+          "title": "FROMAGE",
+          "content": "Seasonal cheeses, with compotes and house made root bread\nWine recommend: D.Rocher-Corbin, Les Promesses 2017 13/75€",
+          "price": "10",
+          "type": "Jälkiruoka"
+        },
+        {
+          "price_public": false,
+          "choice": true,
+          "title": "CEREME BRÛLÈE",
+          "content": "Liquorice flavoured creme brûlèe and juiced berries\nWine recommend:Lìlot Sauternes 2021 13€",
+          "price": "0",
+          "type": "Jälkiruoka"
+        },
+        {
+          "price_public": false,
+          "choice": true,
+          "title": "PAVLOVA d’ÉTÉ et SORBET à la RHUBARBE",
+          "content": "“Vappu” Pavlova with rhubarb sorbet\nWine recommend:Moscato d'Asti 12€",
+          "price": "0",
+          "type": "Jälkiruoka"
         }
       ]
-    },
-    {
-      "public": false,
-      "title": "NEW YEAR'S MENU",
-      "price": "79",
-      "info": "7 COURSE MENU STARTING AT 16:00 O`CLOCK",
-      "foods": [
-        {
-          "price_public": false,
-          "choice": false,
-          "title": "Coquille Saint-Jacques  et Oeufs de Truite",
-          "content": "Kampasimpukkaa ja taimenen mätiä \r\nScallop with Trout roe\r\n",
-          "price": "0",
-          "type": "Appetizer"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "title": "Artichaut et Truffe",
-          "content": "Maa-artisokkaa ja tryffeliä\n\n\r\nJerusalem artichoke and truffle\r\n",
-          "price": "0",
-          "type": "Appetizer"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "title": "Cerf Tartare",
-          "content": "Peuratartar\n\n\r\nDeer tartar\r\n",
-          "price": "0",
-          "type": "Appetizer"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "title": "Cabillaud et Wasabi",
-          "content": "Turskaa ja wasabia\n\n\r\nCodfish and wasabi\r\n",
-          "price": "0",
-          "type": "Appetizer"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "title": "Canard et Figue",
-          "content": "Ankanrintaa ja viikunaa\n\n\r\nDuck breast and fig\r\n",
-          "price": "0",
-          "type": "Main course"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "title": "Orange sanguine et Campari",
-          "content": "Veriappelsiinia ja Camparia\n\n\r\nBlood orange and Campari\r\n",
-          "price": "0",
-          "type": "Main course"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "title": "Chocolat et framboise",
-          "content": "Suklaata ja vadelmaa\n\n\r\nChocolate and raspberry\r\n",
-          "price": "0",
-          "type": "Dessert"
-        }
-      ],
-      "drinks": []
     }
   ]
 }
