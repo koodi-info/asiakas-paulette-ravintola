@@ -1,28 +1,28 @@
 {
-  "heading": "Paulette Lounas 9-5.4.2024",
+  "heading": "Paulette Lounas 16-19.4.2024",
   "imagethree": "/images/uploads/poachedegg.jpg",
   "luncmenuheading": "",
   "price": "",
   "lunchlists": "hello",
   "imageone": "/images/uploads/lunch.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
-  "week": "15",
+  "week": "16",
   "foods": [
     {
-      "title": "Salade du jour: Halloumi & fraise",
-      "content": "Salade du jour: Halloumi & fraise \r\nPäivän salaatti: Päivän salaatti: paahdetusta Halloumijuustosta ja mansikoista \nSalad from roasted halloumi cheese and strawberries\n\r\n",
+      "title": "Salade du jour: Cèleri-rave et truffle",
+      "content": "\r\nPäivän salaatti: paahdetusta luomu selleristä, paistettuja sieniä ja tryffeliä \nSalad from roasted organic celeriac, fried mushrooms  and truffle\n\n\r\n",
       "price": "16",
       "type": "Pääruoka"
     },
     {
-      "title": "Plat du jour; Nduja Linguine",
-      "content": "\r\nNduja linguine pastaa ja parmesaania\nNduja flavored linguine pasta and parmesan cheese \n",
+      "title": "Plat du jour; Boulette et purée de pomme de terre",
+      "content": "Peura pyöryköitä, puikulaperunapyree ja karpaloita\nVenison meatballs, potatoes pyre and cranberries\n\r",
       "price": "15",
       "type": "Pääruoka"
     },
     {
-      "title": "Frit Brochet ",
-      "content": "Paistettua haukifilettä, taimenen mätiä ja pähkinävoilla maustettua siikli perunaa \n Fried pike, trout roe and brown butter flavored potato \n",
+      "title": "  Saumon \"Skagenröra\" ",
+      "content": "Lohta Skagenröra, taimenen mätiä ja pähkinävoilla maustettua siikli perunaa \n Fried salmon with shrimps,trout roe and brown butter flavored potato \n\n",
       "price": "24",
       "type": "Pääruoka"
     },
@@ -33,8 +33,8 @@
       "content": "Siikaa, kampasimpukkaa, jättirapua, sinisimpukkaa, hummerilientä ja rouillea\r\nWhitefish, scallop, king prawn, mussels, lobster broth and rouille\r\n"
     },
     {
-      "title": "financier et citron ",
-      "content": "\r\nFinancier leivosta sekä sitruuna creemiä \nfinancier pastry and lemon curd\n",
+      "title": "Banane caramélisée et ananas",
+      "content": "Karamellisoitua banaania, ananassorbettia ja kookos-vaahtoa \nCaramelized banana, pineapple sorbet and coconut foam\n\n",
       "price": "10",
       "type": "Jälkiruoka"
     }
