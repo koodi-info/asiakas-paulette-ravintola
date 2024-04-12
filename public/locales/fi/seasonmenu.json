@@ -158,106 +158,22 @@
       ]
     },
     {
-      "public": false,
-      "title": "UUDENVUODEN MENU",
+      "public": true,
+      "title": "VAPPU MENU",
       "price": "89",
-      "info": "Uudenvuoden illallis menu sunnuntaina 31.12.\nMenun hinta 89 € sekä juoma paketti 70 €",
+      "info": "V﻿appu Menu kattaukset klo. 12 & 15\nKolmen ruokalajin Menun hinta 68e juustojen kera 78e",
       "foods": [
         {
           "price_public": false,
           "choice": false,
-          "title": "Coquille Saint-Jacques  et citron vert",
-          "content": "Kampasimpukkaa ja finger limeä\nScallop with finger lime\n",
+          "title": "3 rkl Vappu Menu",
+          "content": "PREMIER MAI 2024:\nEntrées:\n ASPERGES et OEUF POCHÉ\t\t\t\t\t\t\tValkoista parsaa, luomu uppomuna ja hollandaise kastiketta  \t\t\t\t\tWhite asparagus,  poached organic egg & sauce Hollandaise\t\t\t      \t\t Viinisuositus: Domaine Goulley, Chablis 2022 15/85€\n\nTai\n\nLANGOUSTINE et PAIN PERDU \nRapeaksi paistettu “Pain Perdu”, Merirapua, rakuunalla\n ja tillillä maustettua Beurre Blanc -kastiketta\nPain perdu fried to crisp, Langoustine, tarragon \nand Beurre Blanc seasoned with dill\nViinisuositus: Domaine Sancerre blanc 2022  15/85€\n\nPlats:  \nCABILLAUD et CAVIAR   \nPähkinävoissa kypsennettyä turskaa, puikulaperunaa,\nhopeasipulia, pinaattia, Beurre Blanc -kastiketta ja \nranskalaista kaviaaria\nCod cooked in browned butter, baby potato, silver onion, \nspinach, Beurre Blanc and French caviar\nViinisuositus: Arnaud Combier, Couette blanche 2022 15/65€\n\nT﻿ai\n\nBEEF BAVETTE et CHOU DE PRINTEMPS \nGrillattu Black Angus flank steak, paahdettua kevätkaalia, sekä luomu porkkanaa  \nja Madeira Kastiketta\nGrilled flank steak, roasted spring cabbage & organic carrots and Madeira sauce\nViinisuositus: Arnaud Combier 2022  16/65€\n\nFROMAGE 10€\nSesongin juustoja, hillokkeita ja talon omaa juurileipää\nSeasonal cheeses, with compotes and house made root bread\nViinisuositus: D.Rocher-Corbin, Les Promesses 2017 13/75€       \n\nDesserts:\n\nCEREME BRÛLÈE \nLakritsilla maustettua creme brûlèe ja mehustettuja marjoja\nLiquorice flavoured creme brûlèe and juiced berries\nViinisuositus: Lìlot Sauternes 2021  13€\n\nT﻿ai\n\nPAVLOVA d’ÉTÉ et SORBET à la RHUBARBE \nVappu Pavlova ja Raparperi sorbet\n“Vappu” Pavlova with rhubarb sorbet\nViinisuositus: Moscato d'Asti   12€\nMenun hinta 68€/ Juustoilla 78€  \n\n",
           "price": "0",
           "type": "Menu"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "title": "Artichaut et Truffe",
-          "content": "Maa-artisokkaa ja tryffeliä\nJerusalem artichoke and truffle\n\n",
-          "price": "0",
-          "type": "Menu"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "title": "Cerf Tartare",
-          "content": "Peuratartar\nDeer tartar\n",
-          "price": "0",
-          "type": "Menu"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "title": "Flètan et Caviar",
-          "content": "Ruijanpallasta ja kaviaaria\nHalibut & Caviar\n\n",
-          "price": "0",
-          "type": "Menu"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "title": "Boeuf Wellington",
-          "content": "Naudanliha Wellington\nBeef Wellington\n\n\r\n",
-          "price": "0",
-          "type": "Menu"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "title": "Orange sanguine et Campari",
-          "content": "Veriappelsiinia ja Camparia\nBlood orange and Campari\n",
-          "price": "0",
-          "type": "Menu"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "title": "Chocolat et framboise",
-          "content": "Suklaata ja vadelmaa\nChocolate and raspberry\n",
-          "type": "Menu",
-          "price": "0"
         }
       ],
-      "drinks": [
-        {
-          "title": "Champagne Henri Dosnon Brut Sélection",
-          "description": "Pinot Noir, Chardonnay CHAMPAGNE, FRANCE",
-          "price": "",
-          "type": "Sparkling Wine"
-        },
-        {
-          "title": "Olivier Morin,Chitry Bourgogne Rouge Constance",
-          "description": "Pinot Noir BOURGOGNE, FRANCE",
-          "price": "",
-          "type": "Red Wine"
-        },
-        {
-          "title": "Domaine Neymeyer, Tulipé",
-          "description": "Pinot Blanc ALSACE FRANCE",
-          "price": "",
-          "type": "White Wine"
-        },
-        {
-          "title": "Manoir de la Tête Rouge, Bagatelle ",
-          "description": "Cabernet  Franc LE-PUY-NOTRE-DAME, FRANCE",
-          "price": "",
-          "type": "Red Wine"
-        },
-        {
-          "title": "Cucumber collins",
-          "description": "Mocktail",
-          "price": "",
-          "type": "Other drinks"
-        },
-        {
-          "title": "Edmond Briottet, Crème de Figue",
-          "description": "DIJON, FRANCE",
-          "price": "",
-          "type": "Other drinks"
-        }
-      ]
+      "drinks": [],
+      "time": "1.5.2024"
     }
   ]
 }
