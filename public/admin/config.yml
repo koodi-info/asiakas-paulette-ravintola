@@ -689,7 +689,7 @@ collections:
                 - label: "Annoksen tyyppi"
                   name: "type"
                   widget: "select"
-                  options: ["Lounas", "Alkuruoka", "Pääruoka", "Jälkiruoka"]
+                  options: ["Lunch", "Appetizer", "Main course", "Dessert","Cheese platter", "Menu"]
                   required: false
                 - {
                   label: "Valinta vaihtoehto",
