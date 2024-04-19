@@ -1,28 +1,28 @@
 {
-  "heading": "Paulette Lounas 16-19.4.2024",
+  "heading": "Paulette Lounas 23-26.4.2024",
   "imagethree": "/images/uploads/poachedegg.jpg",
   "luncmenuheading": "",
   "price": "",
   "lunchlists": "hello",
   "imageone": "/images/uploads/lunch.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
-  "week": "16",
+  "week": "17",
   "foods": [
     {
-      "title": "Salade du jour: Cèleri-rave et truffle",
-      "content": "\r\nPäivän salaatti: paahdetusta luomu selleristä, paistettuja sieniä ja tryffeliä \nSalad from roasted organic celeriac, fried mushrooms  and truffle\n\n\r\n",
+      "title": "Salade du jour: Crevette et oeuf",
+      "content": "\r\nPäivän salaatti: Katkaravuista, avokadosta ja luomu kananmunaa \r\nSalad from shrimps, avocado and organic egg\r\n\n\r\n",
       "price": "16",
       "type": "Pääruoka"
     },
     {
-      "title": "Plat du jour; Boulette et purée de pomme de terre",
-      "content": "Peura pyöryköitä, puikulaperunapyree ja karpaloita\nVenison meatballs, potatoes pyre and cranberries\n\r",
+      "title": "Plat du jour : Risotto et des légumes de saison",
+      "content": "Risottoa, kevät kasviksia ja karhun laukaa\r\nRisotto from spring veggies an ramsson\r\n\n\r",
       "price": "15",
       "type": "Pääruoka"
     },
     {
-      "title": "  Saumon \"Skagenröra\" ",
-      "content": "Lohta Skagenröra, taimenen mätiä ja pähkinävoilla maustettua siikli perunaa \n Fried salmon with shrimps,trout roe and brown butter flavored potato \n\n",
+      "title": "Cabillaud",
+      "content": "Ruskistetussa voissa kypsennettyä turskaa ja piparjuurta \r\n In browned butter cooked cod and horseradish  \r\n\n",
       "price": "24",
       "type": "Pääruoka"
     },
@@ -33,8 +33,8 @@
       "content": "Siikaa, kampasimpukkaa, jättirapua, sinisimpukkaa, hummerilientä ja rouillea\r\nWhitefish, scallop, king prawn, mussels, lobster broth and rouille\r\n"
     },
     {
-      "title": "Banane caramélisée et ananas",
-      "content": "Karamellisoitua banaania, ananassorbettia ja kookos-vaahtoa \nCaramelized banana, pineapple sorbet and coconut foam\n\n",
+      "title": "Canneberge et caramel ",
+      "content": "Karpalo parfait ja suolakaramellia \r\nCranberry Parfait and salted caramel\r\n\n",
       "price": "10",
       "type": "Jälkiruoka"
     }
