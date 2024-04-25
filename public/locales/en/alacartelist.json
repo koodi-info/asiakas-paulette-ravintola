@@ -1,82 +1,82 @@
 {
   "foods": [
     {
-      "title": "BETTERAVES et MORILLES",
-      "content": "Luomu Punajuurta, vuohenjuustolla täytettyä huhtasientä\r\nja punajuurivaahtoa\n\n\r\nOrganic beetroot, goat cheese filled Morel mushrooms\r\nand beetroot foam\r\n\n\n",
-      "price": "19",
+      "title": "QUICHE aux CARROTES",
+      "content": "\r\nCarrot Pie with Caramelized Carrots, Carrot Mousse \r\nCarrot-Beurre Blanc and pistachio crumble   \r\n\n\n",
+      "price": "18",
       "type": "Appetizer"
     },
     {
-      "title": "COQUILLE SAINT-JACQUES et YUZU ",
-      "content": "Raakakypsytettyä kampasimpukkaa, yuzu dressing, \ntaimenen mätiä ja finger limeä\n  \nRaw ripened scallop, yuzu dressing, Trout roe and Finger lime\n\n",
-      "price": "23",
+      "title": "LANGOUSTINE et YUZU",
+      "content": "Yuzu Marinated Langoustine, Pain Perdu Sauteed \r\nin Herb Butter and Tarragon Mayonnaise\r\n",
+      "price": "24",
       "type": "Appetizer"
     },
     {
-      "title": "FOIE de CANARD et CUISSES de CAILLE",
-      "price": "23",
-      "content": "Ankanmaksaa, viiriäisen koipia, rapeeta viljaa ja olutvaahtoa\n\n\r\nDuck liver, quail legs, crispy grain and beer foam \r\n\n\n",
+      "title": "ESCARGOTS et MOELLE de BOEUF ",
+      "price": "21",
+      "content": "Burgundy Snails Braised in Red Wine Sauce, \r\nButton Mushrooms, Air Dried Ham and \r\nBeef Bone Marrow  \r\n\n",
       "type": "Appetizer"
     },
     {
-      "title": "CERF TARTARE",
-      "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\npikkelöityä punasipulia, kaprista ja rapeaa perunaa\n\n\r\nTartar from Finnish organic deer rump, organic egg, \r\npickled red onion, capers and crispy potato\r\n",
-      "price": "20",
+      "title": "BOEUF TARTARE ",
+      "content": "Tartar kotimaisesta peuranpaistista, luomu kananmunaa,\r\nTartare from Finnish Beef, Deep Fried Capers, Organic Egg, \r\nPickled Red Onion and Crispy Potatoes \r\n",
+      "price": "22",
       "type": "Appetizer"
     },
     {
       "title": "BOUILLABAISSE",
-      "content": "Siikaa, kampasimpukka, jättirapua, \r\nsinisimpukkaa, hummerilientä ja rouillea\r\n\n\nWhitefish, scallop, king prawn, mussels, \r\nlobster broth and rouille\r\n\n",
-      "price": "28",
+      "content": "\r\n\n\nWhitefish, scallop, king prawn, mussels, \r\nlobster broth and rouille\r\n\n",
+      "price": "32",
       "type": "Main course"
     },
     {
-      "title": "ARTICHAUT et TRUFFE",
-      "content": "\r\nLuomu maa-artisokka tartaletti, kotimaista omenaa \r\nja mustaa tryffeliä\n\n\r\nOrganic jerusalem artichoke tartlet, finnish apple \r\nand black truffle\r\n\n\n",
-      "price": "26",
-      "type": "Main course"
-    },
-    {
-      "title": "CABILLAUD et RACINE NOIRE",
-      "content": "Pähkinävoissa haudutettua turskan seläkettä, paahdettua mustajuurta, kukkakaalia\r\nja wasabilla maustettua kastiketta\n                                  \r\nIn roasted butter cooked cod pension, black root, cauliflower and with wasabi flavored sauce\r\n\n \r\n\n",
+      "title": "ORGANIQUE CÉLERI-RAVE et TRUFFE ",
+      "content": "\r\n\r\n\nOrganic Celeriac, Finnish Apple , Black Truffle\r\nand marcona almond\r\n\n",
       "price": "29",
       "type": "Main course"
     },
     {
-      "title": "BOEUF WELLINGTON",
-      "content": "Taikinoitu kotimainen naudan sisäfilettä, tryffelillä maustettu sieni dûxelles,\r\npaistettuja haricot vert papuja ja punaviinikastiketta\n\n\r\nBattered finnish beef filet, with truffle flavored mushroom duxelles, haricot vert beans\r\nand red wine sauce\r\n\n",
+      "title": "CABILLAUD et ROGUE",
+      "content": "In Browned-Butter cooked Cod  and spring wedgies, \r\nLaplands’ Potato and trout roe\r\n\n \r\n\n",
+      "price": "36",
+      "type": "Main course"
+    },
+    {
+      "title": "CANARD et FIGUE",
+      "content": "\r\nPan Fried duck, Pistachio, caramelized fig \r\nand Potato Fondant \r\n\n",
       "price": "38",
       "type": "Main course"
     },
     {
-      "title": "CITRON et RÉGLISSE",
-      "content": "Sitruuna Savariini ja lakritsilla maustettua jäätelöä\n\n\r\nLemon Savarin and licorice ice cream\r\n\n\n\r\n\n",
+      "title": "FONDANT au CHOCOLAT et FRAMBOISE ",
+      "content": "Chocolate Fondant, Rasberry Sorbet and Salt Caramel\r\n\n\n\r\n\n",
       "price": "12",
       "type": "Dessert"
     },
     {
-      "title": "CHOCOLAT et FRAMBOISE",
-      "content": "Tumma suklaa Namelakaa, maitosuklaamousse \t\t          ja vadelmasorbettia\n                                                                                                    Dark chocolate Namelaka, milk chocolate mousse                                   and rasberry sorbet",
+      "title": "MADELEINE et CRÈME au CITRON",
+      "content": "Madeleine and lemon cream",
       "price": "12",
       "type": "Dessert"
     },
     {
-      "title": "CHAMPAGNE et ORANGE SANGUINE",
-      "content": "Shampanja-hyytelöityä veriappelsiinia, campari sorbettia\nja Sabayon -kastiketta\n\nChampagne jellied blood orange, Campari sorbet and Sabayon\n\n\n\r\n",
+      "title": "BANANE CARAMÉLISÉE et ANANAS",
+      "content": "Caramelized Banana, Pineapple Sorbet and Coconut Foam\r\n\n\n\n\r\n",
+      "price": "12",
+      "type": "Dessert"
+    },
+    {
+      "title": "CRÈME CARAMEL",
+      "content": "Vanilla flavored Crème Caramel\r\n",
       "price": "12",
       "type": "Dessert"
     },
     {
       "title": "MENU SURPRISE",
-      "content": "Keittiömestarin 5 ruokalajin yllätysmenu, sesongin parhaista raaka-aineista\n\nChef’s 5-course surprise menu, from the best ingredients of the season\n",
-      "price": "72",
+      "content": "Chef’s 5-course Surprise Menu  from our á la Carte and Seasons’ Best Ingredients\r\n",
+      "price": "75",
       "type": "Main course"
-    },
-    {
-      "title": "FROMAGE ",
-      "content": "Sesongin juustoja, hillokkeita ja talon omaa juurileipää\n\nSeasonal cheeses, with compotes and house made root bread\n\r\n",
-      "price": "18",
-      "type": "Dessert"
     }
   ],
   "imageone": "/images/uploads/magretdecanard.jpg",
