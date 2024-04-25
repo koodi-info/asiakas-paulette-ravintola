@@ -31,8 +31,9 @@
     {
       "title": "Ravintolat",
       "navlink": "restaurants",
-      "body": "Me emme keskity vain yhteen ravintolaan. Pyöritämme myös muita kiinnostavia kohteita, kuten <a href='https://ravintolaspora.fi/' target='blank'> Ravintola Spora </a>Vallilan varikolla, jossa lounastarjonta on saanut uuden ilmeen meidän käsissämme. Lisäksi olemme kesällä tuomme uutta eloa ravintolaan jonka paljastamme myöhemmin.",
-      "leftImage": ""
+      "body": "Me emme keskity vain yhteen ravintolaan. Pyöritämme myös muita kiinnostavia kohteita, kuten <a href='https://ravintolaspora.fi/' target='blank'> Ravintola Spora </a>Vallilan varikolla, jossa lounastarjonta on saanut uuden ilmeen meidän käsissämme. Lisäksi avaamme kesäksi ravintolan Turun saaristoon Paraisille.",
+      "leftImage": "/images/uploads/burger.jpg",
+      "rightImage": "/images/uploads/blacktruffle.jpg"
     },
     {
       "title": "Catering",
