@@ -1,28 +1,28 @@
 {
-  "heading": "Paulette Lounas 2.5.- 3.5. 2024",
+  "heading": "Paulette Lounas 7.5.- 10.5. 2024",
   "imagethree": "/images/uploads/poachedegg.jpg",
   "luncmenuheading": "",
   "price": "",
   "lunchlists": "hello",
   "imageone": "/images/uploads/lunch.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
-  "week": "18",
+  "week": "19",
   "foods": [
     {
-      "title": "Salade du jour:  Feta et fraise",
-      "content": "\r\nPäivän salaatti: Päivän salaatti: kesäinen salaatti fetasta ja mansikasta sekä vesimelonista \r\nSalad from feta, strawberry and watermelon\r\n \r\n\n\r\n",
+      "title": "Salade du jour:  Tarte aux girolles",
+      "content": "\r\nPäivän salaatti: Kantarellipiirasta ja kesäsalaattia vesimelonista ja mansikasta \r\nChanterelle pie with watermelon- and strawberry salad\r\n\r\n \r\n\n\r\n",
       "price": "16",
       "type": "Pääruoka"
     },
     {
-      "title": "Plat du jour : Boulettes ",
-      "content": "Lihapullia sekä perunamuusia \r\nMeatballs and mash potatoes\r\n\n\r",
+      "title": "Plat du jour : Nduja Linguine",
+      "content": "\r\nNduja linguinea ja vuohenjuustokreemiä \r\nNduja linguine and goat cheese cream  \r\n\n\r",
       "price": "15",
       "type": "Pääruoka"
     },
     {
-      "title": "Bavette et bearnaise ",
-      "content": "Grillattu flank steak and bearnaise kastike   \r\n Grilled flank steak and bearnaise sauce \r\n\n",
+      "title": "Prise du jour",
+      "content": "Paistettua päivän kalaa ja kevät kasviksia   \r\n Fried fish of the day and seasonal veggies\r\n\n",
       "price": "24",
       "type": "Pääruoka"
     },
@@ -33,8 +33,8 @@
       "content": "Siikaa, kampasimpukkaa, jättirapua, sinisimpukkaa, hummerilientä ja rouillea\r\nWhitefish, scallop, king prawn, mussels, lobster broth and rouille\r\n"
     },
     {
-      "title": "Crème brûlée et réglisse",
-      "content": "Lakritsilla maustettua creme brulee \r\nlicorice flavored creme brulee\r\n\n",
+      "title": "Pavlova ",
+      "content": "\r\nMarenkia, raparperia ja sitruunaa \r\nmeringue, rhubarb and lemon\r\n\n",
       "price": "10",
       "type": "Jälkiruoka"
     }
