@@ -1,8 +1,8 @@
 {
   "foods": [
     {
-      "title": "QUICHE aux CARROTES",
-      "content": "\r\nCarrot Pie with Caramelized Carrots, Carrot Mousse \r\nCarrot-Beurre Blanc and pistachio crumble   \r\n\n\n",
+      "title": "CARROTES CARAMÈLISER",
+      "content": "\r\nCaramelized Organic Carrots, Carrot Mousse \nCarrot-Beurre Blanc and pistachio crumble \n  \r\n\n\n",
       "price": "18",
       "type": "Appetizer"
     },
@@ -13,9 +13,9 @@
       "type": "Appetizer"
     },
     {
-      "title": "ESCARGOTS et MOELLE de BOEUF ",
+      "title": "BURRATA et FRAISE",
       "price": "21",
-      "content": "Burgundy Snails Braised in Red Wine Sauce, \r\nButton Mushrooms, Air Dried Ham and \r\nBeef Bone Marrow  \r\n\n",
+      "content": "Burrata cheese, strawberries, organic tomatoes, mint and \nbasil  \n \r\n\n",
       "type": "Appetizer"
     },
     {
@@ -49,8 +49,8 @@
       "type": "Main course"
     },
     {
-      "title": "FONDANT au CHOCOLAT et FRAMBOISE ",
-      "content": "Chocolate Fondant, Rasberry Sorbet and Salt Caramel\r\n\n\n\r\n\n",
+      "title": "CHOCOLAT BLANC et CARAMEL au SEL",
+      "content": "White chocolate ice cream and Salt Caramel\n\n\r\n\n",
       "price": "12",
       "type": "Dessert"
     },
@@ -61,14 +61,14 @@
       "type": "Dessert"
     },
     {
-      "title": "BANANE CARAMÉLISÉE et ANANAS",
-      "content": "Caramelized Banana, Pineapple Sorbet and Coconut Foam\r\n\n\n\n\r\n",
+      "title": "PAVLOVA",
+      "content": "Strawberry Pavlova, lemon curd, summer berries and marengue\n\n\n\r\n",
       "price": "12",
       "type": "Dessert"
     },
     {
-      "title": "CRÈME CARAMEL",
-      "content": "Vanilla flavored Crème Caramel\r\n",
+      "title": "RÉGLISSE BRÛLÉE ",
+      "content": "Licorice flavored Creme Brulee and raspberry sorbet",
       "price": "12",
       "type": "Dessert"
     },
