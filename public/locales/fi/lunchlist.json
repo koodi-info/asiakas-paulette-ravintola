@@ -1,16 +1,16 @@
 {
-  "heading": "Paulette Lounas 14.5.- 17.5. 2024",
+  "heading": "Paulette Lounas 21.5.- 24.5. 2024",
   "imagethree": "/images/uploads/poachedegg.jpg",
   "luncmenuheading": "",
   "price": "",
   "lunchlists": "hello",
   "imageone": "/images/uploads/lunch.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
-  "week": "20",
+  "week": "21",
   "foods": [
     {
-      "title": "Salade du jour: Salade Caprese ",
-      "content": "\r\nPäivän salaatti: Buffalo mozzarella juustoa, mehustettua luomu tomaattia ja yrttejä\n\r\n\r\n\r\n\r\n\r\nBuffalo mozzarella , organic tomatoes and herbs",
+      "title": "Salade du jour: Salade Burrata",
+      "content": "\r\nPäivän salaatti: Burrata juustoa, mehustettua luomu tomaattia ja yrttejä\n\r\n\r\n\r\n\r\n\r\nBurrata , organic tomatoes and herbs",
       "price": "16",
       "type": "Pääruoka"
     },
@@ -21,8 +21,8 @@
       "type": "Pääruoka"
     },
     {
-      "title": "Prise du jour; Tartar",
-      "content": "Tartar kotimaisesta naudan sisäpaistista, friteerattua kaprista \r\nluomu kananmunaa, pikkelöityä punasipulia ja rapeaa perunaa   \r\nTartare from Finnish Beef, Deep Fried Capers, Organic Egg, \r\nPickled Red Onion and Crispy Potatoes                          \r\n\r\n\n",
+      "title": "Prise du jour; Flank stake ja bernaise",
+      "content": "Grillattua Flank Stake, friteerattua perunaa ja bearnaise kastiketta\nGrilled Flank Steak, fries and bearnaise sauce\n                          \r\n\r\n\n",
       "price": "24",
       "type": "Pääruoka"
     },
@@ -33,8 +33,8 @@
       "content": "Siikaa, kampasimpukkaa, jättirapua, sinisimpukkaa, hummerilientä ja rouillea\r\nWhitefish, scallop, king prawn, mussels, lobster broth and rouille\r\n"
     },
     {
-      "title": "Gâteau au chocolat",
-      "content": "\r\nSuklaakakkua ja vadelmasorbettia  \r\nChocolate Cake and raspberry sorbet \r\n\n",
+      "title": "Creme caramel",
+      "content": "\r\n\r\n\nPaahtovanukas ja marjoja  \nCreme Caramel and fresh berries \n",
       "price": "10",
       "type": "Jälkiruoka"
     }
