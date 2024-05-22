@@ -1,8 +1,8 @@
 {
   "foods": [
     {
-      "title": "QUICHE aux CARROTS ",
-      "content": "Porkkanapiiras karamellisoidusta porkkanasta, \nporkkanamoussea ja porkkana-beurre blanc kastiketta\n\nCarrot Pie with Caramelized Carrots, Carrot Mousse \nand Carrot-Beurre Blanc\n\n\n\n\n\n\n",
+      "title": "CARROTES CARAMÈLISER",
+      "content": "Karamellisoitua luomu porkkanaa, \nporkkanamoussea ja porkkana-beurre blanc kastiketta sekä pistaasi crumblea\n\nCaramelized Organic Carrots, Carrot Mousse \nCarrot-Beurre Blanc and pistachio crumble \n\n\n\n\n\n\n",
       "price": "18",
       "type": "Alkuruoka"
     },
@@ -19,8 +19,8 @@
       "type": "Alkuruoka"
     },
     {
-      "title": "ESCARGOTS et MOELLE de BOEUF",
-      "content": "Punaviinikastikkeessa haudutetut  burgundilaiset etanat, herkkusieniä, ilmakuivattua kinkkua ja luuydintä\n   \nBurgundy Snails Braised in Red Wine Sauce, \nButton Mushrooms, Air Dried Ham and \nBeef Bone Marrow  \n\n\n\n\n",
+      "title": "BURRATA et FRAISE",
+      "content": "Burrata juustoa, mansikkaa, luomu tomaatteja, minttua ja basilikaa   \n\nBurrata cheese, strawberries, organic tomatoes, mint and \nbasil  \n \n\n\n\n\n",
       "price": "21",
       "type": "Alkuruoka"
     },
@@ -49,14 +49,14 @@
       "type": "Pääruoka"
     },
     {
-      "title": "FONDANT au CHOCOLAT et FRAMBOISE",
-      "content": "Suklaafondant, vadelmasorbettia ja suolakaramellia\n \nChocolate Fondant, Rasberry Sorbet and Salt Caramel\n\n\n\n\n\n\n\r\n\n",
+      "title": "CHOCOLAT BLANC et CARAMEL au SEL",
+      "content": "Valkosuklaa jäätelöä ja suolakaramellia \nWhite chocolate ice cream and Salt Caramel\n\n\n\n\n\n\n\n\r\n\n",
       "price": "12",
       "type": "Jälkiruoka"
     },
     {
-      "title": "BANANE CARAMÉLISÉE et ANANAS",
-      "content": "Karamellisoitua banaania, ananassorbettia ja kookos-vaahtoa \n\nCaramelized Banana, Pineapple Sorbet and Coconut Foam\n\n\n\n\n",
+      "title": "PAVLOVA ",
+      "content": "Mansikka Pavlova, sitruunakreemi, kesäisiä marjoja                                ja marenkia  \t\t\t\t\t\t \nStrawberry Pavlova, lemon curd, summer berries and marengue \n\n\n\n",
       "price": "12",
       "type": "Jälkiruoka"
     },
@@ -67,8 +67,8 @@
       "type": "Jälkiruoka"
     },
     {
-      "title": "CRÈME CARAMEL",
-      "content": "Vaniljalla maustettu paahtovanukas \n\nVanilla flavored Crème Caramel\n \n",
+      "title": "RÉGLISSE BRÛLÉE",
+      "content": "Lakritsilla maustettu Creme brulee ja vadelmasorbetti \nLicorice flavored Creme Brulee and raspberry sorbet\n\n \n",
       "price": "12",
       "type": "Jälkiruoka"
     },
