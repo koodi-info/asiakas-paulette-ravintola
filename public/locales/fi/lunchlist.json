@@ -1,12 +1,12 @@
 {
-  "heading": "Paulette Lounas 6.-9.24",
+  "heading": "Paulette Lounas 13.- 16.8.24",
   "imagethree": "/images/uploads/poachedegg.jpg",
   "luncmenuheading": "",
   "price": "",
   "lunchlists": "hello",
   "imageone": "/images/uploads/lunch.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
-  "week": "32",
+  "week": "33",
   "foods": [
     {
       "title": "Salade du jour: Salade Burrata",
@@ -15,8 +15,8 @@
       "type": "Pääruoka"
     },
     {
-      "title": "Plat du jour :  Croque Monsieur",
-      "content": "\r\nKlassinen lämmin leipä; Luomu Ranskalainen Kinkkua, grûyere-juustoa, dijòn-sinappia, cornichons-kurkkua ja luomusalaattia\n\r\n \r\nFrench classic toast; Organic ham, Grûyere cheese, dijòn mustard, cornichons \r\nand organic salads   \t \r\n\n\r",
+      "title": "Plat du jour :  Beef Lasagne",
+      "content": "\r\nLuomu naudanlihasta tehty Lasagne\nO﻿rganing  beef lasagne\n\n\r",
       "price": "15",
       "type": "Pääruoka"
     },
@@ -33,8 +33,8 @@
       "content": "Siikaa, kampasimpukkaa, jättirapua, sinisimpukkaa, hummerilientä ja rouillea\r\nWhitefish, scallop, king prawn, mussels, lobster broth and rouille\r\n"
     },
     {
-      "title": "Pavlova",
-      "content": "\r\n\r\n\nM﻿arenkia, sitruunakreemiä, mansikka sorbettia ja mehustettuja sesongin marjoja.\n\nM﻿arengue, lemon curd, strawberry sorbe and berrys\n\n",
+      "title": "Lakritsilla maustettu creme brulee ja vadelma sorbetti",
+      "content": "\r\n\r\nLakritsilla maustettu creme brulee ja vadelma sorbetti\nF﻿lavored whit licorice creme brulee and raspberry sorbe\n\n",
       "price": "10",
       "type": "Jälkiruoka"
     }
