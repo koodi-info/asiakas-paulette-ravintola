@@ -1,22 +1,22 @@
 {
-  "heading": "Paulette Lounas 13.- 16.8.24",
+  "heading": "Paulette Lounas 20.- 23.8.24",
   "imagethree": "/images/uploads/poachedegg.jpg",
   "luncmenuheading": "",
   "price": "",
   "lunchlists": "hello",
   "imageone": "/images/uploads/lunch.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
-  "week": "33",
+  "week": "34",
   "foods": [
     {
       "title": "Salade du jour: Salade Burrata",
-      "content": "\r\nPäivän salaatti: Burrata juustoa, mehustettua luomu tomaattia ja yrttejä\n\r\n\r\n\r\n\r\n\r\nBurrata , organic tomatoes and herbs",
+      "content": "\r\nPäivän salaatti: Burrata juustoa, mehustettua luomu tomaattia ja yrttejä\n\r\nBurrata , organic tomatoes and herbs",
       "price": "16",
       "type": "Pääruoka"
     },
     {
-      "title": "Plat du jour :  Beef Lasagne",
-      "content": "\r\nLuomu naudanlihasta tehty Lasagne\nO﻿rganing  beef lasagne\n\n\r",
+      "title": "Plat du jour :  Pâtes Linguine et crabe géant",
+      "content": "\r\nLinguine pastaa ja jättirapuja\nLinguine pasta and giant prawns\n\r",
       "price": "15",
       "type": "Pääruoka"
     },
@@ -33,8 +33,8 @@
       "content": "Siikaa, kampasimpukkaa, jättirapua, sinisimpukkaa, hummerilientä ja rouillea\r\nWhitefish, scallop, king prawn, mussels, lobster broth and rouille\r\n"
     },
     {
-      "title": "Lakritsilla maustettu creme brulee ja vadelma sorbetti",
-      "content": "\r\n\r\nLakritsilla maustettu creme brulee ja vadelma sorbetti\nF﻿lavored whit licorice creme brulee and raspberry sorbe\n\n",
+      "title": "Pavlova et framboise",
+      "content": "\rPavlova ja vadelma sorbettia\nPavlova and raspberry sorbet\n\r\n\n\n",
       "price": "10",
       "type": "Jälkiruoka"
     }
