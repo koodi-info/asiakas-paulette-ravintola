@@ -1,12 +1,12 @@
 {
-  "heading": "Paulette Lounas 20.- 23.8.24",
+  "heading": "Paulette Lounas 27.- 30.8.24",
   "imagethree": "/images/uploads/poachedegg.jpg",
   "luncmenuheading": "",
   "price": "",
   "lunchlists": "hello",
   "imageone": "/images/uploads/lunch.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
-  "week": "34",
+  "week": "35",
   "foods": [
     {
       "title": "Salade du jour: Salade Burrata",
@@ -15,8 +15,8 @@
       "type": "Pääruoka"
     },
     {
-      "title": "Plat du jour :  Linguine Vongole",
-      "content": "\r\nLinguine pastaa sekä vongole simpukoita\nL﻿inguine pasta and vongole mussels\n\r",
+      "title": "Plat du jour :  Pasta Bolognese",
+      "content": "\r\nLinguine pastaa ja naudanliha bolognese\r\nLinguine pasta and beef bolognese\r\n\n\r",
       "price": "15",
       "type": "Pääruoka"
     },
