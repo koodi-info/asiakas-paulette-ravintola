@@ -1,12 +1,12 @@
 {
-  "heading": "Paulette Lounas 3.- 9.9.24",
+  "heading": "Paulette Lounas 10.- 13.9.24",
   "imagethree": "/images/uploads/poachedegg.jpg",
   "luncmenuheading": "",
   "price": "",
   "lunchlists": "hello",
   "imageone": "/images/uploads/lunch.jpg",
   "imagetwo": "/images/uploads/bouillabaisse.jpg",
-  "week": "36",
+  "week": "37",
   "foods": [
     {
       "title": "Salade du jour: Salade Burrata",
@@ -15,8 +15,8 @@
       "type": "Pääruoka"
     },
     {
-      "title": "Plat du jour :  Beef Lasagne",
-      "content": "\r\nKotimaisesta naudasta tehty lasagne\r\nFinnish beef lasagne \r\n\n\r",
+      "title": "Plat du jour :  Risotto aux chanttarelles",
+      "content": "\r\nR﻿isottoa kotimaisista kanttarelleista\nC﻿hantarelle risotto\n\r",
       "price": "16",
       "type": "Pääruoka"
     },
@@ -33,8 +33,8 @@
       "content": "Siikaa, kampasimpukkaa, jättirapua, sinisimpukkaa, hummerilientä ja rouillea\r\nWhitefish, scallop, king prawn, mussels, lobster broth and rouille\r\n"
     },
     {
-      "title": "LAVENTELI BRÛLÉE ",
-      "content": "\r\n\r\nLaventelilla maustettu Creme brulee  \r\nLavendel  flavored Creme Brulee \r\n\n",
+      "title": "Vakosuklaa parfait ja suolakaramellia",
+      "content": "\r\n\r\nV﻿alkosuklaa jäädyke sekä suolakaramellia \nW﻿hite chocolate parfait and salted caramel\n\n",
       "price": "10",
       "type": "Jälkiruoka"
     }
