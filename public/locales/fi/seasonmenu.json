@@ -60,37 +60,37 @@
       "time": "28.11-1.12.2023"
     },
     {
-      "public": false,
-      "price": "49,00",
-      "info": "Voit halutessasi tilata annokset myös yksittäisinä!\n\nEn outre les classiques\nLisäksi tarjoamme lounaalla meidän klassikkoannostamme",
-      "title": "Menu de Noël 2023 - Joululounas",
+      "public": true,
+      "price": "48,00",
+      "info": "",
+      "title": "Menu de Noël 2024 - Joululounas",
       "foods": [
         {
           "price_public": false,
           "choice": false,
-          "content": "Luomu maa-artisokka tartaletti, kotimaista omenaa\nja mustaa tryffeliä",
-          "title": "ARTICHAUT et TRUFFE",
+          "content": "Skagenröra, taimenen mätiä, paistettua leipävanukasta ja tillikastiketta \r\nSkagenröra, trout roe, french toast and dill sauce\r\n",
+          "title": "Skagenröra et Pain Perdu",
           "type": "Alkuruoka",
           "price": "0"
         },
         {
           "price_public": false,
           "choice": false,
-          "content": "Pähkinävoissa kypsennettyä ruijanpallasta, vesikrassia, pinaattia,\npuikulaperunaa ja ranskalaista kaviaaria",
-          "title": "FLETAN et CAVIAR",
+          "content": "Paahdettua ranskalaista ankanrintaa, Beluga linssi ragù, mustaherukkaa\r\nja tummaa ankan liemi kastiketta\r\nRoasted French duck breast, Beluga lentils ragù, \r\nblackcurrant  and dark duck stock sauce\r\n",
+          "title": "MAGRET de CANARD",
           "type": "Pääruoka",
           "price": "0"
         },
         {
           "price_public": false,
           "choice": false,
-          "content": "Paahdettua luomuhunajaa, szechuan pippurilla\nmaustettua tummaa suklaata,\nsekä bourbon vanilja jäätelöä",
-          "title": "RAYON DE MIEL ET CHOCOLAT NOIR",
+          "content": "Espressolla maustettu brulee & vadelmasorbetti \r\nWith espresso seasoned brulee & raspberry sorbet\r\n",
+          "title": "ESPRESSO CREME BRÛLÉE ",
           "type": "Jälkiruoka",
           "price": "0"
         }
       ],
-      "time": "5.12-8.12.2023 (6.12, olemme suljettuna)"
+      "time": "3.12-5.12.2023 (6.12, olemme suljettuna)"
     },
     {
       "public": false,
