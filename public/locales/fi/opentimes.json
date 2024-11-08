@@ -1,11 +1,15 @@
 {
   "opening_hours": [
     {
-      "item": "Ke-La 16:00-22:00"
+      "item": "Ti-La 16:00-22:00"
     },
     {
-      "item": "Su-Ti Suljettu"
+      "item": "Su-Ma Suljettu"
     }
   ],
-  "exception_opening_hours": []
+  "exception_opening_hours": [
+    {
+      "item": "Joululounas 3-20.12.2024 Ti-Pe klo.11.30-15.30 ( huom 6.12 suljettu)"
+    }
+  ]
 }
