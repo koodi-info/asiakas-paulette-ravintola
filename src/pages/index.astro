@@ -77,7 +77,7 @@ const lunchlistApi = t("lunchlist:lunch_public", { returnObjects: true });
 		}
 		{seasonmenus.map((menu) => (
 			<Show when={menu.public}>
-				<div class="relative" id="extralista">
+				<div class="relative" id="lounaslista">
 					<div id="extralista_content">
 						<h3>{menu.title}  {menu.price ? <span> - € {menu.price}</span> : null }</h3>
 						<h4>{menu.time}</h4>
