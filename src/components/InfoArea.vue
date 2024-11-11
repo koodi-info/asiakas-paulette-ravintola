@@ -48,15 +48,15 @@
           </button>
         </div>
       </div>
-       <div class="info__container__current-info">
-        <div class="info__container__current-info__content frame">
+       <div class="info__container__current-info-no-image">
+        <div class="info__container__current-info-no-image__content frame">
           <h4>Lahjakortti</h4>
-          <p>Tilaa lahjakortti</p>
+          <p>Tee lahjakorttitilaus helposti TableOnline-palvelun kautta ja valitse itse lahjakortin arvo. Ilahduta läheistäsi upealla ravintolaelämyksellä!</p>
           <button
             class="button"
             onclick="window.open('https://www.tableonline.fi/fi/helsinki/ravintola-paulette/1344/giftcard')"
           >
-            Tilaa lahjakortti
+            Siirry tilaamaan lahjakorttia
           </button>
         </div>
       </div>
@@ -123,6 +123,36 @@ export default {
         width: auto;
         height: auto;
         background-image: url(/assets/kasvis09.png);
+        background-repeat: no-repeat;
+        background-size: 110px;
+        background-position: bottom 20px right 20px;
+        }
+      &__content {
+        @apply relative w-full flex flex-col px-8 sm:px-16 py-8 sm:my-0 justify-center align-middle items-center;
+        p{
+          @apply max-w-xl;
+        }
+        button {
+          @apply mx-auto mt-4 sm:block md:mt-4 md:mx-0 max-w-sm;
+        }
+      }
+    }
+    &__current-info-no-image {
+      @apply flex flex-col 
+      my-4 gap-4 
+      font-serif-secondary 
+      items-center text-center relative bg-white;
+      font-size: clamp(0.5rem, 1.5vw + 1rem, 1.25rem);
+      width: 100%;
+      &:before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+        width: auto;
+        height: auto;
         background-repeat: no-repeat;
         background-size: 110px;
         background-position: bottom 20px right 20px;
