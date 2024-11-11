@@ -54,6 +54,22 @@ const lunchlistApi = t("lunchlist:lunch_public", { returnObjects: true });
 			extraopentimes={t("common:context:extraopentimes")}
 			newstitle={t("common:context:newstitle")}
 		/>
+		<div class="info">
+		<div class="info__container">
+		<div class="info__container__current-info">
+			<div class="info__container__current-info__content frame">
+				<h4>Lahjakortti</h4>
+				<p>...</p>
+				<button
+					class="button"
+					onclick="window.open('https://www.tableonline.fi/fi/helsinki/ravintola-paulette/1344/giftcard')"
+				>
+				Tilaa tästä lahjakortti
+				</button>
+			</div>
+		</div>
+		</div>
+		</div>
 		<Show when={t("extrainfo:public")}>
 			<TextArea
 			heading={t("extrainfo:heading")}
