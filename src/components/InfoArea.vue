@@ -48,6 +48,19 @@
           </button>
         </div>
       </div>
+       <div class="info__container__current-info">
+        <div class="info__container__current-info__content frame">
+          <h4>Lahjakortti</h4>
+          <p>Tilaa lahjakortti</p>
+          <button
+            class="button"
+            onclick="window.open('https://www.tableonline.fi/fi/helsinki/ravintola-paulette/1344/giftcard')"
+          >
+            Tilaa lahjakortti
+          </button>
+        </div>
+      </div>
+      
     </div>
   </div>
 </template>
