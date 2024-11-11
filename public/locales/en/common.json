@@ -13,10 +13,7 @@
     "alacarte": "A la carte",
     "formlabel10": [
       {
-        "name": "Table reservation"
-      },
-      {
-        "name": "Gift card"
+        "name": "Cateting"
       },
       {
         "name": "Other"
@@ -29,10 +26,12 @@
     "address": "Kapteeninkatu 24 Helsinki 00140",
     "formlabel05": "First name Last name",
     "restaurants": "Restaurants",
-    "formlabel06": "Email",
+    "formlabel06": "Email*",
     "formlabel07": " Free text field",
     "formlabel08": "Concerns",
     "formlabel09": "Send",
+    "formlabel11": "Phone *",
+    "formlabel12": "Required",
     "menuclose": "Close",
     "opentimes": "Opening hours",
     "email": "hello@paulettehelsinki.com",

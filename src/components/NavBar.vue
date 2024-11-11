@@ -13,14 +13,15 @@
         </div>
       </div>
       <div class="navbar__items" :class="{ navbar__mobile: navigation }">
-        <a href="#about-us" @click="navigationToggle()">{{data.we}}</a>
+        <a href="https://v2.tableonline.fi/instabook/bookings/yUijLmr" target="_blank">{{data.tablereservation}}</a>
+        <a href="https://www.tableonline.fi/fi/helsinki/ravintola-paulette/1344/giftcard" target="_blank">{{data.giftcard}}</a>
         <a href="#lounaslista" @click="navigationToggle()">{{data.lunch}}</a>
         <a href="#alacartelista" @click="navigationToggle()">{{data.alacarte}}</a>
         <a href="#restaurants" @click="navigationToggle()">{{data.restaurants}}</a>
         <a href="#catering" @click="navigationToggle()">{{data.catering}}</a>
-        <a href="https://v2.tableonline.fi/instabook/bookings/yUijLmr" target="_blank">{{data.tablereservation}}</a>
-        <a href="#yhteydenotto">{{data.giftcard}}</a>
-        <slot></slot> 
+        <a href="#about-us" @click="navigationToggle()">{{data.we}}</a>
+        <a href="#yhteydenotto" @click="navigationToggle()">{{data.yhteydenotto}}></a>
+        <slot></slot>
       </div>
     </div>
   </nav>

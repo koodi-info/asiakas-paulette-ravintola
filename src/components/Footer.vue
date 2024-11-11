@@ -75,10 +75,22 @@
               <div class="contact__container__form__item">
                 <label for="email"> {{data.formlabel06}} </label>
                 <input
+                  required
                   id="email"
                   name="email"
                   type="text"
                   placeholder="osoite@sahkoposti.com"
+                />
+              </div>
+
+              <div class="contact__container__form__item">
+                <label for="phone"> {{data.formlabel11}} </label>
+                <input
+                  required
+                  id="phone"
+                  name="phone"
+                  type="text"
+                  placeholder="+358..."
                 />
               </div>
 
@@ -122,6 +134,9 @@
                   cols="5"
                 ></textarea>
               </div>
+               <div class="contact__container__form__item">
+               <p class="text-red-300">* {{data.formlabel12}}</p>
+               </div>
               <div class="contact__container__form__item">
                 <button class="button" type="submit">{{data.formlabel09}}</button>
               </div>
@@ -232,7 +247,7 @@ ul {
           @apply block appearance-none w-full border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500;
         }
         p {
-          @apply text-red-500 text-xs italic;
+          @apply text-xs italic;
         }
         textarea {
           @apply block w-full border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white;

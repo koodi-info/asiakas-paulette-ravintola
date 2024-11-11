@@ -13,10 +13,7 @@
     "alacarte": "A la carte",
     "formlabel10": [
       {
-        "name": "Pöytävarausta"
-      },
-      {
-        "name": "Lahjakorttia"
+        "name": "Catering"
       },
       {
         "name": "Muuta asiaa"
@@ -29,10 +26,12 @@
     "address": "Kapteeninkatu 24 Helsinki 00140",
     "formlabel05": "Etunimi Sukunimi",
     "restaurants": "Ravintolat",
-    "formlabel06": "Sähköpostiosoite",
+    "formlabel06": "Sähköpostiosoite *",
     "formlabel07": "Asiani koskee",
     "formlabel08": "Vapaa tekstikenttä",
     "formlabel09": "Lähetä",
+    "formlabel11": "Puhelin *",
+    "formlabel12": "Pakollinen kenttä",
     "menuclose": "Sulje",
     "opentimes": "Aukioloajat",
     "email": "hello@paulettehelsinki.com",

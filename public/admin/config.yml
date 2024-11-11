@@ -59,6 +59,7 @@ collections:
               - { label: Seuraa meitä, name: formlabel04, widget: string }  
               - { label: Etunimi Sukunimi, name: formlabel05, widget: string }  
               - { label: Sähköpostiosoite, name: formlabel06, widget: string }  
+              - { label: Puhelin, name: formlabel10, widget: string }
               - { label: Vapaa tekstikenttä, name: formlabel07, widget: string }
               - { label: Lähetä, name: formlabel08, widget: string }
               - { label: Asiani koskee, name: formlabel09, widget: string }
@@ -406,8 +407,10 @@ collections:
               - { label: Löydä meille, name: formlabel03, widget: string }
               - { label: Seuraa meitä, name: formlabel04, widget: string }  
               - { label: Etunimi Sukunimi, name: formlabel05, widget: string }  
-              - { label: Sähköpostiosoite, name: formlabel06, widget: string }  
+              - { label: Sähköpostiosoite, name: formlabel06, widget: string }
+              - { label: Puhelin, name: formlabel11, widget: string }  
               - { label: Vapaa tekstikenttä, name: formlabel07, widget: string }
+              - { label: Pakollinen kenttä, name: formlabel12, widget: string }
               - { label: Lähetä, name: formlabel08, widget: string }     
               - { label: Asiani koskee, name: formlabel09, widget: string }
               - label: "Asiani koskee valinnat"
