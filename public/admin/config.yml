@@ -37,7 +37,6 @@ collections:
             widget: object
             collapsed: false
             fields: 
-              fields: 
               - { label: Nimi, name: name, widget: string }
               - { label: Esittely, name: description, widget: text }
               - { label: Valikko, name: menu, widget: string }
