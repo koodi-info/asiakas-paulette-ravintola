@@ -37,6 +37,7 @@ collections:
             widget: object
             collapsed: false
             fields: 
+              fields: 
               - { label: Nimi, name: name, widget: string }
               - { label: Esittely, name: description, widget: text }
               - { label: Valikko, name: menu, widget: string }
@@ -51,26 +52,27 @@ collections:
               - { label: Ravintola, name: restaurant, widget: string }
               - { label: Aukioloajat, name: opentimes, widget: string }
               - { label: Poikkeusaukioloajat, name: extraopentimes, widget: string }
-              - { label: Tee pöytävaraus, name: tablereservationtext, widget: string } 
+              - { label: Tee pöytävaraus, name: tablereservationtext, widget: string }   
               - { label: Yhteydenotto, name: contactlable, widget: string }
               - { label: Ota yhteyttä sähköpostilla, name: formlabel01, widget: string }
               - { label: Soita meille, name: formlabel02, widget: string }
               - { label: Löydä meille, name: formlabel03, widget: string }
               - { label: Seuraa meitä, name: formlabel04, widget: string }  
               - { label: Etunimi Sukunimi, name: formlabel05, widget: string }  
-              - { label: Sähköpostiosoite, name: formlabel06, widget: string }  
-              - { label: Puhelin, name: formlabel10, widget: string }
+              - { label: Sähköpostiosoite, name: formlabel06, widget: string }
+              - { label: Puhelin, name: formlabel11, widget: string }  
               - { label: Vapaa tekstikenttä, name: formlabel07, widget: string }
-              - { label: Lähetä, name: formlabel08, widget: string }
+              - { label: Pakollinen kenttä, name: formlabel12, widget: string }
+              - { label: Lähetä, name: formlabel08, widget: string }     
               - { label: Asiani koskee, name: formlabel09, widget: string }
               - label: "Asiani koskee valinnat"
                 name: "formlabel10"
                 widget: "list"
                 fields:
                   - {label: Valinta, name: name, widget: string}
-              - { label: Osoite, name: address, widget: string }
-              - { label: Sähköposti, name: email, widget: string }
-              - { label: Puhelinnumero, name: phone, widget: string }
+                  - { label: Osoite, name: address, widget: string }
+                  - { label: Sähköposti, name: email, widget: string }
+                  - { label: Puhelinnumero, name: phone, widget: string }
       - label: Tervetuloa sisältö
         name: welcome-fi
         file: /public/locales/fi/welcome.json
@@ -79,8 +81,8 @@ collections:
           - { label: Sisältö, name: intro, widget: text}
           - { label: Valokuva, name: image, widget: image}
       - label: Covid19 info
-        name: covid
-        file: "/public/locales/fi/covid.json"
+        name: Covid
+        file: /public/locales/fi/covid.json
         fields:
           - { label: Julkinen, name: public, widget: boolean, default: true }
           - { label: Ostikko, name: title, widget: string }
@@ -418,9 +420,9 @@ collections:
                 widget: "list"
                 fields:
                   - {label: Valinta, name: name, widget: string}
-              - { label: Osoite, name: address, widget: string }
-              - { label: Sähköposti, name: email, widget: string }
-              - { label: Puhelinnumero, name: phone, widget: string }
+                  - { label: Osoite, name: address, widget: string }
+                  - { label: Sähköposti, name: email, widget: string }
+                  - { label: Puhelinnumero, name: phone, widget: string }
       - label: Tervetuloa sisältö
         name: welcome-en
         file: /public/locales/en/welcome.json
@@ -723,3 +725,7 @@ collections:
                         { label: "Kuohuviini", value: "Sparkling Wine" },
                         { label: "Rose", value: "Rose" },
                       ]
+
+
+
+                      
