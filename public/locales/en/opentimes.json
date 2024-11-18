@@ -1,10 +1,10 @@
 {
   "opening_hours": [
     {
-      "item": "Wed-Sat 14-22"
+      "item": "Tue-Sat 14-22"
     },
     {
-      "item": "Sunday-Thuesday closed"
+      "item": "Sunday- Monday closed"
     }
   ],
   "exception_opening_hours": []
