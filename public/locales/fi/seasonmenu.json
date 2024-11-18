@@ -228,7 +228,51 @@
       "title": "Menu du Nouvel An 2025",
       "price": "87,00€",
       "time": "31.12.2024",
-      "info": "Menu  \t 31.12.2024\t\t 87,00€/ Vin 75,00€\r\nApèritif\r\nChampagne Henri Dosnon Brut Sélection\n\n\r\n\r\n\r\nCoquille et Yuzu KAMPASIMPUKKAA & YUZU\r\nDomaine Sancerre Blanc 2022\n*﻿**\n\r\n\r\nThon & miso TONNIKALAA & MISOA\r\nChateau Vessiere, Le mas de Vessiere Rosé 2022  \r\n\r\n*﻿**\nCèpe & truffe HERKKUTATTIA & TRYFFELIÄ\r\nDomaine Lautrec, Pinot Noir 2022\r\n\r\n*﻿**\nBetterave & Pistache PUNAJUURTA & PISTAASIA\r\nFranzen, Quaritz- Schiefer Riesling 2022\r\n\r\n*﻿**\nTruite & Caviar TAIMENTA & KAVIAARIA\r\nDomaine Goulley, Chablis 2022 \r\n***\t\r\nPigeon & cassis KYYHKYÄ & MUSTAHERUKKAA\r\nDomaine des Enfants, Enfant Perdu 2021\n*﻿**\n\r\n\r\nOrange Sanguine & Champagne VERIAPPELSIINIA & SHAMPANJAA\r\nMassiomo Rivetti, Moscato d’ Asti 2023\r\n"
+      "info": "Menu  \t 31.12.2024\t\t 87,00€/ Vin 75,00€\r\nApèritif\r\nChampagne Henri Dosnon Brut Sélection\n\n\r\n\r\n\r\nCoquille et Yuzu KAMPASIMPUKKAA & YUZU\r\nDomaine Sancerre Blanc 2022\n*﻿**\n\r\n\r\nThon & miso TONNIKALAA & MISOA\r\nChateau Vessiere, Le mas de Vessiere Rosé 2022  \r\n\r\n*﻿**\nCèpe & truffe HERKKUTATTIA & TRYFFELIÄ\r\nDomaine Lautrec, Pinot Noir 2022\r\n\r\n*﻿**\nBetterave & Pistache PUNAJUURTA & PISTAASIA\r\nFranzen, Quaritz- Schiefer Riesling 2022\r\n\r\n*﻿**\nTruite & Caviar TAIMENTA & KAVIAARIA\r\nDomaine Goulley, Chablis 2022 \r\n***\t\r\nPigeon & cassis KYYHKYÄ & MUSTAHERUKKAA\r\nDomaine des Enfants, Enfant Perdu 2021\n*﻿**\n\r\n\r\nOrange Sanguine & Champagne VERIAPPELSIINIA & SHAMPANJAA\r\nMassiomo Rivetti, Moscato d’ Asti 2023\r\n",
+      "foods": [
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Coquille et Yuzu KAMPASIMPUKKAA & YUZU",
+          "price": "87,00"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Thon & miso TONNIKALAA & MISOA",
+          "price": "87,00"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Cèpe & truffe HERKKUTATTIA & TRYFFELIÄ",
+          "price": "87,00"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Betterave & Pistache PUNAJUURTA & PISTAASIA",
+          "price": "87,00"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Truite & Caviar TAIMENTA & KAVIAARIA",
+          "price": "87,00"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Pigeon & cassis KYYHKYÄ & MUSTAHERUKKAA",
+          "price": "87,00"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "title": "Orange Sanguine & Champagne VERIAPPELSIINIA & SHAMPANJAA",
+          "price": "87,00€"
+        }
+      ]
     }
   ]
 }
