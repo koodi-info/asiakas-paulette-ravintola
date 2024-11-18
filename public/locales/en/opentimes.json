@@ -7,5 +7,9 @@
       "item": "Sunday- Monday closed"
     }
   ],
-  "exception_opening_hours": []
+  "exception_opening_hours": [
+    {
+      "item": "Christmas lunch 3-20.12.2024 Tue-fri 11.30-15.30 (note 6.12 closed)"
+    }
+  ]
 }
