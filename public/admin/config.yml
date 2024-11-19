@@ -315,6 +315,7 @@ collections:
             widget: list
             fields:
               - { label: Menun nimi, name: title, widget: string }
+              - { label: Navikaatio nimi, name: navname, widget: string }
               - { label: Julkinen, name: public, widget: boolean, default: true }
               - { label: Menun hinta, name: price, widget: string, required: false }
               - { label: Aputeksti, name: info, widget: markdown, modes: [raw], required: false }
@@ -665,6 +666,7 @@ collections:
             widget: list
             fields:
               - { label: Menun nimi, name: title, widget: string }
+              - { label: Navikaatio nimi, name: navname, widget: string }
               - { label: Julkinen, name: public, widget: boolean, default: true }
               - { label: Menun hinta, name: price, widget: string, required: false }
               - { label: Aputeksti, name: info, widget: markdown, modes: [raw], required: false }
