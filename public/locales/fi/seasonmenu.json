@@ -23,7 +23,8 @@
           "type": null
         }
       ],
-      "drinks": []
+      "drinks": [],
+      "navname": "-"
     },
     {
       "public": false,
@@ -57,40 +58,8 @@
         }
       ],
       "drinks": [],
-      "time": "28.11-1.12.2023"
-    },
-    {
-      "public": true,
-      "price": "48,00",
-      "info": "",
-      "title": "Menu de Noël 2024 - Joululounas",
-      "foods": [
-        {
-          "price_public": false,
-          "choice": false,
-          "content": "Skagenröra, taimenen mätiä, paistettua leipävanukasta ja tillikastiketta \r\nSkagenröra, trout roe, french toast and dill sauce\r\n",
-          "title": "Skagenröra et Pain Perdu",
-          "type": "Alkuruoka",
-          "price": "0"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "content": "Paahdettua ranskalaista ankanrintaa, Beluga linssi ragù, mustaherukkaa\r\nja tummaa ankan liemi kastiketta\r\nRoasted French duck breast, Beluga lentils ragù, \r\nblackcurrant  and dark duck stock sauce\r\n",
-          "title": "MAGRET de CANARD",
-          "type": "Pääruoka",
-          "price": "0"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "content": "Espressolla maustettu brulee & vadelmasorbetti \r\nWith espresso seasoned brulee & raspberry sorbet\r\n",
-          "title": "ESPRESSO CREME BRÛLÉE ",
-          "type": "Jälkiruoka",
-          "price": "0"
-        }
-      ],
-      "time": "3.12-5.12.2023 (6.12, olemme suljettuna)"
+      "time": "28.11-1.12.2023",
+      "navname": "-"
     },
     {
       "public": false,
@@ -123,43 +92,12 @@
           "type": "Jälkiruoka",
           "price": "0"
         }
-      ]
+      ],
+      "navname": "-"
     },
     {
       "public": false,
-      "title": "Menu de Noël 2023 - Joululounas",
-      "price": "49",
-      "info": "Voit halutessasi tilata annokset myös yksittäisinä!\n\nEn outre les classiques\nLisäksi tarjoamme lounaalla meidän klassikkoannostamme",
-      "time": "19.12-22.12.2023",
-      "foods": [
-        {
-          "price_public": false,
-          "choice": false,
-          "content": "Sieni vannike, herkkutatti muhennosta ja Umami sienilientä",
-          "title": "VOL AU VENT DE CHAMPIGNONS ET BOUILLON",
-          "price": "0",
-          "type": "Alkuruoka"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "content": "Miedosti yön yli kypsennettyä luomu karitsan entrecotea, luomu selleripyreetä, kyssäkaalia ja tumma rosmariinikastike",
-          "title": "ENTRECÔTE d’AGNEAU",
-          "price": "0",
-          "type": "Pääruoka"
-        },
-        {
-          "price_public": false,
-          "choice": false,
-          "content": "Shampanja-hyytelöityä veriappelsiinia, Campari sorbettia & Sabayòn kastiketta ",
-          "title": "ORANGE SANGUINE ET CAMPARI",
-          "price": "0"
-        }
-      ]
-    },
-    {
-      "public": false,
-      "title": "PREMIER MAI 2024:",
+      "title": "PREMIER MAI 2024",
       "price": "68-78",
       "info": "V﻿appu Menu kattaukset klo. 12 & 15\nKolmen ruokalajin Menun hinta 68e juustojen kera 78e",
       "foods": [
@@ -221,7 +159,75 @@
         }
       ],
       "drinks": [],
-      "time": "1.5.2024"
+      "time": "1.5.2024",
+      "navname": "Joulu"
+    },
+    {
+      "public": false,
+      "title": "Menu de Noël 2023 - Joululounas",
+      "price": "49",
+      "info": "Voit halutessasi tilata annokset myös yksittäisinä!\n\nEn outre les classiques\nLisäksi tarjoamme lounaalla meidän klassikkoannostamme",
+      "time": "19.12-22.12.2023",
+      "foods": [
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Sieni vannike, herkkutatti muhennosta ja Umami sienilientä",
+          "title": "VOL AU VENT DE CHAMPIGNONS ET BOUILLON",
+          "price": "0",
+          "type": "Alkuruoka"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Miedosti yön yli kypsennettyä luomu karitsan entrecotea, luomu selleripyreetä, kyssäkaalia ja tumma rosmariinikastike",
+          "title": "ENTRECÔTE d’AGNEAU",
+          "price": "0",
+          "type": "Pääruoka"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Shampanja-hyytelöityä veriappelsiinia, Campari sorbettia & Sabayòn kastiketta ",
+          "title": "ORANGE SANGUINE ET CAMPARI",
+          "price": "0"
+        }
+      ],
+      "navname": "-"
+    },
+    {
+      "public": true,
+      "price": "48,00",
+      "info": "",
+      "title": "Menu de Noël 2024 - Joululounas",
+      "foods": [
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Skagenröra, taimenen mätiä, paistettua leipävanukasta ja tillikastiketta \r\nSkagenröra, trout roe, french toast and dill sauce\r\n",
+          "title": "Skagenröra et Pain Perdu",
+          "type": "Alkuruoka",
+          "price": "0"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Paahdettua ranskalaista ankanrintaa, Beluga linssi ragù, mustaherukkaa\r\nja tummaa ankan liemi kastiketta\r\nRoasted French duck breast, Beluga lentils ragù, \r\nblackcurrant  and dark duck stock sauce\r\n",
+          "title": "MAGRET de CANARD",
+          "type": "Pääruoka",
+          "price": "0"
+        },
+        {
+          "price_public": false,
+          "choice": false,
+          "content": "Espressolla maustettu brulee & vadelmasorbetti \r\nWith espresso seasoned brulee & raspberry sorbet\r\n",
+          "title": "ESPRESSO CREME BRÛLÉE ",
+          "type": "Jälkiruoka",
+          "price": "0"
+        }
+      ],
+      "time": "3.12-5.12.2023 (6.12, olemme suljettuna)",
+      "navname": "Joululounas"
     },
     {
       "public": true,
@@ -279,7 +285,8 @@
           "price": "0",
           "content": "Viinisuositus: Massiomo Rivetti, Moscato d’ Asti 2023"
         }
-      ]
+      ],
+      "navname": "Uudenvuoden menu"
     }
   ]
 }
