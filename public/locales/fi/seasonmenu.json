@@ -204,29 +204,29 @@
         {
           "price_public": false,
           "choice": false,
-          "content": "Skagenröra, taimenen mätiä, paistettua leipävanukasta ja tillikastiketta \r\nSkagenröra, trout roe, french toast and dill sauce\r\n",
-          "title": "Skagenröra et Pain Perdu",
+          "content": "Paahdettua luomu maa-artisokkaa, kotimaista omenaa ja syys tryffeliä \r\nRoasted jerusalem artichoke, finnish apple and truffle \r\n",
+          "title": "Artichaut moulu et truffe",
           "type": "Alkuruoka",
           "price": "0"
         },
         {
           "price_public": false,
           "choice": false,
-          "content": "Paahdettua ranskalaista ankanrintaa, Beluga linssi ragù, mustaherukkaa\r\nja tummaa ankan liemi kastiketta\r\nRoasted French duck breast, Beluga lentils ragù, \r\nblackcurrant  and dark duck stock sauce\r\n",
-          "title": "MAGRET de CANARD",
+          "content": "Paistettua villi siikaa, Pähkinävoilla maustettua puikulaperunaa, pinaattia \r\nja piparjuurta\r\nPan fried white fish, with roasted butter flavored potatoes, spinach \r\nand horseradish\r\n",
+          "title": "Poisson blanc et raifort ",
           "type": "Pääruoka",
           "price": "0"
         },
         {
           "price_public": false,
           "choice": false,
-          "content": "Espressolla maustettu brulee & vadelmasorbetti \r\nWith espresso seasoned brulee & raspberry sorbet\r\n",
-          "title": "ESPRESSO CREME BRÛLÉE ",
+          "content": "Lakkaparfait ja suolakaramellia \r\nCloudberry parfait & salty caramel\r\n",
+          "title": "Parfait et Caramel ",
           "type": "Jälkiruoka",
           "price": "0"
         }
       ],
-      "time": "3.12-5.12.2023 (6.12, olemme suljettuna)",
+      "time": "10-13.12.2024",
       "navname": "Joululounas"
     },
     {
