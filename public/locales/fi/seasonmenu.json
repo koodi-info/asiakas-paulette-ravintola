@@ -204,29 +204,29 @@
         {
           "price_public": false,
           "choice": false,
-          "content": "Paahdettua luomu maa-artisokkaa, kotimaista omenaa ja syys tryffeliä \r\nRoasted jerusalem artichoke, finnish apple and truffle \r\n",
-          "title": "Artichaut moulu et truffe",
+          "content": "Herkkutatti kroketti, tuoretta syys tryffeliä,                                                                                                          pikkelöityä myskikurpitsaa ja sieni-umami vinaigrette                                                                                           Porcini croquette, fresh autumn truffle, pickled  pumpkin                                                                                             and mushroom & Umami vinaigrette",
+          "title": " CÈPE et TRUFFE",
           "type": "Alkuruoka",
           "price": "0"
         },
         {
           "price_public": false,
           "choice": false,
-          "content": "Paistettua villi siikaa, Pähkinävoilla maustettua puikulaperunaa, pinaattia \r\nja piparjuurta\r\nPan fried white fish, with roasted butter flavored potatoes, spinach \r\nand horseradish\r\n",
-          "title": "Poisson blanc et raifort ",
+          "content": "Valkoviinissä haudutettua taimenta, Beurre Blanc kastiketta\r\nranskalaista kaviaaria, puikulaperunaa,vesikrassia ja pinaattia  \r\nIn white wine poached trout, Beurre Blanc sauce , french caviar,\r\nlapland´s potato, watercress and spinach\r\n",
+          "title": "TRUITE et CAVIAR",
           "type": "Pääruoka",
           "price": "0"
         },
         {
           "price_public": false,
           "choice": false,
-          "content": "Lakkaparfait ja suolakaramellia \r\nCloudberry parfait & salty caramel\r\n",
-          "title": "Parfait et Caramel ",
+          "content": "Mehustettuja karviaisia, mantelileivosta, karviais vaahtoa                                                                                                 ja  karviais sorbettia.                                                                                                                                                             Juiced gooseberry, financier,  gooseberry  foam & gooseberry sorbet\r\n",
+          "title": "GROSEILLE et FINANCIÈRE",
           "type": "Jälkiruoka",
           "price": "0"
         }
       ],
-      "time": "10-13.12.2024",
+      "time": "17-20.12.2024",
       "navname": "Joululounas"
     },
     {
