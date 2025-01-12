@@ -1,75 +1,75 @@
 {
   "foods": [
     {
-      "title": " CÈPE et TRUFFE ",
-      "content": "Herkkutatti kroketti, tuoretta syystryffeliä, pikkelöityä myskikurpitsaa ja sieni-umami vinaigrette\n\nPorcini croquette, fresh autumn truffle, pickled  pumpkin \nand mushroom & Umami vinaigrette\n\n\n\n\n\n\n\n",
+      "title": "ARTICHAUT MOULU et AMANDES MARCONA",
+      "content": "Luomu maa-artisokka tartaletti, pähkinävoi kreemiä,\nrapeaa maa-artisokkaa ja marcona mantelia\nOrganic ground artichoke tartlet, peanut butter cream,\ncrispy ground artichoke and marcona almonds\n\n\n\n\n\n\n\n\n",
       "price": "20",
       "type": "Alkuruoka"
     },
     {
-      "title": "THON et MISO ",
-      "price": "22",
-      "content": "Sokerisuolattua sashimi tonnikalaa, Shiro misoa sekä  minttua ja kurkkua\n\nSugar salted Sashimi tuna, Shiro miso and mint & cucumber\n\n\n\n\n\n\n",
-      "type": "Alkuruoka"
-    },
-    {
-      "title": "BOEUF TARTARE ",
-      "content": "Tartar kotimaisesta naudan sisäpaistista, friteerattua kaprista \nluomu kananmunaa, pikkelöityä punasipulia ja rapeaa perunaa\n   \nTartare from Finnish Beef, Deep Fried Capers, Organic Egg, \nPickled Red Onion and Crispy Potatoes  \n",
+      "title": "CRABE DE MER et MISO ",
       "price": "23",
+      "content": "Merirapu kroketti, miso majoneesia, shiso dressinkiä ja marinoitua luomu tomaattia\nSea crab croquette, miso mayonnaise, shiso dressing and marinated organic tomato  \n\n\n\n\n\n\n",
       "type": "Alkuruoka"
     },
     {
-      "title": "FOIE de CANARD et BRIOCHE",
-      "content": "Ankanmaksamousse, kotimaista omenaa pikkelöitynä\nja karamellisoituna, sekä Pauletten omaa vastaleivottua briochea\n\nDuck liver mousse, finish apple; Pickled & caramelized and Paulette home baked brioche\n\n \n\n\n\n\n",
-      "price": "24",
+      "title": "BOEUF PELLE JANSSON",
+      "content": "Ohueksi siivutettua Suomalaista naudan sisäpaistista, friteerattua kaprista,  siian mätiä, \nluomu kananmunaa, pikkelöityä punasipulia ja rapeaa perunaa   \nThinly sliced Finnish beef, deep- fried capers, whitefish roe, organic egg, pickled red onion and crispy potato \n \n",
+      "price": "22",
+      "type": "Alkuruoka"
+    },
+    {
+      "title": "BOUDIN NOIR",
+      "content": "Paistettua veripalttua, karamellisoitua omenaa, kotimaista osterivinokasta ja perunapyrettä   \nFried Boudin Noir, caramelized apple, Finnish oyster mushrooms and mashed potatoes\n\n\n \n\n\n\n\n",
+      "price": "20",
       "type": "Alkuruoka"
     },
     {
       "title": "BOUILLABAISSE",
-      "content": "Taimenta, kampasimpukkaa, jättirapua, \nsinisimpukkaa, hummerilientä ja rouillea\n\nTrout, Scallop, King Prawn, Mussels, \nLobster Broth and Rouille\n\n\n\n",
+      "content": "Kuhaa, kampasimpukkaa, jättirapua, \nsinisimpukkaa, hummerilientä ja rouillea\n\nPike Perch, Scallop, King Prawn, Mussels, \nLobster Broth and Rouille\n\n\n\n",
       "price": "34",
       "type": "Pääruoka"
     },
     {
-      "title": "TRUITE et CAVIAR",
-      "content": "\rValkoviinissä haudutettua taimenta, Beurre Blanc kastiketta, ranskalaista kaviaaria, puikulaperunaa, vesikrassia ja pinaattia \n \nIn white wine poached trout, Beurre Blanc sauce, french caviar, Lapland´s potato, watercress and spinach\n\n\n   \n\n\n\n\n",
-      "price": "36",
+      "title": "SANDRE et CAVIAR ",
+      "content": "Valkoviinissä haudutettua kuhaa, Beurre Blanc kastiketta, ranskalaista kaviaaria, puikulaperunaa,vesikrassia ja pinaattia  \nIn white wine poached Pike Perch, Beurre Blanc sauce , french caviar, lapland´s potato, watercress and spinach\n\n\n\n   \n\n\n\n\n",
+      "price": "37",
       "type": "Pääruoka"
     },
     {
-      "title": "PIGEON et CASSIS",
-      "content": "Yrteissä paistettua Anjou kyyhkyä, kyyhky rilletteä, mustaherukkaa, perunafondant ja Grand Veneur kastiketta.\n\nPan-fried Anjou pigeon with herbs, pigeon Rillette, black currant, Potato Fondant and Grand Veneur sauce\n \n\n\n\n\n\n\n \r\n\n",
-      "price": "38",
+      "title": "BOEUF WELLINGTON",
+      "content": "Voitaikinassa kypsytettyä Suomalaista naudan sisäfilepihvi, tryffelillä maustettuja duxelles sieniä ja punaviinikastiketta\nFinnish beef tenderloin steak cooked in butter dough, duxelles mushrooms seasoned with truffle and red wine sauce\n\n \n\n\n\n\n\n\n \r\n\n",
+      "price": "41",
       "type": "Pääruoka"
     },
     {
-      "title": "BETTERAVE et FROMAGE de CHÈVRE ",
-      "content": "Luomu punajuuri tartaletti, vuohenjuustoa, raitajuurta ja pistaasipähkinää\n\nOrganic  beetroot tartlet, goat cheese, striped root and \npistachio\n\n\n   \n\n\n",
-      "price": "29",
+      "title": "CAROTTE et GAUFRE",
+      "content": "Luomu porkkanaa,paistettu vohveli, glacerattua porkkanaa, tuoretta talvi tryffeliä ja porkkana Beurre Blanc kastiketta\nOrganic carrot, fried waffle, glazed carrot, fresh winter truffle and carrot Beurre Blanc sauce\n\n\n\n",
+      "price": "28",
       "type": "Pääruoka"
     },
     {
-      "title": "CHOCOLAT et FRAMBOISE",
-      "content": "Suklaa keittoa, suolakaramellia ja vadelmasorbettia\n \nChocolate soup, salt caramel and raspberry Sorbet \n\n\n\n\n\n\n\n\n\r\n\n",
-      "price": "12",
+      "title": "FONDANT AU CHOCOLAT et GLACE VANILLE",
+      "content": "Lämmin suklaa fondant, suolakaramellia ja vaniljajäätelöä \nWarm chocolate fondant, salted caramel and vanilla ice cream \n \n\n\n\n\n\n\n\n\n\r\n\n",
+      "price": "13",
       "type": "Jälkiruoka"
     },
     {
-      "title": "GROSEILLE et FINANCIÈRE",
-      "content": "Mehustettuja karviaisia, mantelileivosta, karviaisvaahtoa ja karviassorbettia \nJuiced gooseberry, financier, gooseberry foam & gooseberry sorbet\n\n\n\n",
-      "price": "12",
+      "title": "BANANE AU CARAMEL et ANANAS",
+      "content": "Karamellisoitua banania, mantelileivosta, kookos vaahtoa ja    ananas  sorbettia \nCaramelized banana, financier, coconut  foam & pineapple sorbet\n\n\n\n",
+      "price": "13",
       "type": "Jälkiruoka"
     },
     {
-      "title": "TARTE TATÍN",
-      "content": " Klassinen omenapiiras ja Bourbon vaniljajäätelöä\n  \n Classic apple pie and Bourbon vanilla ice cream\n\n\n\n\n\n\n\n\r\n",
-      "price": "12",
+      "title": " ALASKA AU FOUR",
+      "content": "Uunijäätelöä, mutakakkua, vadelmaa ja marenkia   \nBaked ice cream, mud cake, raspberry and meringue\n\n\n\n\n\n\n\n\n\r\n",
+      "price": "13",
       "type": "Jälkiruoka"
     },
     {
       "title": "CRÈME BRÛLEE",
-      "content": "Persimonilla  maustettu Brulee & persimon sorbettia\n \nPersimon flavored Crème Brûlee & Persimon sorbet\n\n\n \n",
-      "price": "12",
+      "content": "Lakritsilla maustettu Brulee & sitruunasorbettia \nBrulee flavored with licorice & lemon sorbet\n\n\n\n \n",
+      "price": "13",
       "type": "Jälkiruoka"
     },
     {
